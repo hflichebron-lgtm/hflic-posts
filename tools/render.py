@@ -31,9 +31,13 @@ GREEN_DARK = "#137A52"
 MUTED_DARK = "#9FB0C3"
 MUTED_LIGHT = "#5B6B7C"
 RULE_LIGHT = "#D9D0BF"
-THEME_KEYS = ("NAVY", "NAVY_2", "CREAM", "INK", "MINT", "GREEN_DARK", "MUTED_DARK", "MUTED_LIGHT", "RULE_LIGHT")
+FILL_DARK = None  # optional CSS background (e.g. a gradient) for accents on dark slides
+FILL_LIGHT = None  # same for bars on light slides
+THEME_KEYS = ("FILL_DARK", "FILL_LIGHT", "NAVY", "NAVY_2", "CREAM", "INK", "MINT", "GREEN_DARK", "MUTED_DARK", "MUTED_LIGHT", "RULE_LIGHT")
 
 def build_css():
+    fd = FILL_DARK or MINT
+    fl = FILL_LIGHT or GREEN_DARK
     return f"""
 @font-face {{ font-family: 'Serif'; src: url('file://{FONTS}/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2'); }}
 @font-face {{ font-family: 'Sans'; font-weight: 400; src: url('file://{FONTS}/inter/files/inter-latin-400-normal.woff2'); }}
@@ -60,7 +64,7 @@ body {{ font-family: 'Sans', sans-serif; -webkit-font-smoothing: antialiased; }}
 .kicker {{ font-size: 30px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: {MINT}; margin-bottom: 40px; }}
 .title {{ font-family: 'Serif', serif; font-size: 112px; line-height: 1.04; letter-spacing: -0.01em; }}
 .sub {{ font-size: 40px; line-height: 1.35; margin-top: 44px; color: {MUTED_DARK}; max-width: 820px; }}
-.bar {{ width: 120px; height: 10px; background: {MINT}; border-radius: 6px; margin-bottom: 52px; }}
+.bar {{ width: 120px; height: 10px; background: {fd}; border-radius: 6px; margin-bottom: 52px; }}
 .swipe {{ color: {MINT}; }}
 .heading {{ font-family: 'Serif', serif; font-size: 86px; line-height: 1.08; margin-bottom: 48px; }}
 .big {{ font-family: 'Serif', serif; font-size: 72px; line-height: 1.12; color: {GREEN_DARK}; margin-bottom: 44px; }}
@@ -75,7 +79,7 @@ body {{ font-family: 'Sans', sans-serif; -webkit-font-smoothing: antialiased; }}
 .row.stack .v {{ font-size: 40px; font-weight: 400; color: {MUTED_LIGHT}; text-align: left; display: block; line-height: 1.4; }}
 .note {{ font-size: 35px; line-height: 1.45; margin-top: 36px; color: {MUTED_LIGHT}; max-width: 880px; }}
 .take {{ font-family: 'Serif', serif; font-size: 92px; line-height: 1.1; }}
-.follow {{ margin-top: 64px; display: inline-flex; align-self: flex-start; background: {MINT}; color: {NAVY}; font-weight: 800; font-size: 36px; padding: 24px 40px; border-radius: 60px; }}
+.follow {{ margin-top: 64px; display: inline-flex; align-self: flex-start; background: {fd}; color: {NAVY}; font-weight: 800; font-size: 36px; padding: 24px 40px; border-radius: 60px; }}
 .follow-sub {{ font-size: 32px; margin-top: 22px; color: {MUTED_DARK}; }}
 .disc {{ font-size: 26px; color: {MUTED_DARK}; }}
 .badge {{ display: inline-flex; align-self: flex-start; border: 2px solid {MINT}; color: {MINT}; font-size: 28px; font-weight: 700; letter-spacing: 0.06em; padding: 10px 22px; border-radius: 40px; margin-bottom: 36px; }}
@@ -83,7 +87,7 @@ body {{ font-family: 'Sans', sans-serif; -webkit-font-smoothing: antialiased; }}
 .bar-row .bl {{ display: flex; justify-content: space-between; align-items: baseline; gap: 24px; font-size: 38px; font-weight: 600; margin-bottom: 10px; }}
 .bar-row .bl .bv {{ color: {GREEN_DARK}; font-weight: 700; white-space: nowrap; }}
 .bar-track {{ height: 26px; background: {RULE_LIGHT}; border-radius: 14px; overflow: hidden; }}
-.bar-fill {{ height: 100%; background: {GREEN_DARK}; border-radius: 14px; }}
+.bar-fill {{ height: 100%; background: {fl}; border-radius: 14px; }}
 .source {{ font-size: 28px; line-height: 1.4; color: {MUTED_LIGHT}; margin-top: 30px; }}
 .glow {{ position: absolute; width: 760px; height: 760px; border-radius: 50%; right: -260px; top: -240px; background: radial-gradient(circle, {NAVY_2} 0%, transparent 70%); }}
 """
