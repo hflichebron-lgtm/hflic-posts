@@ -1,371 +1,392 @@
 {
-  "week_of": "2026-11-04",
-  "handle": "@hflic.hebron",
-  "posts": [
+ "week_of": "2026-11-04",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "01-rule-of-72",
+   "date": "2026-11-04",
+   "day": "Wednesday",
+   "topic": "Investing basics",
+   "slides": [
     {
-      "id": "01-rule-of-72",
-      "date": "2026-11-04",
-      "day": "Wednesday",
-      "topic": "Investing basics",
-      "slides": [
-        {
-          "type": "cover",
-          "kicker": "Investing basics",
-          "title": "How long until your money doubles?",
-          "sub": "One mental math trick: the Rule of 72"
-        },
-        {
-          "type": "text",
-          "heading": "The rule",
-          "big": "72 ÷ your yearly return = years to double",
-          "body": [
-            "Divide 72 by the yearly return you expect. The answer is roughly how many years it takes your money to double."
-          ]
-        },
-        {
-          "type": "list",
-          "heading": "Try it",
-          "items": [
-            [
-              "2% return",
-              "36 years"
-            ],
-            [
-              "6% return",
-              "12 years"
-            ],
-            [
-              "9% return",
-              "8 years"
-            ],
-            [
-              "12% return",
-              "6 years"
-            ]
-          ],
-          "note": "Higher returns usually come with more risk."
-        },
-        {
-          "type": "list",
-          "heading": "Why starting early wins",
-          "intro": "One $1,000 deposit growing at 9% a year:",
-          "items": [
-            [
-              "Age 18",
-              "$1,000"
-            ],
-            [
-              "Age 26",
-              "$2,000"
-            ],
-            [
-              "Age 34",
-              "$4,000"
-            ],
-            [
-              "Age 42",
-              "$8,000"
-            ],
-            [
-              "Age 50",
-              "about $16,000"
-            ]
-          ],
-          "note": "No extra deposits. Just time."
-        },
-        {
-          "type": "end",
-          "takeaway": "Time does the heavy lifting. Start small, but start now."
-        }
-      ],
-      "caption": "Quick math trick: divide 72 by your yearly return to see how many years it takes your money to double.\n\nAt 9%, that's about 8 years. Start at 18 and a single $1,000 could grow to around $16,000 by age 50 without adding another dollar. Returns aren't guaranteed, but time is the biggest advantage you have right now.\n\nSave this for later and follow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #investing #compoundinterest #moneytips #studentfinance",
-      "folder": "posts/2026-11-04-rule-of-72",
-      "type": "Lesson"
+     "type": "cover",
+     "kicker": "Investing basics",
+     "title": "How long until your money doubles?",
+     "sub": "One mental math trick: the Rule of 72"
     },
     {
-      "id": "02-gross-vs-net",
-      "date": "2026-11-05",
-      "day": "Thursday",
-      "topic": "Paychecks",
-      "slides": [
-        {
-          "type": "cover",
-          "kicker": "Paychecks",
-          "title": "Why is my paycheck smaller than I expected?",
-          "sub": "Gross pay vs. net pay, explained"
-        },
-        {
-          "type": "list",
-          "heading": "Two numbers on every paycheck",
-          "items": [
-            [
-              "Gross pay",
-              "What you earned before anything comes out"
-            ],
-            [
-              "Net pay",
-              "What actually lands in your account"
-            ]
-          ],
-          "stacked": true
-        },
-        {
-          "type": "list",
-          "heading": "Where the difference goes",
-          "items": [
-            [
-              "Social Security",
-              "6.2%"
-            ],
-            [
-              "Medicare",
-              "1.45%"
-            ],
-            [
-              "Federal income tax",
-              "Varies"
-            ],
-            [
-              "Texas state income tax",
-              "$0"
-            ]
-          ],
-          "note": "Federal income tax depends on how much you earn and your W-4. Texas has no state income tax."
-        },
-        {
-          "type": "list",
-          "heading": "Example: $500 gross pay",
-          "items": [
-            [
-              "Gross pay",
-              "$500.00"
-            ],
-            [
-              "Social Security",
-              "-$31.00"
-            ],
-            [
-              "Medicare",
-              "-$7.25"
-            ],
-            [
-              "Before federal income tax",
-              "$461.75"
-            ]
-          ],
-          "note": "Part-time workers often get some or all of their federal income tax back when they file a tax return."
-        },
-        {
-          "type": "end",
-          "takeaway": "Budget with your net pay, not your gross pay. And file a tax return. You might get money back."
-        }
-      ],
-      "caption": "Got your first paycheck and it's less than you thought? That's the difference between gross pay and net pay.\n\nSocial Security (6.2%) and Medicare (1.45%) come out of every check, plus federal income tax based on your pay and your W-4. Good news if you work in Texas: there's no state income tax.\n\nIf you work part-time, file a tax return. You might get some of that federal tax back.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #firstjob #taxes #moneytips #studentfinance",
-      "folder": "posts/2026-11-05-gross-vs-net",
-      "type": "Lesson"
+     "type": "text",
+     "heading": "The rule",
+     "big": "72 ÷ your yearly return = years to double",
+     "body": [
+      "Divide 72 by the yearly return you expect. The answer is roughly how many years it takes your money to double."
+     ]
     },
     {
-      "id": "03-credit-score",
-      "date": "2026-11-06",
-      "day": "Friday",
-      "topic": "Credit",
-      "slides": [
-        {
-          "type": "cover",
-          "kicker": "Credit",
-          "title": "What actually moves your credit score?",
-          "sub": "The 5 factors behind your FICO score"
-        },
-        {
-          "type": "list",
-          "heading": "The 5 factors",
-          "items": [
-            [
-              "Payment history",
-              "35%"
-            ],
-            [
-              "Amounts owed",
-              "30%"
-            ],
-            [
-              "Length of credit history",
-              "15%"
-            ],
-            [
-              "New credit",
-              "10%"
-            ],
-            [
-              "Credit mix",
-              "10%"
-            ]
-          ],
-          "note": "Weights published by FICO."
-        },
-        {
-          "type": "text",
-          "heading": "Focus on the big two",
-          "big": "65% of your score",
-          "body": [
-            "Payment history and amounts owed make up most of your score.",
-            "Pay every bill on time, every time. Keep your balance low compared to your limit."
-          ]
-        },
-        {
-          "type": "list",
-          "heading": "Example: $1,000 credit limit",
-          "items": [
-            [
-              "$300 balance",
-              "30% used"
-            ],
-            [
-              "$100 balance",
-              "10% used"
-            ]
-          ],
-          "note": "Lower usage generally helps. A common rule of thumb is to stay under 30%."
-        },
-        {
-          "type": "end",
-          "takeaway": "Pay on time, keep balances low, and give your credit time to grow."
-        }
+     "type": "list",
+     "heading": "Try it",
+     "items": [
+      [
+       "2% return",
+       "36 years"
       ],
-      "caption": "Your credit score isn't a mystery. FICO scores come down to 5 factors, and two of them (payment history and amounts owed) make up 65% of the score.\n\nPay on time, every time. Keep your balance low compared to your limit. On a $1,000 limit, carrying $100 looks a lot better than carrying $300.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #creditscore #credit #moneytips #studentfinance",
-      "folder": "posts/2026-11-06-credit-score",
-      "type": "Lesson"
+      [
+       "6% return",
+       "12 years"
+      ],
+      [
+       "9% return",
+       "8 years"
+      ],
+      [
+       "12% return",
+       "6 years"
+      ]
+     ],
+     "note": "Higher returns usually come with more risk."
     },
     {
-      "id": "04-50-30-20",
-      "date": "2026-11-07",
-      "day": "Saturday",
-      "topic": "Budgeting",
-      "slides": [
-        {
-          "type": "cover",
-          "kicker": "Budgeting",
-          "title": "The simplest budget that actually works",
-          "sub": "The 50/30/20 rule"
-        },
-        {
-          "type": "list",
-          "heading": "Split your take-home pay 3 ways",
-          "items": [
-            [
-              "50% Needs",
-              "Rent, groceries, gas, phone bill"
-            ],
-            [
-              "30% Wants",
-              "Eating out, games, clothes"
-            ],
-            [
-              "20% Savings",
-              "Emergency fund, investing, paying off debt"
-            ]
-          ],
-          "stacked": true
-        },
-        {
-          "type": "list",
-          "heading": "Example: $800 a month",
-          "items": [
-            [
-              "Needs",
-              "$400"
-            ],
-            [
-              "Wants",
-              "$240"
-            ],
-            [
-              "Savings",
-              "$160"
-            ]
-          ],
-          "note": "Living at home with fewer bills? Shift some of your needs money into savings while you can."
-        },
-        {
-          "type": "text",
-          "heading": "$160 a month adds up",
-          "big": "$1,920 a year",
-          "body": [
-            "That's saved before earning a single dollar of interest."
-          ]
-        },
-        {
-          "type": "end",
-          "takeaway": "Pay yourself first. Move your savings the day you get paid."
-        }
+     "type": "list",
+     "heading": "Why starting early wins",
+     "intro": "One $1,000 deposit growing at 9% a year:",
+     "items": [
+      [
+       "Age 18",
+       "$1,000"
       ],
-      "caption": "Budgeting doesn't have to be complicated. Try the 50/30/20 rule: 50% of your take-home pay for needs, 30% for wants, 20% for savings.\n\nOn $800 a month, that's $160 saved. Do that for a year and you've got $1,920 before any interest. Still living at home? Push that savings number even higher while your bills are low.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #budgeting #saving #moneytips #studentfinance",
-      "folder": "posts/2026-11-07-50-30-20",
-      "type": "Lesson"
+      [
+       "Age 26",
+       "$2,000"
+      ],
+      [
+       "Age 34",
+       "$4,000"
+      ],
+      [
+       "Age 42",
+       "$8,000"
+      ],
+      [
+       "Age 50",
+       "about $16,000"
+      ]
+     ],
+     "note": "No extra deposits. Just time."
     },
     {
-      "id": "05-index-funds",
-      "date": "2026-11-08",
-      "day": "Sunday",
-      "topic": "Investing basics",
-      "slides": [
-        {
-          "type": "cover",
-          "kicker": "Investing basics",
-          "title": "Index funds in 60 seconds",
-          "sub": "Why so many investors start here"
-        },
-        {
-          "type": "text",
-          "heading": "What is an index fund?",
-          "big": "One fund, a whole slice of the market",
-          "body": [
-            "An S&P 500 index fund owns shares of about 500 of the largest US companies, all in one purchase."
-          ]
-        },
-        {
-          "type": "list",
-          "heading": "Why people like them",
-          "items": [
-            [
-              "Diversified",
-              "Hundreds of companies in one buy"
-            ],
-            [
-              "Low cost",
-              "Nobody is paid to pick stocks"
-            ],
-            [
-              "Simple",
-              "No guessing which company wins"
-            ]
-          ],
-          "stacked": true
-        },
-        {
-          "type": "list",
-          "heading": "Fees matter more than you think",
-          "intro": "$10,000 for 30 years, assuming a 7% yearly return before fees:",
-          "items": [
-            [
-              "0.03% fee",
-              "about $75,500"
-            ],
-            [
-              "1.00% fee",
-              "about $57,400"
-            ]
-          ],
-          "note": "Same investment. The fee costs you about $18,000."
-        },
-        {
-          "type": "end",
-          "takeaway": "Broad and low cost beats complicated. Always check the expense ratio."
-        }
-      ],
-      "caption": "An index fund lets you own a slice of the whole market in one purchase. An S&P 500 index fund holds about 500 of the biggest US companies.\n\nThe part most people miss: fees. $10,000 growing for 30 years at 7% before fees ends up around $75,500 with a 0.03% fee, but only about $57,400 with a 1% fee. That's roughly $18,000 lost to fees.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice. Returns are not guaranteed.\n\n#financialliteracy #investing #indexfunds #moneytips #studentfinance",
-      "folder": "posts/2026-11-08-index-funds",
-      "type": "Lesson"
+     "type": "end",
+     "takeaway": "Time does the heavy lifting. Start small, but start now."
     }
-  ]
+   ],
+   "caption": "Quick math trick: divide 72 by your yearly return to see how many years it takes your money to double.\n\nAt 9%, that's about 8 years. Start at 18 and a single $1,000 could grow to around $16,000 by age 50 without adding another dollar. Returns aren't guaranteed, but time is the biggest advantage you have right now.\n\nSave this for later and follow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #investing #compoundinterest #moneytips #studentfinance",
+   "folder": "posts/2026-11-04-rule-of-72",
+   "type": "Lesson"
+  },
+  {
+   "id": "02-niche-finance-jobs",
+   "date": "2026-11-05",
+   "day": "Thursday",
+   "topic": "Careers",
+   "type": "Lesson",
+   "folder": "posts/2026-11-05-niche-finance-jobs",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "Finance careers",
+     "title": "5 finance jobs nobody talks about",
+     "sub": "Not banking. Not trading. Real careers that pay well."
+    },
+    {
+     "type": "list",
+     "heading": "The hidden five",
+     "stacked": true,
+     "items": [
+      [
+       "1. Actuary",
+       "Uses math and stats to put a price on risk, mostly for insurance companies."
+      ],
+      [
+       "2. Financial examiner",
+       "Checks that banks follow the laws that protect your money."
+      ],
+      [
+       "3. Budget analyst",
+       "Plans and tracks how governments and companies spend money."
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "heading": "The hidden five",
+     "stacked": true,
+     "items": [
+      [
+       "4. Forensic accountant",
+       "Follows the money to investigate fraud. Some testify in court."
+      ],
+      [
+       "5. Real estate appraiser",
+       "Figures out what a home or building is actually worth."
+      ]
+     ],
+     "note": "Most of these start with a bachelor's degree. AP Stats and Accounting are a great head start."
+    },
+    {
+     "type": "chart",
+     "heading": "What they pay",
+     "intro": "Median yearly pay in the US:",
+     "items": [
+      [
+       "Actuary",
+       130000,
+       "$130,000"
+      ],
+      [
+       "Financial examiner",
+       94160,
+       "$94,160"
+      ],
+      [
+       "Budget analyst",
+       91640,
+       "$91,640"
+      ],
+      [
+       "Forensic accountant*",
+       83680,
+       "$83,680"
+      ],
+      [
+       "Real estate appraiser",
+       67960,
+       "$67,960"
+      ]
+     ],
+     "note": "*Reported under accountants and auditors.",
+     "source": "Source: BLS Occupational Outlook Handbook, May 2025"
+    },
+    {
+     "type": "end",
+     "takeaway": "Finance is bigger than Wall Street. Find your corner of it."
+    }
+   ],
+   "caption": "Finance is a lot bigger than Wall Street. Here are 5 jobs most people never hear about, ranked by median pay.\n\nActuaries top the list at $130,000 a year, and actuary and financial examiner jobs are both projected to grow 9% by 2035, much faster than average. Forensic accountants get to investigate fraud, and appraisers decide what homes are really worth.\n\nWant to get a head start? Take AP Statistics or Accounting if your school offers it, and come to an HFLIC meeting.\n\nWhich one would you try? Tell us in the comments.\n\nPay figures are BLS national medians from May 2025. Forensic accountant pay is reported under accountants and auditors.\n\n#financecareers #careers #financialliteracy #actuary #studentfinance"
+  },
+  {
+   "id": "03-credit-score",
+   "date": "2026-11-06",
+   "day": "Friday",
+   "topic": "Credit",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "Credit",
+     "title": "What actually moves your credit score?",
+     "sub": "The 5 factors behind your FICO score"
+    },
+    {
+     "type": "list",
+     "heading": "The 5 factors",
+     "items": [
+      [
+       "Payment history",
+       "35%"
+      ],
+      [
+       "Amounts owed",
+       "30%"
+      ],
+      [
+       "Length of credit history",
+       "15%"
+      ],
+      [
+       "New credit",
+       "10%"
+      ],
+      [
+       "Credit mix",
+       "10%"
+      ]
+     ],
+     "note": "Weights published by FICO."
+    },
+    {
+     "type": "text",
+     "heading": "Focus on the big two",
+     "big": "65% of your score",
+     "body": [
+      "Payment history and amounts owed make up most of your score.",
+      "Pay every bill on time, every time. Keep your balance low compared to your limit."
+     ]
+    },
+    {
+     "type": "list",
+     "heading": "Example: $1,000 credit limit",
+     "items": [
+      [
+       "$300 balance",
+       "30% used"
+      ],
+      [
+       "$100 balance",
+       "10% used"
+      ]
+     ],
+     "note": "Lower usage generally helps. A common rule of thumb is to stay under 30%."
+    },
+    {
+     "type": "end",
+     "takeaway": "Pay on time, keep balances low, and give your credit time to grow."
+    }
+   ],
+   "caption": "Your credit score isn't a mystery. FICO scores come down to 5 factors, and two of them (payment history and amounts owed) make up 65% of the score.\n\nPay on time, every time. Keep your balance low compared to your limit. On a $1,000 limit, carrying $100 looks a lot better than carrying $300.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #creditscore #credit #moneytips #studentfinance",
+   "folder": "posts/2026-11-06-credit-score",
+   "type": "Lesson"
+  },
+  {
+   "id": "04-50-30-20",
+   "date": "2026-11-07",
+   "day": "Saturday",
+   "topic": "Budgeting",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "Budgeting",
+     "title": "The simplest budget that actually works",
+     "sub": "The 50/30/20 rule"
+    },
+    {
+     "type": "list",
+     "heading": "Split your take-home pay 3 ways",
+     "items": [
+      [
+       "50% Needs",
+       "Rent, groceries, gas, phone bill"
+      ],
+      [
+       "30% Wants",
+       "Eating out, games, clothes"
+      ],
+      [
+       "20% Savings",
+       "Emergency fund, investing, paying off debt"
+      ]
+     ],
+     "stacked": true
+    },
+    {
+     "type": "list",
+     "heading": "Example: $800 a month",
+     "items": [
+      [
+       "Needs",
+       "$400"
+      ],
+      [
+       "Wants",
+       "$240"
+      ],
+      [
+       "Savings",
+       "$160"
+      ]
+     ],
+     "note": "Living at home with fewer bills? Shift some of your needs money into savings while you can."
+    },
+    {
+     "type": "text",
+     "heading": "$160 a month adds up",
+     "big": "$1,920 a year",
+     "body": [
+      "That's saved before earning a single dollar of interest."
+     ]
+    },
+    {
+     "type": "end",
+     "takeaway": "Pay yourself first. Move your savings the day you get paid."
+    }
+   ],
+   "caption": "Budgeting doesn't have to be complicated. Try the 50/30/20 rule: 50% of your take-home pay for needs, 30% for wants, 20% for savings.\n\nOn $800 a month, that's $160 saved. Do that for a year and you've got $1,920 before any interest. Still living at home? Push that savings number even higher while your bills are low.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #budgeting #saving #moneytips #studentfinance",
+   "folder": "posts/2026-11-07-50-30-20",
+   "type": "Lesson"
+  },
+  {
+   "id": "05-index-funds",
+   "date": "2026-11-08",
+   "day": "Sunday",
+   "topic": "Investing basics",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "Investing basics",
+     "title": "Index funds in 60 seconds",
+     "sub": "Why so many investors start here"
+    },
+    {
+     "type": "text",
+     "heading": "What is an index fund?",
+     "big": "One fund, a whole slice of the market",
+     "body": [
+      "An S&P 500 index fund owns shares of about 500 of the largest US companies, all in one purchase."
+     ]
+    },
+    {
+     "type": "list",
+     "heading": "Why people like them",
+     "items": [
+      [
+       "Diversified",
+       "Hundreds of companies in one buy"
+      ],
+      [
+       "Low cost",
+       "Nobody is paid to pick stocks"
+      ],
+      [
+       "Simple",
+       "No guessing which company wins"
+      ]
+     ],
+     "stacked": true
+    },
+    {
+     "type": "list",
+     "heading": "Fees matter more than you think",
+     "intro": "$10,000 for 30 years, assuming a 7% yearly return before fees:",
+     "items": [
+      [
+       "0.03% fee",
+       "about $75,500"
+      ],
+      [
+       "1.00% fee",
+       "about $57,400"
+      ]
+     ],
+     "note": "Same investment. The fee costs you about $18,000."
+    },
+    {
+     "type": "end",
+     "takeaway": "Broad and low cost beats complicated. Always check the expense ratio."
+    }
+   ],
+   "caption": "An index fund lets you own a slice of the whole market in one purchase. An S&P 500 index fund holds about 500 of the biggest US companies.\n\nThe part most people miss: fees. $10,000 growing for 30 years at 7% before fees ends up around $75,500 with a 0.03% fee, but only about $57,400 with a 1% fee. That's roughly $18,000 lost to fees.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice. Returns are not guaranteed.\n\n#financialliteracy #investing #indexfunds #moneytips #studentfinance",
+   "folder": "posts/2026-11-08-index-funds",
+   "type": "Lesson"
+  }
+ ],
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ }
 }
