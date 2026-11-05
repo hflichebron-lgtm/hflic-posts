@@ -31,8 +31,10 @@ GREEN_DARK = "#137A52"
 MUTED_DARK = "#9FB0C3"
 MUTED_LIGHT = "#5B6B7C"
 RULE_LIGHT = "#D9D0BF"
+THEME_KEYS = ("NAVY", "NAVY_2", "CREAM", "INK", "MINT", "GREEN_DARK", "MUTED_DARK", "MUTED_LIGHT", "RULE_LIGHT")
 
-CSS = f"""
+def build_css():
+    return f"""
 @font-face {{ font-family: 'Serif'; src: url('file://{FONTS}/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2'); }}
 @font-face {{ font-family: 'Sans'; font-weight: 400; src: url('file://{FONTS}/inter/files/inter-latin-400-normal.woff2'); }}
 @font-face {{ font-family: 'Sans'; font-weight: 600; src: url('file://{FONTS}/inter/files/inter-latin-600-normal.woff2'); }}
@@ -83,7 +85,7 @@ body {{ font-family: 'Sans', sans-serif; -webkit-font-smoothing: antialiased; }}
 .bar-track {{ height: 26px; background: {RULE_LIGHT}; border-radius: 14px; overflow: hidden; }}
 .bar-fill {{ height: 100%; background: {GREEN_DARK}; border-radius: 14px; }}
 .source {{ font-size: 28px; line-height: 1.4; color: {MUTED_LIGHT}; margin-top: 30px; }}
-.glow {{ position: absolute; width: 760px; height: 760px; border-radius: 50%; right: -260px; top: -240px; background: radial-gradient(circle, {NAVY_2} 0%, rgba(13,27,42,0) 70%); }}
+.glow {{ position: absolute; width: 760px; height: 760px; border-radius: 50%; right: -260px; top: -240px; background: radial-gradient(circle, {NAVY_2} 0%, transparent 70%); }}
 """
 
 
@@ -154,6 +156,11 @@ def main():
     src, out = sys.argv[1], os.path.abspath(sys.argv[2])
     data = json.load(open(src))
     handle = data.get("handle", "@hflic.hebron")
+    # Optional "theme": {"NAVY": "#..", "MINT": "#..", ...} overrides the default palette.
+    for k, v in (data.get("theme") or {}).items():
+        if k in THEME_KEYS:
+            globals()[k] = v
+    css = build_css()
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path="/usr/bin/google-chrome", args=["--allow-file-access-from-files"])
         page = browser.new_page(viewport={"width": 1080, "height": 1350}, device_scale_factor=1)
@@ -162,7 +169,7 @@ def main():
             os.makedirs(d, exist_ok=True)
             total = len(post["slides"])
             for i, s in enumerate(post["slides"], 1):
-                doc = f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{slide_html(s, i, total, handle)}</body></html>"
+                doc = f"<!doctype html><html><head><meta charset='utf-8'><style>{css}</style></head><body>{slide_html(s, i, total, handle)}</body></html>"
                 tmp = os.path.join(d, f"slide-{i}.html")
                 open(tmp, "w").write(doc)
                 page.goto(f"file://{tmp}")
