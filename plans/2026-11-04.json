@@ -180,67 +180,63 @@
    "slides": [
     {
      "type": "cover",
-     "kicker": "Credit",
-     "title": "What actually moves your credit score?",
-     "sub": "The 5 factors behind your FICO score"
-    },
-    {
-     "type": "list",
-     "heading": "The 5 factors",
-     "items": [
-      [
-       "Payment history",
-       "35%"
-      ],
-      [
-       "Amounts owed",
-       "30%"
-      ],
-      [
-       "Length of credit history",
-       "15%"
-      ],
-      [
-       "New credit",
-       "10%"
-      ],
-      [
-       "Credit mix",
-       "10%"
-      ]
-     ],
-     "note": "Weights published by FICO."
+     "kicker": "Credit, level 2",
+     "title": "Paying in full isn't enough for your score",
+     "sub": "Why the day you pay matters, and what the newest scoring models track."
     },
     {
      "type": "text",
-     "heading": "Focus on the big two",
-     "big": "65% of your score",
+     "heading": "The balance that gets reported",
+     "big": "Statement date, not due date",
      "body": [
-      "Payment history and amounts owed make up most of your score.",
-      "Pay every bill on time, every time. Keep your balance low compared to your limit."
+      "Most card issuers report your balance to the credit bureaus on or right after your statement closing date.",
+      "Pay in full by the due date and you pay zero interest. But the bureaus already saw the full balance."
      ]
     },
     {
-     "type": "list",
-     "heading": "Example: $1,000 credit limit",
+     "type": "chart",
+     "heading": "Same card, different timing",
+     "intro": "$1,000 limit, $600 spent this month:",
      "items": [
       [
-       "$300 balance",
-       "30% used"
+       "Pay after statement closes",
+       60,
+       "60%"
       ],
       [
-       "$100 balance",
-       "10% used"
+       "Average American",
+       29,
+       "29%"
+      ],
+      [
+       "Pay $500 before it closes",
+       10,
+       "10%"
+      ],
+      [
+       "Average 850 score",
+       4,
+       "4%"
       ]
      ],
-     "note": "Lower usage generally helps. A common rule of thumb is to stay under 30%."
+     "note": "FICO weighs each card on its own and your total across all cards.",
+     "source": "Averages: Experian, June 2026 data"
+    },
+    {
+     "type": "text",
+     "heading": "The new twist",
+     "big": "24 months of trends",
+     "body": [
+      "VantageScore 4.0 and FICO 10T look at how your balances moved over the past 24 months, not just one snapshot.",
+      "Since Sept. 2026, lenders selling mortgages to Fannie Mae and Freddie Mac can use VantageScore 4.0."
+     ]
     },
     {
      "type": "end",
-     "takeaway": "Pay on time, keep balances low, and give your credit time to grow."
+     "takeaway": "Pay before the statement closes, and keep it low every month."
     }
    ],
-   "caption": "Your credit score isn't a mystery. FICO scores come down to 5 factors, and two of them (payment history and amounts owed) make up 65% of the score.\n\nPay on time, every time. Keep your balance low compared to your limit. On a $1,000 limit, carrying $100 looks a lot better than carrying $300.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #creditscore #credit #moneytips #studentfinance",
+   "caption": "Paying your card in full every month is great. But your score may still see a high balance, because most issuers report your balance on the statement closing date, not the due date.\n\nExample: $1,000 limit, $600 spent. Pay after the statement closes and the bureaus see 60% utilization. Pay $500 a few days before it closes and they see 10%. Same spending, same card. For context, Experian found people with an 850 score average 4% utilization, while the average American sits at 29% (June 2026 data).\n\nThe twist: newer models like VantageScore 4.0 and FICO 10T look at 24 months of balance trends. Since September 2026, lenders selling mortgages to Fannie Mae and Freddie Mac can use VantageScore 4.0. A last minute paydown tells less of the story. Low balances every month win.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #creditscore #credit #moneytips #studentfinance",
    "folder": "posts/2026-11-06-credit-score",
    "type": "Lesson"
   },

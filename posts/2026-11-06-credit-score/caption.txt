@@ -1,6 +1,8 @@
-Your credit score isn't a mystery. FICO scores come down to 5 factors, and two of them (payment history and amounts owed) make up 65% of the score.
+Paying your card in full every month is great. But your score may still see a high balance, because most issuers report your balance on the statement closing date, not the due date.
 
-Pay on time, every time. Keep your balance low compared to your limit. On a $1,000 limit, carrying $100 looks a lot better than carrying $300.
+Example: $1,000 limit, $600 spent. Pay after the statement closes and the bureaus see 60% utilization. Pay $500 a few days before it closes and they see 10%. Same spending, same card. For context, Experian found people with an 850 score average 4% utilization, while the average American sits at 29% (June 2026 data).
+
+The twist: newer models like VantageScore 4.0 and FICO 10T look at 24 months of balance trends. Since September 2026, lenders selling mortgages to Fannie Mae and Freddie Mac can use VantageScore 4.0. A last minute paydown tells less of the story. Low balances every month win.
 
 Follow @hflic.hebron for a new money lesson every day.
 
