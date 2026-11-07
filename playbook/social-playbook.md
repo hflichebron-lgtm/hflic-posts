@@ -4,16 +4,11 @@ Updated: November 7, 2026. Covers November 8 to December 7, 2026.
 
 ## What's working for HFLIC
 
-Data: 4 Instagram carousels from Nov 4 to 6 (Windsor). The Nov 7 Reel was not in the data yet. No TikTok data (not live, no connector).
+Not much data yet: HFLIC has posted on Instagram only since Nov 4, and TikTok isn't live. From the first 4 carousels (Windsor):
 
-- Rule of 72 Lesson, 9:58 PM: reach 110, 15 likes.
-- 5 majors Top 5, 2:31 PM: reach 99, 12 likes.
-- 18th birthday checklist Lesson, 9:50 AM: reach 79, 7 likes, 1 comment.
-- 5 niche finance jobs Lesson, 10:01 AM: reach 76, 9 likes.
-- Average reach 91, like rate about 12%. Tiny sample, so treat as early signals.
+- Best: Rule of 72 Lesson (reach 110, 15 likes). Lowest: 5 niche finance jobs (reach 76). Average reach 91.
 - Afternoon and evening posts averaged 105 reach vs 78 for mid-morning.
-- One surprising number plus a simple trick (Rule of 72) beat career lists.
-- Biggest gap: zero saves and zero shares on every post. Every post needs a save reason and a send reason.
+- Zero saves and zero shares on every post. Every post needs a save reason and a send reason.
 
 ## Instagram rules this month
 
