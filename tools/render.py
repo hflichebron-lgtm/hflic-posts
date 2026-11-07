@@ -22,17 +22,17 @@ from playwright.sync_api import sync_playwright
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.environ.get("HFLIC_FONTS", os.path.join(HERE, "node_modules", "@fontsource"))
 
-NAVY = "#0D1B2A"
-NAVY_2 = "#16283D"
-CREAM = "#F5F0E6"
-INK = "#0D1B2A"
-MINT = "#5EE6A8"
-GREEN_DARK = "#137A52"
-MUTED_DARK = "#9FB0C3"
-MUTED_LIGHT = "#5B6B7C"
-RULE_LIGHT = "#D9D0BF"
-FILL_DARK = None  # optional CSS background (e.g. a gradient) for accents on dark slides
-FILL_LIGHT = None  # same for bars on light slides
+NAVY = "#07090F"
+NAVY_2 = "#101B30"
+CREAM = "#F4F6F9"
+INK = "#07090F"
+MINT = "#74AA80"
+GREEN_DARK = "#2F6A85"
+MUTED_DARK = "#8FA3B8"
+MUTED_LIGHT = "#5B6575"
+RULE_LIGHT = "#D8DEE6"
+FILL_DARK = "linear-gradient(90deg, #74AA80, #558CA7)"  # CSS background (e.g. a gradient) for accents on dark slides
+FILL_LIGHT = "linear-gradient(90deg, #74AA80, #558CA7)"  # same for bars on light slides
 THEME_KEYS = ("FILL_DARK", "FILL_LIGHT", "NAVY", "NAVY_2", "CREAM", "INK", "MINT", "GREEN_DARK", "MUTED_DARK", "MUTED_LIGHT", "RULE_LIGHT")
 
 def build_css():
