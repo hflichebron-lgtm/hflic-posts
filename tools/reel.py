@@ -11,13 +11,13 @@ Spec (JSON):
 {
   "handle": "@hflic.hebron",
   "theme": {...optional, same keys as plans' "theme"; defaults to the current HFLIC brand...},
-  "speed": 1.08,                                  # voice speed
+  "speed": 1.15,                                  # voice speed (default 1.15)
   "scenes": [ {"layout": "...", ...layout fields..., "lines": [{"voice": "heart"|"michael", "say": "spoken text", "show": "caption text"}]} ]
 }
 Every scene has "lines": what is spoken during it ("say") and the matching on-screen caption ("show", defaults to "say").
 Write numbers in "say" as words (e.g. "one hundred five thousand") and in "show" as digits ("$105,000").
 Layouts and their fields:
-  hook  : kicker, title, highlight (part of title in gradient), sub, badge
+  hook  : kicker, title, highlight (part of title in gradient), sub (or sub_html with <b> for emphasis), badge
   rank  : rank, title, value (number), label, max (bar scale), ref, ref_label, chip, progress (how many progress pips are lit)
   stat  : kicker, value, prefix, suffix, decimals, label, note, source
   bars  : heading, items [[label, value, shown]], max, ref, ref_label, source

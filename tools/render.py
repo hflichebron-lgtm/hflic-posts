@@ -169,6 +169,9 @@ def main():
         browser = p.chromium.launch(executable_path="/usr/bin/google-chrome", args=["--allow-file-access-from-files"])
         page = browser.new_page(viewport={"width": 1080, "height": 1350}, device_scale_factor=1)
         for post in data["posts"]:
+            if not post.get("slides"):
+                print("skipped (no slides, e.g. a reel):", post.get("id"))
+                continue
             d = os.path.join(out, post["id"])
             os.makedirs(d, exist_ok=True)
             total = len(post["slides"])
