@@ -13,3 +13,10 @@ Posts go live only after they're approved.
 - `posts/<date>-<slug>/reel.json` is a reel's script and scene list; `reel.mp4`, `cover.jpg` and `caption.txt` sit next to it.
 - `tools/reel.py SPEC.json OUT_DIR` makes the reel (animated scenes, two free Kokoro AI voices, word-timed captions). Add `--stills` to check key frames first. The docstring explains every scene layout.
 - Run `tools/setup.sh` once on a new machine to install the fonts and download the voice model.
+
+## Daily schedule (Central time)
+
+- 5:47 PM: the "HFLIC daily content" task makes tomorrow's 3 posts (plans/<date>.json for the carousels, posts/<date>-<slug>/reel.json for the reel), queues them in the "HFLIC Post Queue" sheet with a Slot, and sends the reel and the 2:30 PM post to Tommy to approve.
+- 7:00 AM: the Lesson carousel posts automatically.
+- 9:00 AM: the reel posts if its Status is "Approved".
+- 2:30 PM: the Top 5 carousel posts if its Status is "Approved".
