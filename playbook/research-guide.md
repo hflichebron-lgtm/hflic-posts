@@ -28,44 +28,44 @@ For policy-related topics, focus on the financial mechanisms and consequences: w
 
 Use these news sources to discover developments and understand context:
 
-Source	Research use
-Reuters	Business developments, companies, markets, trade, and economic news.
-Associated Press	Business and economic reporting with everyday implications.
-Financial Times	Global business, finance, trade, and economic analysis.
-Bloomberg	Markets, companies, finance, and economic developments.
-The Wall Street Journal	Companies, careers, business, and the U.S. economy.
-The Economist	Broader economic arguments and global context; identify analysis and editorial viewpoints.
+Source | Research use
+Reuters | Business developments, companies, markets, trade, and economic news.
+Associated Press | Business and economic reporting with everyday implications.
+Financial Times | Global business, finance, trade, and economic analysis.
+Bloomberg | Markets, companies, finance, and economic developments.
+The Wall Street Journal | Companies, careers, business, and the U.S. economy.
+The Economist | Broader economic arguments and global context; identify analysis and editorial viewpoints.
 
 Some coverage requires a subscription. Use material you can actually access. When an article is inaccessible, find accessible reporting or the original release and cite what you read.
 
 Use these official sources for financial rules, data, and verification:
 
-Source	Research use
-Investor.gov	SEC investing education, diversification, risk, and investment fraud.
-Consumer Financial Protection Bureau	Bank accounts, credit cards, credit reports, loans, and consumer rights.
-IRS	Taxes, student workers, self-employment, retirement-account rules, and annual limits.
-FDIC	Bank deposit insurance and what it covers.
-FTC Consumer Advice	Scams, identity theft, deceptive offers, and consumer protection.
-Federal Student Aid	FAFSA, federal grants, student loans, and repayment rules.
-Bureau of Labor Statistics	Occupations, median pay, education requirements, and employment projections.
-New York Fed college labor-market data	College-major outcomes, earnings, unemployment, and underemployment.
-College Scorecard	College costs, completion, debt, and earnings measures.
-FRED	Economic data series and charts; check each series’ original source and definitions.
-Federal Reserve	Interest-rate decisions, monetary policy, statements, and projections.
-Bureau of Economic Analysis	GDP, income, spending, trade, and other economic measures.
-Congressional Budget Office	Budget analysis, economic projections, and estimated effects of legislation.
+Source | Research use
+Investor.gov | SEC investing education, diversification, risk, and investment fraud.
+Consumer Financial Protection Bureau | Bank accounts, credit cards, credit reports, loans, and consumer rights.
+IRS | Taxes, student workers, self-employment, retirement-account rules, and annual limits.
+FDIC | Bank deposit insurance and what it covers.
+FTC Consumer Advice | Scams, identity theft, deceptive offers, and consumer protection.
+Federal Student Aid | FAFSA, federal grants, student loans, and repayment rules.
+Bureau of Labor Statistics | Occupations, median pay, education requirements, and employment projections.
+New York Fed college labor-market data | College-major outcomes, earnings, unemployment, and underemployment.
+College Scorecard | College costs, completion, debt, and earnings measures.
+FRED | Economic data series and charts; check each series’ original source and definitions.
+Federal Reserve | Interest-rate decisions, monetary policy, statements, and projections.
+Bureau of Economic Analysis | GDP, income, spending, trade, and other economic measures.
+Congressional Budget Office | Budget analysis, economic projections, and estimated effects of legislation.
 
 For specific bank accounts, cards, brokerage products, or university costs, verify current terms directly with the institution.
 
 Use these additional sources for business research and explanations:
 
-Source	Research use
-SEC EDGAR	Company filings, reported revenue, profits, business segments, and risk disclosures.
-Small Business Administration	Startup costs, market research, business planning, and break-even analysis.
-Knowledge at Wharton	University-based business research, management, marketing, finance, and technology analysis.
-National Bureau of Economic Research	Economic studies; distinguish working papers from peer-reviewed publications.
-Investopedia	Financial terminology and accessible explanations.
-NerdWallet	Consumer-finance explanations and comparisons; verify product terms directly and examine comparison criteria.
+Source | Research use
+SEC EDGAR | Company filings, reported revenue, profits, business segments, and risk disclosures.
+Small Business Administration | Startup costs, market research, business planning, and break-even analysis.
+Knowledge at Wharton | University-based business research, management, marketing, finance, and technology analysis.
+National Bureau of Economic Research | Economic studies; distinguish working papers from peer-reviewed publications.
+Investopedia | Financial terminology and accessible explanations.
+NerdWallet | Consumer-finance explanations and comparisons; verify product terms directly and examine comparison criteria.
 
 For company stories, also consult the company’s investor-relations pages and annual reports. Attribute company claims and distinguish reported results from management forecasts.
 
@@ -104,5 +104,3 @@ Develop the topics into formats such as:
 * A surprising statistic explained with proper context.
 
 Follow the existing visual format. Use compelling, accurate hooks, one main idea per slide, and a useful takeaway. Rotate between practical money lessons, careers, business stories, and economics. Use performance results to improve topic selection while maintaining accuracy.
-
-Incorporate these sources and topic ranges into the existing automation workflow.
