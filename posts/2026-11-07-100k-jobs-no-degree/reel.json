@@ -1,0 +1,208 @@
+{
+  "id": "100k-jobs-no-degree",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "progress_total": 5,
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Ranked by Claude · BLS 2025 data",
+      "kicker": "Did you know?",
+      "title": "5 jobs that pay $100K+",
+      "highlight": "$100K+",
+      "sub": "No 4-year degree needed.",
+      "sub_html": "<b>No</b> 4-year degree needed.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Did you know these five jobs pay over a hundred thousand dollars a year?",
+          "show": "Did you know these 5 jobs pay over $100,000 a year?"
+        },
+        {
+          "voice": "michael",
+          "say": "And none of them needs a four-year degree.",
+          "show": "And none of them needs a 4-year degree."
+        }
+      ]
+    },
+    {
+      "layout": "rank",
+      "rank": 5,
+      "progress": 1,
+      "title": "Radiation therapist",
+      "value": 105310,
+      "label": "Median yearly pay, May 2025",
+      "max": 160000,
+      "ref": 50980,
+      "ref_label": "Typical U.S. worker",
+      "chip": "Path: 2-year degree",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Number five. Radiation therapist. Over one hundred five thousand. You can start with a two-year degree.",
+          "show": "#5. Radiation therapist. Over $105,000. You can start with a 2-year degree."
+        }
+      ]
+    },
+    {
+      "layout": "rank",
+      "rank": 4,
+      "progress": 2,
+      "title": "Elevator installer",
+      "value": 109910,
+      "label": "Median yearly pay, May 2025",
+      "max": 160000,
+      "ref": 50980,
+      "ref_label": "Typical U.S. worker",
+      "chip": "Path: paid apprenticeship",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Number four. Elevator installer. Almost one hundred ten thousand, and you get paid while you train.",
+          "show": "#4. Elevator installer. Almost $110,000, and you get paid while you train."
+        }
+      ]
+    },
+    {
+      "layout": "rank",
+      "rank": 3,
+      "progress": 3,
+      "title": "Nuclear reactor operator",
+      "value": 122890,
+      "label": "Median yearly pay, May 2025",
+      "max": 160000,
+      "ref": 50980,
+      "ref_label": "Typical U.S. worker",
+      "chip": "Path: diploma + federal license",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Number three. Nuclear reactor operator. Almost one hundred twenty-three thousand, with a high school diploma and a federal license.",
+          "show": "#3. Nuclear reactor operator. Almost $123,000, with a high school diploma and a federal license."
+        }
+      ]
+    },
+    {
+      "layout": "rank",
+      "rank": 2,
+      "progress": 4,
+      "title": "Commercial pilot",
+      "value": 123220,
+      "label": "Median yearly pay, May 2025",
+      "max": 160000,
+      "ref": 50980,
+      "ref_label": "Typical U.S. worker",
+      "chip": "Path: flight training",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Number two. Commercial pilot. Over one hundred twenty-three thousand, after flight training.",
+          "show": "#2. Commercial pilot. Over $123,000, after flight training."
+        }
+      ]
+    },
+    {
+      "layout": "rank",
+      "rank": 1,
+      "progress": 5,
+      "title": "Air traffic controller",
+      "value": 148080,
+      "label": "Median yearly pay, May 2025",
+      "max": 160000,
+      "ref": 50980,
+      "ref_label": "Typical U.S. worker",
+      "chip": "Path: 2-year degree + FAA training",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "And number one. Air traffic controller. Over one hundred forty-eight thousand.",
+          "show": "And #1. Air traffic controller. Over $148,000."
+        },
+        {
+          "voice": "michael",
+          "say": "That's almost three times what the typical American worker makes.",
+          "show": "That's almost 3x what the typical American worker makes."
+        }
+      ],
+      "cues": {
+        "title": "Air"
+      }
+    },
+    {
+      "layout": "bars",
+      "heading": "Median pay, May 2025",
+      "max": 160000,
+      "ref": 50980,
+      "ref_label": "typical U.S. worker",
+      "items": [
+        [
+          "Air traffic controller",
+          148080,
+          "$148,080"
+        ],
+        [
+          "Commercial pilot",
+          123220,
+          "$123,220"
+        ],
+        [
+          "Nuclear reactor operator",
+          122890,
+          "$122,890"
+        ],
+        [
+          "Elevator installer",
+          109910,
+          "$109,910"
+        ],
+        [
+          "Radiation therapist",
+          105310,
+          "$105,310"
+        ]
+      ],
+      "source": "Data: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Every one of these takes serious training."
+        },
+        {
+          "voice": "michael",
+          "say": "But a bachelor's degree isn't the only road to six figures."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "There's more than one road to six figures.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "Money facts that actually help",
+      "source": "Pay data: BLS, May 2025. Ranked by Claude.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more money facts like this.",
+          "show": "Follow @hflic.hebron for more money facts like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to a friend who's picking a career."
+        }
+      ]
+    }
+  ]
+}
