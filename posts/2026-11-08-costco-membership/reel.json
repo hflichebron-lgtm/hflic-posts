@@ -1,0 +1,185 @@
+{
+  "id": "costco-membership",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Costco fiscal 2026 results",
+      "kicker": "Did you know?",
+      "title": "Costco keeps 3¢ per $1",
+      "highlight": "3¢",
+      "sub": "So how does it make $9.2 billion?",
+      "sub_html": "So how does it make <b>$9.2 billion</b>?",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Did you know Costco keeps only about three cents of profit from every dollar you spend there?",
+          "show": "Did you know Costco keeps only about 3¢ of profit from every $1 you spend there?"
+        },
+        {
+          "voice": "michael",
+          "say": "So how did it still make nine point two billion dollars this past year?",
+          "show": "So how did it still make $9.2 billion this past year?"
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Sales, fiscal 2026",
+      "value": 297.2,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "label": "of stuff sold in one year",
+      "note": "939 warehouses worldwide",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Costco sold two hundred ninety-seven billion dollars of stuff in one year.",
+          "show": "Costco sold $297 billion of stuff in one year."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Profit per dollar",
+      "value": 3,
+      "suffix": "¢",
+      "label": "left after products, workers, stores and taxes",
+      "cues": {
+        "value": "3¢"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "After products, workers, stores and taxes, only about three cents per dollar is left.",
+          "show": "After products, workers, stores and taxes, only about 3¢ per $1 is left."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Membership fees",
+      "value": 5.9,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "label": "paid just for the right to shop there",
+      "note": "Up 11% in one year",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "The big money is the card in your wallet.",
+          "show": "The big money is the card in your wallet."
+        },
+        {
+          "voice": "heart",
+          "say": "Membership fees brought in five point nine billion dollars.",
+          "show": "Membership fees brought in $5.9 billion."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Fees vs. operating profit",
+      "items": [
+        [
+          "Operating profit",
+          11.685,
+          "$11.7B"
+        ],
+        [
+          "Membership fees",
+          5.907,
+          "$5.9B"
+        ]
+      ],
+      "source": "Costco fiscal 2026 results",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "That's equal to about half of Costco's operating profit, what it earns from running the business.",
+          "show": "That's equal to about half of Costco's operating profit, what it earns from running the business."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Renewal rate",
+      "value": 92.3,
+      "suffix": "%",
+      "decimals": 0,
+      "label": "of U.S. and Canada members renew",
+      "note": "84.1 million paid members",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "And people keep paying. About ninety-two percent of members in the U.S. and Canada renew.",
+          "show": "And people keep paying. About 92% of members in the U.S. and Canada renew."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "The Costco playbook",
+      "numbered": true,
+      "items": [
+        "Keep prices low",
+        "Members renew for the deals",
+        "Fees bring in money every year"
+      ],
+      "cues": {
+        "items": [
+          "Low",
+          "renewing",
+          "Renewals"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "That's called recurring revenue.",
+          "show": "That's called recurring revenue."
+        },
+        {
+          "voice": "michael",
+          "say": "Low prices keep members renewing. Renewals bring in money every single year.",
+          "show": "Low prices keep members renewing. Renewals bring in money every single year."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Low prices bring you in. The membership pays the bills.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "How big companies really make money",
+      "source": "Data: Costco fiscal 2026 results, year ended Aug. 30, 2026",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more breakdowns of how big companies make money.",
+          "show": "Follow HFLIC for more breakdowns of how big companies make money."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to the friend who lives for the dollar fifty hot dog.",
+          "show": "And send this to the friend who lives for the $1.50 hot dog."
+        }
+      ]
+    }
+  ]
+}

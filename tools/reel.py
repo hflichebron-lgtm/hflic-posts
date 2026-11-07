@@ -25,6 +25,7 @@ Layouts and their fields:
   cta   : takeaway, follow, sub, source
 Optional "cues": {"title": "word", "value": "word", "sub": "word", "chip": "word", "note": "word", "follow": "word"}
   times an element to when that caption word is spoken. Defaults: rank value = first word with "$", hook sub = start of line 2.
+  text scenes take "items": ["word", "word", ...], one caption word per item, to reveal each line as it is spoken.
 Top-level "progress_total": number of progress pips shown on scenes that set "progress".
 """
 import argparse
@@ -139,6 +140,11 @@ def build_timeline(spec):
                     return round(w["t0"] - sc["start"], 3)
             return None
         for key, txt in (sc.get("cues") or {}).items():
+            if isinstance(txt, list):  # e.g. "items": ["word for item 1", "word for item 2", ...]
+                vals = [find(x) for x in txt]
+                if all(v is not None for v in vals):
+                    cues[key] = vals
+                continue
             v = find(txt)
             if v is not None:
                 cues[key] = v
@@ -244,8 +250,8 @@ def main():
             from PIL import Image
             shots = []
             for i, sc in enumerate(spec["scenes"]):
-                c = sc.get("cues", {})
-                lt = min(sc["dur"] - 0.2, max(c.values()) + 1.0 if c else 2.2)
+                c = [x for v in sc.get("cues", {}).values() for x in (v if isinstance(v, list) else [v])]
+                lt = min(sc["dur"] - 0.2, max(c) + 1.0 if c else 2.2)
                 tt = sc["start"] + lt
                 fp = os.path.join(out, f"still-{i + 1:02d}.jpg")
                 page.evaluate(f"render({tt})")

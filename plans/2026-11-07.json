@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-07",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "posts": [
+    {
+      "id": "fastest-growing-jobs",
+      "date": "2026-11-07",
+      "day": "Saturday",
+      "slot": "2:30 PM",
+      "type": "Top 5 list",
+      "topic": "Careers",
+      "folder": "posts/2026-11-07-fastest-growing-jobs",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "Ranked by Claude",
+          "kicker": "Top 5 jobs to 2035",
+          "title": "5 business and tech jobs growing fastest",
+          "sub": "All start with a bachelor's degree. Ranked by projected job growth, 2025 to 2035."
+        },
+        {
+          "type": "list",
+          "heading": "The top five",
+          "stacked": true,
+          "items": [
+            [
+              "1. Data scientist",
+              "Turns raw data into business decisions. Growth: 35%"
+            ],
+            [
+              "2. Health services manager",
+              "Runs the business side of hospitals and clinics. Growth: 24%"
+            ],
+            [
+              "3. Info security analyst",
+              "Protects company networks and data from hackers. Growth: 21%"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "heading": "The top five",
+          "stacked": true,
+          "items": [
+            [
+              "4. Logistician",
+              "Runs supply chains: how products get made, moved and delivered. Growth: 18%"
+            ],
+            [
+              "5. IT manager",
+              "Leads a company's tech teams. Most need years of work experience first. Growth: 16%"
+            ]
+          ],
+          "note": "For comparison, all U.S. jobs are projected to grow 3.5% over the same 10 years."
+        },
+        {
+          "type": "chart",
+          "heading": "What they pay",
+          "intro": "Median yearly pay, May 2025:",
+          "items": [
+            [
+              "IT manager",
+              175140,
+              "$175,140"
+            ],
+            [
+              "Info security analyst",
+              129180,
+              "$129,180"
+            ],
+            [
+              "Health services manager",
+              123860,
+              "$123,860"
+            ],
+            [
+              "Data scientist",
+              120230,
+              "$120,230"
+            ],
+            [
+              "Logistician",
+              82320,
+              "$82,320"
+            ],
+            [
+              "All U.S. workers",
+              50980,
+              "$50,980"
+            ]
+          ],
+          "source": "Ranked by Claude. Data: BLS Employment Projections 2025 to 2035, pay May 2025."
+        },
+        {
+          "type": "end",
+          "takeaway": "The fastest growth is where business meets data and tech."
+        }
+      ],
+      "caption": "These 5 business and tech jobs are projected to grow the fastest from 2025 to 2035, among jobs that typically start with a bachelor's degree. For comparison, all U.S. jobs are projected to grow 3.5%.\n\n#1 Data scientist: 35% growth, $120,230 median pay\n#2 Medical and health services manager: 24%, $123,860\n#3 Information security analyst: 21%, $129,180\n#4 Logistician: 18%, $82,320\n#5 Computer and information systems manager: 16%, $175,140\n\nIT managers usually need years of work experience before they get the role, so it's a career you grow into.\n\nRanked by Claude. Data: U.S. Bureau of Labor Statistics, Employment Projections 2025 to 2035.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice. Pay data: BLS, May 2025.\n\n#financialliteracy #careers #businessmajor #techcareers #collegemajors"
+    }
+  ]
+}
