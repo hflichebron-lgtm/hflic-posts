@@ -21,6 +21,3 @@ Posts go live only after they're approved.
 - 9:00 AM: the reel posts if its Status is "Approved".
 - 2:30 PM: the Top 5 carousel posts if its Status is "Approved".
 
-## TikTok
-
-Posting to TikTok is manual for now. `tools/tiktok.py posts/<folder>` makes 9:16 versions of a carousel's slides in `posts/<folder>/tiktok/`. At each posting time, the posting task sends Tommy the TikTok version (slides or reel), the caption and a trending sound to add, and marks the sheet's "TikTok" column "Sent".

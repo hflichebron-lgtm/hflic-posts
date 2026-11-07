@@ -21,16 +21,6 @@ Not much data yet: HFLIC has posted on Instagram only since Nov 4, and TikTok is
 - Some states now hide like counts for teens. Optimize for saves and sends.
 - Times: Thursday 9 AM is strongest, with a lift around 6 PM. Friday and weekends are weakest. Test one daily post at about 6 PM CT.
 
-## TikTok rules this month
-
-- Hook in the first 2 seconds, with on-screen text matching the spoken hook.
-- Our 35 to 60 second Reels are fine. Under 25 seconds tests well for single facts.
-- Slideshows: 5 to 7 slides, a bold question or number on slide 1, short text per slide. Photo posts get more likes and comments but fewer shares, so end with a "send this to" slide.
-- Audio: add a quiet trending sound to slideshows. In Reels, keep music under the voices.
-- Realistic AI voices need TikTok's AI-generated label (generic text-to-speech does not). Labeling does not lower distribution; unlabeled posts can get a forced label or less reach.
-- Search: keyword-rich captions, say the keyword out loud, 3 to 5 hashtags.
-- Finance: no guaranteed returns, no get-rich-quick claims, no buy or sell calls. Keep "Education only, not financial advice."
-- Times: Sunday 9 AM and weekday evenings (6 to 11 PM) are strongest. Wednesday is weakest.
 
 ## Hooks and formats to use
 
