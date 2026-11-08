@@ -1,0 +1,173 @@
+{
+  "id": "teen-spending",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Piper Sandler teen survey, fall 2026",
+      "kicker": "Did you know?",
+      "title": "Teens spend $2,350 a year",
+      "highlight": "$2,350",
+      "sub": "So where does it all go?",
+      "sub_html": "So where does it <b>all go</b>?",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Did you know the average U.S. teen says they spend about two thousand three hundred fifty dollars a year?",
+          "show": "Did you know the average U.S. teen says they spend about $2,350 a year?"
+        },
+        {
+          "voice": "michael",
+          "say": "So where does it all go?",
+          "show": "So where does it all go?"
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Teen spending, fall 2026",
+      "value": 2350,
+      "prefix": "$",
+      "label": "spent per teen, per year",
+      "note": "Up 6% from last year",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "That's up six percent from last year, and it works out to about forty-five dollars a week.",
+          "show": "That's up 6% from last year, and it works out to about $45 a week."
+        }
+      ],
+      "cues": {
+        "value": "That's",
+        "note": "6%"
+      }
+    },
+    {
+      "layout": "stat",
+      "kicker": "Clothing",
+      "value": 21,
+      "suffix": "%",
+      "label": "of the average teen's spending",
+      "note": "Average-income teens",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Clothing takes about twenty-one percent of the average teen's spending.",
+          "show": "Clothing takes about 21% of the average teen's spending."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Beauty",
+      "value": 23,
+      "suffix": "%",
+      "label": "of teen girls' spending",
+      "note": "A survey high",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "And for teen girls, beauty is now twenty-three percent of their spending. That's a survey high.",
+          "show": "And for teen girls, beauty is now 23% of their spending. That's a survey high."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Athletic brands' share of teen fashion",
+      "items": [
+        [
+          "3 years ago",
+          44,
+          "44%"
+        ],
+        [
+          "Last year",
+          32,
+          "32%"
+        ],
+        [
+          "Now",
+          29,
+          "29%"
+        ]
+      ],
+      "max": 50,
+      "source": "Nike, Adidas and Lululemon combined",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Meanwhile, big athletic brands are losing ground.",
+          "show": "Meanwhile, big athletic brands are losing ground."
+        },
+        {
+          "voice": "heart",
+          "say": "Their share of teen fashion fell from forty-four percent three years ago to twenty-nine percent now.",
+          "show": "Their share of teen fashion fell from 44% three years ago to 29% now."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "Know where your money goes",
+      "numbered": true,
+      "items": [
+        "Brands track every dollar",
+        "So should you",
+        "$10 a week = $520 a year"
+      ],
+      "cues": {
+        "items": [
+          "Brands",
+          "you",
+          "$10"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Brands watch these numbers closely. So should you.",
+          "show": "Brands watch these numbers closely. So should you."
+        },
+        {
+          "voice": "michael",
+          "say": "Cutting just ten dollars a week adds up to five hundred twenty dollars a year.",
+          "show": "Cutting just $10 a week adds up to $520 a year."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Small cuts add up. Know where your money goes.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More money facts like this",
+      "source": "Data: Piper Sandler Taking Stock With Teens, fall 2026 (about 9,000 U.S. teens, self-reported)",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more money facts like this.",
+          "show": "Follow HFLIC for more money facts like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to the friend whose paycheck disappears by Friday.",
+          "show": "And send this to the friend whose paycheck disappears by Friday."
+        }
+      ]
+    }
+  ]
+}
