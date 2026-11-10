@@ -21,3 +21,6 @@ Posts go live only after they're approved.
 - 9:00 AM: the reel posts if its Status is "Approved".
 - 2:30 PM: the Top 5 carousel posts if its Status is "Approved".
 
+## Schedule (since 2026-11-09)
+
+Two posts a day on Instagram: a slideshow at 7:00 AM and a reel at 9:00 AM (Central), posted by the cloud tasks "HFLIC 7 AM slideshow" and "HFLIC 9 AM reel". Content is made each evening by the nightly run in the HFLIC chat; see playbook/daily-run.md.
