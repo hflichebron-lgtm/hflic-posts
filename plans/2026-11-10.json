@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-10",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "inflation-your-money",
+      "date": "2026-11-10",
+      "day": "Tuesday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "The economy",
+      "format": "What an economic change means for students",
+      "folder": "posts/2026-11-10-inflation-your-money",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "BLS data, September 2026",
+          "kicker": "New inflation numbers today",
+          "title": "What inflation does to your money",
+          "sub": "Prices rose 3.7% in a year. Gas rose 34.2%. Here's what that means for you."
+        },
+        {
+          "type": "text",
+          "heading": "What CPI measures",
+          "big": "3.7% in one year",
+          "body": [
+            "The Consumer Price Index (CPI) tracks what a set basket of everyday things costs: food, rent, gas, phone plans, haircuts. Inflation is how fast that basket gets more expensive.",
+            "From September 2025 to September 2026, the basket rose 3.7%. Leave out food and energy (called core inflation) and it rose 2.6%."
+          ],
+          "source": "BLS, CPI for September 2026"
+        },
+        {
+          "type": "text",
+          "heading": "Why gas hurts most",
+          "big": "Gas: +34.2% in a year",
+          "body": [
+            "Energy prices rose 20.4% in a year, and gasoline alone rose 34.2%. That's why overall inflation (3.7%) is well above core inflation (2.6%).",
+            "Example: a tank that cost $40 a year ago now costs about $53.68. Fill up once a week and that's about $711 more a year."
+          ],
+          "source": "BLS, CPI for September 2026"
+        },
+        {
+          "type": "text",
+          "heading": "Your raise vs. inflation",
+          "big": "Real raise = raise minus inflation",
+          "body": [
+            "Get a 3% raise while prices rise 3.7% and you can buy a little less than last year. Economists call that a drop in your real wage.",
+            "Savings work the same way. Money earning less than the inflation rate loses buying power, so compare your savings rate to inflation."
+          ],
+          "source": "Example uses the September 2026 CPI"
+        },
+        {
+          "type": "end",
+          "takeaway": "If your money grows slower than prices, you're losing buying power."
+        }
+      ],
+      "caption": "New inflation numbers come out today at 8:30 AM ET. Here's how to read them.\n\nThe latest reading (September 2026) shows prices up 3.7% in a year. Core inflation, which leaves out food and energy, was 2.6%. The gap comes from energy: gasoline rose 34.2% in a year. A tank that cost $40 a year ago costs about $53.68 now (example).\n\nThe money lesson: if your pay or your savings grow slower than prices, you can buy less than before. A 3% raise with 3.7% inflation is a small pay cut in real terms.\n\nData: U.S. Bureau of Labor Statistics, CPI for September 2026 (released Oct. 14, 2026).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #inflation #economy #moneytips #studentfinance",
+      "sources": [
+        {
+          "title": "Consumer Price Index, September 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "Schedule of Releases for the Consumer Price Index",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+          "date": "2026"
+        }
+      ],
+      "recheck": "October 2026 CPI is still scheduled for release Nov 10, 2026 at 8:30 AM ET (BLS schedule)"
+    }
+  ]
+}

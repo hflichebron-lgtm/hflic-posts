@@ -1,0 +1,193 @@
+{
+  "id": "first-paycheck",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "2026 Social Security Changes (COLA fact sheet)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/news/en/cola/factsheets/2026.html",
+      "date": "2025-10"
+    },
+    {
+      "title": "IRS releases tax inflation adjustments for tax year 2026",
+      "publisher": "IRS (IR-2025-103)",
+      "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill",
+      "date": "2025-10-09"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "SSA and IRS, 2026 rules",
+      "kicker": "First job?",
+      "title": "Where your paycheck goes",
+      "highlight": "paycheck",
+      "sub": "Example: 20 hours at $15 an hour = $300",
+      "sub_html": "Example: 20 hours at $15 an hour = <b>$300</b>",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Your first paycheck will be smaller than you think.",
+          "show": "Your first paycheck will be smaller than you think."
+        },
+        {
+          "voice": "michael",
+          "say": "Say you work twenty hours at fifteen dollars an hour. That's three hundred dollars.",
+          "show": "Say you work 20 hours at $15 an hour. That's $300."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Social Security tax",
+      "value": 18.6,
+      "prefix": "$",
+      "decimals": 2,
+      "label": "6.2% of $300",
+      "cues": {
+        "value": "$18.60"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "First, Social Security takes six point two percent. That's eighteen dollars and sixty cents.",
+          "show": "First, Social Security takes 6.2%. That's $18.60."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Medicare tax",
+      "value": 4.35,
+      "prefix": "$",
+      "decimals": 2,
+      "label": "1.45% of $300",
+      "cues": {
+        "value": "$4.35."
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Then Medicare takes one point four five percent. Another four dollars and thirty five cents.",
+          "show": "Then Medicare takes 1.45%. Another $4.35."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Your $300 paycheck",
+      "items": [
+        [
+          "Earned",
+          300,
+          "$300.00"
+        ],
+        [
+          "Social Security",
+          18.6,
+          "-$18.60"
+        ],
+        [
+          "Medicare",
+          4.35,
+          "-$4.35"
+        ],
+        [
+          "You keep",
+          277.05,
+          "$277.05"
+        ]
+      ],
+      "max": 300,
+      "source": "Before any income tax withholding",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "So you keep two hundred seventy seven dollars and five cents, before any income tax.",
+          "show": "So you keep $277.05, before any income tax."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "2026 standard deduction",
+      "value": 16100,
+      "prefix": "$",
+      "label": "you can earn before federal income tax",
+      "note": "Single filers, job income only",
+      "cues": {
+        "value": "sixteen"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Good news. Earn under sixteen thousand one hundred dollars from a job this year, and you likely owe zero federal income tax.",
+          "show": "Good news. Earn under $16,100 from a job this year, and you likely owe $0 federal income tax."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "What to do",
+      "numbered": true,
+      "items": [
+        "Check every pay stub",
+        "File a tax return",
+        "Get withheld income tax back"
+      ],
+      "cues": {
+        "items": [
+          "Check",
+          "file",
+          "back."
+        ]
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Check every pay stub. If income tax was withheld anyway, file a tax return to get it back.",
+          "show": "Check every pay stub. If income tax was withheld anyway, file a tax return to get it back."
+        },
+        {
+          "voice": "michael",
+          "say": "Social Security and Medicare don't come back as a refund.",
+          "show": "Social Security and Medicare don't come back as a refund."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Know your pay stub before your first payday.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More money facts like this",
+      "source": "Data: SSA 2026 tax rates; IRS tax year 2026 adjustments",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more money facts like this.",
+          "show": "Follow HFLIC for more money facts like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to a friend starting their first job.",
+          "show": "And send this to a friend starting their first job."
+        }
+      ]
+    }
+  ]
+}
