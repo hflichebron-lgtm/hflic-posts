@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-11",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "military-money",
+      "date": "2026-11-11",
+      "day": "Wednesday",
+      "slot": "7:00 AM",
+      "type": "Top list",
+      "topic": "Turning 18 and financial independence",
+      "format": "Top things to know",
+      "folder": "posts/2026-11-11-military-money",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "Veterans Day",
+          "kicker": "Thinking about enlisting?",
+          "title": "3 military money benefits, explained",
+          "sub": "Official 2026 numbers from the pay tables, the VA and the Defense Department."
+        },
+        {
+          "type": "text",
+          "heading": "#1 Pay from day one",
+          "big": "$2,407 a month to start",
+          "body": [
+            "A new E-1 (the starting enlisted rank) earns $2,407.20 a month in basic pay in 2026, after a 3.8% raise in January. That's about $28,900 a year.",
+            "Basic pay is only part of it. Pay rises with rank and years served, and there are separate allowances for housing and food."
+          ],
+          "source": "DFAS 2026 basic pay, via Military.com"
+        },
+        {
+          "type": "text",
+          "heading": "#2 Tuition paid later",
+          "big": "Public tuition covered",
+          "body": [
+            "After 36 months of active duty, the Post-9/11 GI Bill pays net in-state tuition and fees at public schools (the 100% level), plus up to $1,000 a year for books.",
+            "Going private? The cap is $30,908.34 a year for 2026 to 2027. Net means after scholarships and grants."
+          ],
+          "source": "VA, Post-9/11 GI Bill rates (Aug. 1, 2026)"
+        },
+        {
+          "type": "text",
+          "heading": "#3 A retirement match",
+          "big": "Up to 5% of basic pay added",
+          "body": [
+            "The service puts 1% of your basic pay into a Thrift Savings Plan (TSP) retirement account, starting 60 days in, even if you put in nothing.",
+            "After 2 years, it matches what you put in, up to 5% total. Put in 5% and 10% of your basic pay goes to retirement."
+          ],
+          "source": "Air Force benefits page, reviewed Jan. 30, 2026"
+        },
+        {
+          "type": "end",
+          "takeaway": "Big benefits come with a multi-year commitment. Talk to a recruiter and a veteran first."
+        }
+      ],
+      "caption": "Thank you to everyone who has served. For Veterans Day, here's what military service pays, using official 2026 numbers.\n\n1. Pay from day one: a new E-1 earns $2,407.20 a month in basic pay in 2026 (after a 3.8% raise), about $28,900 a year, plus separate allowances for housing and food.\n2. College later: after 36 months of active duty, the Post-9/11 GI Bill covers net in-state tuition and fees at public schools at the 100% level, plus up to $1,000 a year for books. Private schools are capped at $30,908.34 a year for 2026 to 2027.\n3. A retirement match: the service puts 1% of your basic pay into a Thrift Savings Plan account, and after 2 years it matches what you put in, up to 5% total.\n\nThese benefits come with a multi-year service commitment. Talk to a recruiter and a veteran before you decide.\n\nData: DFAS 2026 basic pay (via Military.com), VA Post-9/11 GI Bill rates (Aug. 1, 2026), Air Force Blended Retirement System page (reviewed Jan. 30, 2026).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #veteransday #gibill #military #studentfinance",
+      "sources": [
+        {
+          "title": "2026 Military Pay Charts",
+          "publisher": "Military.com (DFAS 2026 basic pay)",
+          "url": "https://www.military.com/benefits/military-pay/charts",
+          "date": "2026"
+        },
+        {
+          "title": "Post-9/11 GI Bill rates (effective Aug. 1, 2026)",
+          "publisher": "U.S. Department of Veterans Affairs",
+          "url": "https://www.va.gov/education/benefit-rates/post-9-11-gi-bill-rates/",
+          "date": "2026-08-01"
+        },
+        {
+          "title": "Blended Retirement System",
+          "publisher": "U.S. Air Force, My Air Force Benefits (reviewed Jan. 30, 2026)",
+          "url": "https://myairforcebenefits.us.af.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=26",
+          "date": "2026-01-30"
+        },
+        {
+          "title": "BRS Defined Contribution Fact Sheet",
+          "publisher": "U.S. Department of Defense",
+          "url": "https://militarypay.defense.gov/Portals/3/Documents/BlendedRetirementDocuments/BRSDefinedContributionFactSheet18Aug2017.pdf",
+          "date": "2017-08-18"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}

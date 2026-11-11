@@ -1,0 +1,183 @@
+{
+  "id": "roblox-revenue",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Roblox Corporation Form 10-Q, quarter ended Sept. 30, 2026",
+      "publisher": "Roblox via SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026068253/rblx-20260930.htm",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Roblox Q3 revenue rises 16% as bookings fall 12% to $1.7 billion",
+      "publisher": "Gaming.net",
+      "url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+      "date": "2026-10-30"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Roblox Q3 2026, SEC filing",
+      "kicker": "Business breakdown",
+      "title": "How Roblox makes money",
+      "highlight": "Roblox",
+      "sub": "Revenue up 16%. Bookings down 12%.",
+      "sub_html": "Revenue <b>up 16%</b>. Bookings <b>down 12%</b>.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Roblox's revenue just went up sixteen percent. Its bookings fell twelve percent.",
+          "show": "Roblox's revenue just went up 16%. Its bookings fell 12%."
+        },
+        {
+          "voice": "michael",
+          "say": "Same three months. Here's how both are true.",
+          "show": "Same three months. Here's how both are true."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Daily players",
+      "value": 138,
+      "suffix": "M",
+      "label": "players per day",
+      "note": "Average, July to September 2026",
+      "cues": {
+        "value": "one hundred"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "First, the scale. About one hundred thirty eight million people play on an average day.",
+          "show": "First, the scale. About 138 million people play on an average day."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Daily payers",
+      "value": 1.8,
+      "suffix": "M",
+      "decimals": 1,
+      "label": "pay on an average day",
+      "note": "About 1 in 77 players",
+      "cues": {
+        "value": "one point"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "But only about one point eight million pay on a typical day. That's about one in seventy seven.",
+          "show": "But only about 1.8 million pay on a typical day. That's about 1 in 77."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Same quarter, two numbers",
+      "items": [
+        [
+          "Bookings (spent)",
+          1697,
+          "$1.70B, down 12%"
+        ],
+        [
+          "Revenue (counted)",
+          1572,
+          "$1.57B, up 16%"
+        ]
+      ],
+      "max": 2000,
+      "source": "Roblox 10-Q, Q3 2026",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Bookings are what players spent this quarter. One point seven billion dollars, down twelve percent.",
+          "show": "Bookings are what players spent this quarter. $1.7 billion, down 12%."
+        },
+        {
+          "voice": "michael",
+          "say": "Revenue is what Roblox gets to count. One point five seven billion, up sixteen percent.",
+          "show": "Revenue is what Roblox gets to count. $1.57 billion, up 16%."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "The trick",
+      "value": 27,
+      "label": "months per purchase",
+      "note": "The average life of a paying player",
+      "cues": {
+        "value": "twenty"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Roblox counts most purchases as revenue over about twenty seven months.",
+          "show": "Roblox counts most purchases as revenue over about 27 months."
+        },
+        {
+          "voice": "michael",
+          "say": "So revenue can keep rising for a while, even after spending slows.",
+          "show": "So revenue can keep rising for a while, even after spending slows."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Paid to creators",
+      "value": 403,
+      "prefix": "$",
+      "suffix": "M",
+      "label": "paid out in 3 months",
+      "cues": {
+        "value": "four hundred"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "And Roblox paid game creators four hundred three million dollars in those three months.",
+          "show": "And Roblox paid game creators $403 million in those three months."
+        }
+      ],
+      "note": "To game creators, July to September 2026"
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Revenue isn't the same as money spent today.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More business breakdowns like this",
+      "source": "Data: Roblox Form 10-Q, quarter ended Sept. 30, 2026",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Follow H Flick for more business breakdowns like this.",
+          "show": "Follow HFLIC for more business breakdowns like this."
+        },
+        {
+          "voice": "heart",
+          "say": "And send this to a friend who still buys Robux.",
+          "show": "And send this to a friend who still buys Robux."
+        }
+      ]
+    }
+  ]
+}
