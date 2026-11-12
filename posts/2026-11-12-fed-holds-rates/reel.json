@@ -1,0 +1,169 @@
+{
+  "id": "fed-holds-rates",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "date": "2026-10-28"
+    },
+    {
+      "title": "Consumer Price Index, September 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "date": "2026-10-14"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Federal Reserve, Oct. 28, 2026",
+      "kicker": "Fed decision",
+      "title": "The Fed hit pause",
+      "highlight": "pause",
+      "sub": "Rates held at 3.75% to 4%",
+      "sub_html": "Rates held at <b>3.75% to 4%</b>",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "The Fed just kept interest rates the same.",
+          "show": "The Fed just kept interest rates the same."
+        },
+        {
+          "voice": "michael",
+          "say": "But two officials wanted to raise them. Here's why that matters to you.",
+          "show": "But two officials wanted to raise them. Here's why that matters to you."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "The Fed's key rate",
+      "value": 4,
+      "suffix": "%",
+      "label": "upper end of the range",
+      "note": "Range: 3.75% to 4%, held Oct. 28",
+      "cues": {
+        "value": "four"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "The Fed's key rate stays between three point seven five and four percent.",
+          "show": "The Fed's key rate stays between 3.75% and 4%."
+        },
+        {
+          "voice": "michael",
+          "say": "That's what banks charge each other overnight. Lots of other rates follow it.",
+          "show": "That's what banks charge each other overnight. Lots of other rates follow it."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Why not cut?",
+      "items": [
+        [
+          "Inflation (Sept.)",
+          3.7,
+          "3.7%"
+        ],
+        [
+          "Fed's goal",
+          2,
+          "2%"
+        ]
+      ],
+      "max": 4,
+      "source": "BLS CPI, 12 months to Sept. 2026",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Prices rose three point seven percent in a year. The Fed's goal is two percent.",
+          "show": "Prices rose 3.7% in a year. The Fed's goal is 2%."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "The vote",
+      "value": 2,
+      "label": "wanted a rate hike",
+      "note": "Vote: 10 to 2",
+      "cues": {
+        "value": "two"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "The vote was ten to two. Both officials who disagreed wanted to raise rates.",
+          "show": "The vote was 10 to 2. Both officials who disagreed wanted to raise rates."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "For your wallet",
+      "numbered": true,
+      "items": [
+        "Card rates stay high",
+        "Loans stay pricey",
+        "Savings can pay more"
+      ],
+      "cues": {
+        "items": [
+          "credit",
+          "loan",
+          "savings"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "For you, credit card and loan rates tend to stay high.",
+          "show": "For you, credit card and loan rates tend to stay high."
+        },
+        {
+          "voice": "michael",
+          "say": "But savings accounts can keep paying more. Pay cards in full and shop for a better savings rate.",
+          "show": "But savings accounts can keep paying more. Pay cards in full and shop for a better savings rate."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "When rates are high, debt costs more and saving pays more.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More money facts like this",
+      "source": "Data: Federal Reserve, Oct. 28, 2026; BLS CPI",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more money facts like this.",
+          "show": "Follow HFLIC for more money facts like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to a friend with a credit card.",
+          "show": "And send this to a friend with a credit card."
+        }
+      ]
+    }
+  ]
+}

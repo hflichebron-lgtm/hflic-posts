@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-12",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "scams-young-adults",
+      "date": "2026-11-12",
+      "day": "Thursday",
+      "slot": "7:00 AM",
+      "type": "Top list",
+      "topic": "Financial protection and relationships",
+      "format": "Top things to know",
+      "folder": "posts/2026-11-12-scams-young-adults",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "FTC data, 2025",
+          "kicker": "Scammers go where you scroll",
+          "title": "3 scams hitting young adults",
+          "sub": "40% of money-loss scam reports from ages 18 to 29 started on social media in 2025."
+        },
+        {
+          "type": "text",
+          "heading": "#1 Fake shop ads",
+          "big": "Top social media scam",
+          "body": [
+            "You order from an ad on Instagram or TikTok, and the item never shows up or it's a cheap knockoff. More than 40% of people who lost money to a social media scam said it started with an ad.",
+            "Before you buy, search the store's name plus \"scam\" or \"reviews\". Pay with a credit card if you can, so you can dispute the charge."
+          ],
+          "source": "FTC Data Spotlight, April 2026"
+        },
+        {
+          "type": "text",
+          "heading": "#2 Fake rentals",
+          "big": "Young adults: 3x the risk",
+          "body": [
+            "Scammers copy real listings, change the contact info, and ask for a deposit or \"holding fee\" before you've seen the place. The median reported loss was $1,000.",
+            "People 18 to 29 were 3 times as likely as other adults to lose money to one. Never pay until you've toured in person."
+          ],
+          "source": "FTC Data Spotlight, Dec. 2025 (reports Jan. 2020 to June 2025)"
+        },
+        {
+          "type": "text",
+          "heading": "#3 Fake jobs",
+          "big": "Almost $300 million lost",
+          "body": [
+            "A \"recruiter\" texts you about an easy, high-paying job, then asks for your Social Security number or bank info, or sends a link that installs spyware.",
+            "Job seekers lost almost $300 million to job scams in the first half of 2025. Real employers never make you pay to get hired."
+          ],
+          "source": "FTC data, Jan. to June 2025, via Fortune"
+        },
+        {
+          "type": "chart",
+          "heading": "Where scams start",
+          "intro": "Share of money-loss scam reports that started on social media, 2025",
+          "items": [
+            [
+              "Ages 18 to 29",
+              40,
+              "40%"
+            ],
+            [
+              "Ages 30 to 59",
+              32,
+              "32%"
+            ],
+            [
+              "Ages 60 to 69",
+              29,
+              "29%"
+            ],
+            [
+              "Ages 70 to 79",
+              23,
+              "23%"
+            ],
+            [
+              "Ages 80+",
+              14,
+              "14%"
+            ]
+          ],
+          "source": "FTC Data Spotlight, April 2026"
+        },
+        {
+          "type": "end",
+          "takeaway": "One rule covers all three: never pay first for something you can't verify."
+        }
+      ],
+      "caption": "Scammers go where young people scroll. In 2025, 40% of money-loss scam reports from 18 to 29-year-olds started on social media, the highest of any age group (FTC). Reported losses to social media scams hit $2.1 billion, about eight times 2020's level.\n\nThe 3 to know: fake shop ads (the most reported scam that starts on social media), fake rentals (18 to 29-year-olds were 3 times as likely as other adults to report losing money, median loss $1,000) and fake jobs (almost $300 million lost to job scams in the first half of 2025).\n\nThe rule that covers all three: never pay first for something you can't verify. Tour a rental before you pay, and real employers never make you pay to get hired.\n\nData: FTC Data Spotlights (April 2026 and December 2025) and FTC job scam data via Fortune (November 2025).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #scamawareness #moneytips #collegestudents #studentfinance",
+      "sources": [
+        {
+          "title": "Reported losses to scams on social media eight times higher than 2020",
+          "publisher": "FTC Data Spotlight",
+          "url": "https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2026/04/reported-losses-scams-social-media-eight-times-higher-2020",
+          "date": "2026-04-27"
+        },
+        {
+          "title": "Rental scams hit home: $65 million in reported losses",
+          "publisher": "FTC Data Spotlight",
+          "url": "https://ftc.gov/news-events/data-visualizations/data-spotlight/2025/12/rental-scams-hit-home-65-million-reported-losses",
+          "date": "2025-12-22"
+        },
+        {
+          "title": "FTC data confirms job offer text scams are 4 times more common now and have cost job seekers almost $300 million",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2025/11/17/ftc-data-confirms-job-offer-text-scams-more-common-now/",
+          "date": "2025-11-17"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}
