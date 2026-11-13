@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-13",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "credit-card-interest",
+      "date": "2026-11-13",
+      "day": "Friday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "Banking and credit",
+      "format": "Money math lesson",
+      "folder": "posts/2026-11-13-credit-card-interest",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "Federal Reserve, Q3 2026",
+          "kicker": "Got a credit card?",
+          "title": "What a $1,000 card balance really costs",
+          "sub": "Cards that charged interest averaged a 22.36% APR in Q3 2026."
+        },
+        {
+          "type": "text",
+          "heading": "How APR works",
+          "big": "About 1.86% a month",
+          "body": [
+            "APR is the yearly interest rate on any balance you don't pay off. Cards charge it monthly, so 22.36% a year is about 1.86% a month.",
+            "Carry $1,000 and the first month's interest is about $18.63. Next month you pay interest on that interest too."
+          ],
+          "source": "Federal Reserve G.19, Nov. 6, 2026"
+        },
+        {
+          "type": "text",
+          "heading": "Slow payoff trap",
+          "big": "$441 in interest",
+          "body": [
+            "Example: pay $35 a month on a $1,000 balance at 22.36%. It takes 42 months to pay off, and you pay about $441 in interest.",
+            "Pay $100 a month instead and it's gone in 12 months, with about $117 in interest."
+          ],
+          "source": "HFLIC calculation; assumes no new purchases"
+        },
+        {
+          "type": "text",
+          "heading": "Pay in full, pay $0",
+          "big": "Use the grace period",
+          "body": [
+            "Most cards have a grace period: pay your full statement balance by the due date and you generally aren't charged interest on purchases.",
+            "Pay only part of it and you lose that grace period. Interest hits the unpaid balance and new purchases too."
+          ],
+          "source": "CFPB, What is a grace period?"
+        },
+        {
+          "type": "end",
+          "takeaway": "Treat a credit card like a debit card: only charge what you can pay off in full."
+        }
+      ],
+      "caption": "Credit cards that charged interest averaged a 22.36% APR in the third quarter of 2026 (Federal Reserve). Here's what that means on a $1,000 balance.\n\n22.36% a year is about 1.86% a month, so the first month costs about $18.63 in interest. Pay $35 a month and it takes 42 months to pay off, with about $441 in interest. Pay $100 a month and it's gone in 12 months, with about $117 in interest (example, no new purchases).\n\nThe way to pay $0: most cards have a grace period, so if you pay the full statement balance by the due date, you generally aren't charged interest on purchases.\n\nData: Federal Reserve G.19 Consumer Credit (Nov. 6, 2026); CFPB.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #creditcards #credit #moneytips #studentfinance",
+      "sources": [
+        {
+          "title": "Consumer Credit G.19, September 2026 (credit card rates, Q3 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/g19/20261106/g19.pdf",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "What is a grace period for a credit card?",
+          "publisher": "Consumer Financial Protection Bureau",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-en-47/",
+          "date": "accessed 2026-11-12"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}

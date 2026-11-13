@@ -1,0 +1,173 @@
+{
+  "id": "apple-services",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Apple reports fourth quarter results (Form 8-K, Exhibit 99.1), fiscal year ended Sept. 26, 2026",
+      "publisher": "Apple via SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm",
+      "date": "2026-11-02"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Apple fiscal 2026, SEC filing",
+      "kicker": "Business breakdown",
+      "title": "How Apple makes money",
+      "highlight": "Apple",
+      "sub": "iPhone brings the sales. Services bring the margins.",
+      "sub_html": "iPhone brings the <b>sales</b>. Services bring the <b>margins</b>.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Apple made four hundred seventy nine billion dollars in sales this year.",
+          "show": "Apple made $479 billion in sales this year."
+        },
+        {
+          "voice": "michael",
+          "say": "But the part that keeps the most of each dollar isn't the iPhone.",
+          "show": "But the part that keeps the most of each dollar isn't the iPhone."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "iPhone",
+      "value": 254,
+      "prefix": "$",
+      "suffix": "B",
+      "label": "in iPhone sales",
+      "cues": {
+        "value": "two hundred"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "The iPhone alone brought in two hundred fifty four billion. That's more than half.",
+          "show": "The iPhone alone brought in $254 billion. That's more than half."
+        }
+      ],
+      "note": "53% of all Apple sales"
+    },
+    {
+      "layout": "stat",
+      "kicker": "Services",
+      "value": 123,
+      "prefix": "$",
+      "suffix": "B",
+      "label": "from the App Store, iCloud and more",
+      "cues": {
+        "value": "one hundred"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Services, like the App Store, iCloud and Apple Music, brought in one hundred twenty three billion.",
+          "show": "Services, like the App Store, iCloud and Apple Music, brought in $123 billion."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Kept per $1 of sales",
+      "items": [
+        [
+          "Services",
+          76.2,
+          "76¢"
+        ],
+        [
+          "Products",
+          39.3,
+          "39¢"
+        ]
+      ],
+      "max": 100,
+      "source": "After direct costs (gross margin), fiscal 2026",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Here's the trick. On each services dollar, Apple keeps about seventy six cents after direct costs.",
+          "show": "Here's the trick. On each services dollar, Apple keeps about 76¢ after direct costs."
+        },
+        {
+          "voice": "michael",
+          "say": "On hardware like the iPhone, it keeps about thirty nine cents.",
+          "show": "On hardware like the iPhone, it keeps about 39¢."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "The payoff",
+      "value": 40,
+      "suffix": "%",
+      "label": "of gross profit",
+      "note": "From Services, only 26% of sales",
+      "cues": {
+        "value": "forty"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "So services are about a quarter of sales, but about forty percent of gross profit.",
+          "show": "So services are about a quarter of sales, but about 40% of gross profit."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Net income",
+      "value": 132,
+      "prefix": "$",
+      "suffix": "B",
+      "label": "profit after taxes",
+      "note": "Up 18% from fiscal 2025",
+      "cues": {
+        "value": "one hundred"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "After all costs and taxes, Apple kept one hundred thirty two billion dollars.",
+          "show": "After all costs and taxes, Apple kept $132 billion."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Sell the device once. Charge for services every month.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More business breakdowns like this",
+      "source": "Data: Apple fiscal 2026 results, SEC filing",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Follow H Flick for more business breakdowns like this.",
+          "show": "Follow HFLIC for more business breakdowns like this."
+        },
+        {
+          "voice": "heart",
+          "say": "And send this to a friend who pays for iCloud.",
+          "show": "And send this to a friend who pays for iCloud."
+        }
+      ]
+    }
+  ]
+}
