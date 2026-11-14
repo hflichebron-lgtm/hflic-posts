@@ -1,0 +1,178 @@
+{
+  "id": "spotify-money",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Spotify Q3 2026 Update (Form 6-K, Exhibit 99.1)",
+      "publisher": "Spotify via SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001639920/000114036126040435/ef20084028_ex99-1.htm",
+      "date": "2026-10-22"
+    },
+    {
+      "title": "Spotify Technology S.A. Form 20-F for 2025 (cost of revenue description)",
+      "publisher": "Spotify via SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+      "date": "2026"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Spotify Q3 2026, SEC filing",
+      "kicker": "Business breakdown",
+      "title": "How Spotify makes money",
+      "highlight": "Spotify",
+      "sub": "Free users bring the crowd. Premium pays the bills.",
+      "sub_html": "Free users bring the <b>crowd</b>. Premium pays the <b>bills</b>.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Spotify has seven hundred eighty eight million users.",
+          "show": "Spotify has 788 million users."
+        },
+        {
+          "voice": "michael",
+          "say": "But most of its money comes from fewer than half of them.",
+          "show": "But most of its money comes from fewer than half of them."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Premium",
+      "value": 306,
+      "suffix": "M",
+      "label": "pay for Premium",
+      "note": "About 39% of all users",
+      "cues": {
+        "value": "three hundred"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Three hundred six million pay for Premium. That's about thirty nine percent.",
+          "show": "306 million pay for Premium. That's about 39%."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Where the money comes from",
+      "items": [
+        [
+          "Premium",
+          90.3,
+          "90%"
+        ],
+        [
+          "Ads (free tier)",
+          9.7,
+          "10%"
+        ]
+      ],
+      "max": 100,
+      "source": "Share of revenue, Q3 2026",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Those subscribers bring in about ninety percent of revenue. Ads on the free tier bring in about ten.",
+          "show": "Those subscribers bring in about 90% of revenue. Ads on the free tier bring in about 10%."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Per Premium user",
+      "value": 14.66,
+      "prefix": "€",
+      "decimals": 2,
+      "label": "in 3 months",
+      "note": "Per free user: about €0.97",
+      "cues": {
+        "value": "fourteen"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Each Premium subscriber brought in about fourteen euros sixty six in three months.",
+          "show": "Each Premium subscriber brought in about €14.66 in three months."
+        },
+        {
+          "voice": "michael",
+          "say": "Each free user? About ninety seven cents.",
+          "show": "Each free user? About €0.97."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Gross margin",
+      "value": 33,
+      "suffix": "%",
+      "label": "after music costs",
+      "note": "Costs are mostly royalties. A Q3 record.",
+      "cues": {
+        "value": "thirty"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "And Spotify keeps only about thirty three percent, after paying for music rights.",
+          "show": "And Spotify keeps only about 33%, after paying for music rights."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Operating profit",
+      "value": 672,
+      "prefix": "€",
+      "suffix": "M",
+      "label": "in 3 months, up 15%",
+      "cues": {
+        "value": "six hundred"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Still, it made six hundred seventy two million euros in operating profit, up fifteen percent.",
+          "show": "Still, it made €672 million in operating profit, up 15%."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Free brings users. Paid brings profit.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More business breakdowns like this",
+      "source": "Data: Spotify Q3 2026 results, SEC filing",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more business breakdowns like this.",
+          "show": "Follow HFLIC for more business breakdowns like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to a friend still on the free plan.",
+          "show": "And send this to a friend still on the free plan."
+        }
+      ]
+    }
+  ]
+}

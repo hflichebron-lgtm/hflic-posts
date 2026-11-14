@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-14",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "fafsa-open",
+      "date": "2026-11-14",
+      "day": "Saturday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "College and career economics",
+      "format": "Step-by-step guide",
+      "folder": "posts/2026-11-14-fafsa-open",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "Class of 2027",
+          "kicker": "Seniors, this one's for you",
+          "title": "The FAFSA is open. File it early.",
+          "sub": "The 2027 to 28 form launched in late September, the earliest launch ever."
+        },
+        {
+          "type": "text",
+          "heading": "What the FAFSA is",
+          "big": "One free form for aid",
+          "body": [
+            "The FAFSA (Free Application for Federal Student Aid) is how you apply for federal grants, work-study and student loans. Many states and colleges use it for their own aid too.",
+            "The 2027 to 28 form uses your family's 2025 tax info, so you can file now."
+          ],
+          "source": "Education Department; StudentAid.gov"
+        },
+        {
+          "type": "text",
+          "heading": "Deadlines come early",
+          "big": "Federal: June 30, 2028",
+          "body": [
+            "That's the last possible day. Your college usually has the earliest deadline, and your state may set its own.",
+            "Schools and states can have limited funds, so the Education Department says to file as early as you can."
+          ],
+          "source": "StudentAid.gov, Know your FAFSA deadlines"
+        },
+        {
+          "type": "text",
+          "heading": "How to file",
+          "big": "About 15 minutes",
+          "body": [
+            "Make a StudentAid.gov account first. A parent or other contributor needs one too, and you can now invite them by text or email.",
+            "The Education Department says the form takes about 15 minutes on average. Keep your family's 2025 tax return handy."
+          ],
+          "source": "Education Department, Sept. 2026"
+        },
+        {
+          "type": "end",
+          "takeaway": "Grants are free money for college. File your FAFSA before your school's deadline."
+        }
+      ],
+      "caption": "Seniors: the 2027 to 28 FAFSA is already open. It launched in late September 2026, the earliest launch in the program's history.\n\nThe FAFSA is the free form for federal grants, work-study and student loans, and many states and colleges use it for their own aid. It uses your family's 2025 tax information. The federal deadline is June 30, 2028, but colleges usually have the earliest deadlines, states may set their own, and some aid is limited. The Education Department's advice: file as early as you can.\n\nTo start, make a StudentAid.gov account. Parents or other contributors need one too, and you can now invite them by text or email. The department says the form takes about 15 minutes on average.\n\nData: U.S. Department of Education via news reports (September 2026); StudentAid.gov.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #fafsa #financialaid #collegeprep #studentfinance",
+      "sources": [
+        {
+          "title": "Education Department opens 2027-28 FAFSA early, marking program's earliest launch",
+          "publisher": "Sinclair national news (KUTV)",
+          "url": "https://kutv.com/news/nation-world/education-department-opens-2027-28-fafsa-early-marking-programs-earliest-launch",
+          "date": "2026-09-24"
+        },
+        {
+          "title": "'We've simplified it': Education Dept. rolls out FAFSA form earlier than ever before",
+          "publisher": "ABC News (ABC13)",
+          "url": "https://abc13.com/story/education-department-rolls-fafsa-form-earlier-before/19861293/",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "3 FAFSA deadlines you need to know now",
+          "publisher": "Federal Student Aid (StudentAid.gov)",
+          "url": "https://studentaid.gov/articles/know-your-fafsa-deadlines/",
+          "date": "accessed 2026-11-13"
+        },
+        {
+          "title": "FAFSA 2027-28: what changed and how to prepare",
+          "publisher": "Level All",
+          "url": "https://www.levelall.com/blog-posts/fafsa-2027-28-what-changed-and-how-to-prepare",
+          "date": "2026-09-14"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}
