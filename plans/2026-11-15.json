@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-15",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "side-hustle-taxes",
+      "date": "2026-11-15",
+      "day": "Sunday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "Entrepreneurship",
+      "format": "Step-by-step guide",
+      "folder": "posts/2026-11-15-side-hustle-taxes",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "IRS rules, 2026",
+          "kicker": "Detailing, mowing, reselling?",
+          "title": "Side hustle taxes: the $400 rule",
+          "sub": "Make $400 or more in profit and you owe self-employment tax."
+        },
+        {
+          "type": "text",
+          "heading": "The $400 rule",
+          "big": "$400+ profit means tax",
+          "body": [
+            "If your net earnings from self-employment are $400 or more in a year, you owe self-employment tax and need to file a tax return. There's no age exception.",
+            "Net earnings means what you made minus business costs, like supplies or equipment."
+          ],
+          "source": "IRS, Self-employment tax (updated Oct. 30, 2026)"
+        },
+        {
+          "type": "text",
+          "heading": "What you pay",
+          "big": "15.3% = 12.4% + 2.9%",
+          "body": [
+            "It's Social Security (12.4%) and Medicare (2.9%). At a regular job you pay half and your employer pays half. Self-employed, you pay both.",
+            "Example: $3,000 of profit detailing cars means about $424 in self-employment tax (figured on 92.35% of profit)."
+          ],
+          "source": "IRS; HFLIC calculation"
+        },
+        {
+          "type": "text",
+          "heading": "No 1099? Still taxable",
+          "big": "New 1099 limit: $2,000",
+          "body": [
+            "Starting with 2026, businesses only have to send a 1099-NEC once they pay you $2,000 or more. Payment apps send a 1099-K after $20,000 and 200 transactions.",
+            "No form doesn't mean no tax. Track every payment and expense in a simple spreadsheet."
+          ],
+          "source": "One Big Beautiful Bill Act, via CPA Practice Advisor"
+        },
+        {
+          "type": "end",
+          "takeaway": "Set aside part of every side hustle payment for taxes, and keep your receipts."
+        }
+      ],
+      "caption": "Got a side hustle? Detailing cars, mowing lawns, reselling sneakers, tutoring? Here's the tax rule most teens miss.\n\nIf your net earnings from self-employment are $400 or more, you owe self-employment tax (IRS). Net earnings means what you made minus business costs like supplies. The tax is 15.3%: 12.4% for Social Security and 2.9% for Medicare. At a job your employer pays half; self-employed, you pay both. Example: $3,000 of profit means about $424 in self-employment tax (figured on 92.35% of profit).\n\nNew for 2026: businesses only have to send you a 1099-NEC once they pay you $2,000 or more, and payment apps send a 1099-K after $20,000 and 200 transactions. The income is still taxable either way, so track every payment and expense.\n\nData: IRS self-employment tax page (updated Oct. 30, 2026); 1099 changes in the One Big Beautiful Bill Act (CPA Practice Advisor).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #sidehustle #taxes #entrepreneur #studentfinance",
+      "sources": [
+        {
+          "title": "Self-employment tax (Social Security and Medicare taxes)",
+          "publisher": "IRS (last updated Oct. 30, 2026)",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes",
+          "date": "2026-10-30"
+        },
+        {
+          "title": "One Big Beautiful Bill Act changes 1099 thresholds",
+          "publisher": "CPA Practice Advisor",
+          "url": "https://cpapracticeadvisor.com/2025/07/30/one-big-beautiful-bill-act-changes-1099-thresholds/165863/",
+          "date": "2025-07-30"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}

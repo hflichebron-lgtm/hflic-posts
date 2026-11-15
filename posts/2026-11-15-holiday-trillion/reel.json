@@ -1,0 +1,181 @@
+{
+  "id": "holiday-trillion",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "NRF forecasts 2026 holiday sales growth as consumers remain resilient",
+      "publisher": "National Retail Federation",
+      "url": "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Affordability shapes winter holiday shopping, according to NRF holiday survey",
+      "publisher": "National Retail Federation",
+      "url": "https://nrf.com/media-center/press-releases/affordability-shapes-winter-holiday-shopping-according-to-nrf-holiday-survey",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "US retail trade group forecasts healthy holiday sales, in part due to inflation",
+      "publisher": "Associated Press (via News4JAX)",
+      "url": "https://www.news4jax.com/business/2026/10/15/us-retail-trade-group-forecasts-healthy-holiday-sales-in-part-due-to-inflation/",
+      "date": "2026-10-15"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "NRF forecast, Oct. 2026",
+      "kicker": "Holiday money",
+      "title": "$1 trillion holidays",
+      "highlight": "$1 trillion",
+      "sub": "Forecast U.S. retail sales for November and December",
+      "sub_html": "Forecast U.S. retail sales for <b>November and December</b>",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Americans are expected to spend more than one trillion dollars this holiday season.",
+          "show": "Americans are expected to spend more than $1 trillion this holiday season."
+        },
+        {
+          "voice": "michael",
+          "say": "Here's where it's going, and how to keep your own budget in check.",
+          "show": "Here's where it's going, and how to keep your own budget in check."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "The forecast",
+      "value": 1.013,
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 3,
+      "label": "in holiday sales",
+      "note": "Up 4.2% from $972B in 2025",
+      "cues": {
+        "value": "one point"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "The National Retail Federation forecasts one point zero one three trillion dollars, up about four percent.",
+          "show": "The National Retail Federation forecasts $1.013 trillion, up about 4%."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Of that growth",
+      "value": 50,
+      "suffix": "%",
+      "label": "from higher prices",
+      "note": "About half, per NRF via AP",
+      "cues": {
+        "value": "half"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "But about half of that growth is just higher prices.",
+          "show": "But about half of that growth is just higher prices."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Thanksgiving weekend",
+      "value": 64,
+      "suffix": "%",
+      "label": "mostly shop then",
+      "note": "43% started before November",
+      "cues": {
+        "value": "sixty"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Sixty four percent plan to do most of their shopping over Thanksgiving weekend.",
+          "show": "64% plan to do most of their shopping over Thanksgiving weekend."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "Top of wish lists",
+      "numbered": true,
+      "items": [
+        "Gift cards: 47%",
+        "Clothing: 44%",
+        "Books and media: 25%",
+        "Beauty: 24%"
+      ],
+      "cues": {
+        "items": [
+          "Gift",
+          "clothing",
+          "books",
+          "beauty"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "The top wish list item? Gift cards, at forty seven percent. Then clothing, books and beauty.",
+          "show": "The top wish list item? Gift cards, at 47%. Then clothing, books and beauty."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Hunting deals",
+      "value": 43,
+      "suffix": "%",
+      "label": "shop more sales",
+      "note": "Of the 56% who say the economy affects their plans",
+      "cues": {
+        "value": "forty"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "More than half say the economy is changing their plans. Their top move is shopping sales more often.",
+          "show": "More than half say the economy is changing their plans. Their top move is shopping sales more often."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Set your gift budget before Black Friday starts.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More money facts like this",
+      "source": "Data: NRF forecast and survey, Oct. 2026",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Follow H Flick for more money facts like this.",
+          "show": "Follow HFLIC for more money facts like this."
+        },
+        {
+          "voice": "heart",
+          "say": "And send this to the friend whose cart is already full.",
+          "show": "And send this to the friend whose cart is already full."
+        }
+      ]
+    }
+  ]
+}
