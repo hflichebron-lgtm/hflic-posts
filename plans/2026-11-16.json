@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-16",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "roth-ira-teens",
+      "date": "2026-11-16",
+      "day": "Monday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "Investing and wealth building",
+      "format": "Step-by-step guide",
+      "folder": "posts/2026-11-16-roth-ira-teens",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "IRS, 2026 limits",
+          "kicker": "Got a job? You can start now",
+          "title": "A Roth IRA at 16? Here's how",
+          "sub": "If you earn money from work, you can open a Roth IRA at any age."
+        },
+        {
+          "type": "text",
+          "heading": "What a Roth IRA is",
+          "big": "Pay tax now, not later",
+          "body": [
+            "A Roth IRA is a retirement account. You put in money you've already paid tax on, so your contributions aren't deductible.",
+            "The payoff: qualified withdrawals in retirement are tax-free, including all the growth."
+          ],
+          "source": "IRS, Traditional and Roth IRAs"
+        },
+        {
+          "type": "text",
+          "heading": "Who can open one",
+          "big": "Any age, with a job",
+          "body": [
+            "You can contribute at any age if you have taxable compensation, like pay from a job. Under 18? A parent usually opens it as a custodial account.",
+            "The 2026 limit is $7,500, or what you earned that year if it's less."
+          ],
+          "source": "IRS; Notice 2025-67 (2026 limits)"
+        },
+        {
+          "type": "text",
+          "heading": "Why start at 16",
+          "big": "$6,000 grows to about $154,600",
+          "body": [
+            "Example: put in $2,000 a year at ages 16, 17 and 18, then stop. If it grows 7% a year (an assumption, not a promise), that's about $154,600 at 65.",
+            "Only $6,000 is your money. The rest is growth, and in a Roth, qualified withdrawals of it are tax-free."
+          ],
+          "source": "HFLIC calculation; returns are not guaranteed"
+        },
+        {
+          "type": "end",
+          "takeaway": "Earned money this year? Ask a parent about opening a custodial Roth IRA."
+        }
+      ],
+      "caption": "Have a job? You can open a Roth IRA at any age, as long as you have taxable compensation like pay from work (IRS). If you're under 18, a parent usually opens it as a custodial account.\n\nHow it works: you put in money you've already paid tax on, and qualified withdrawals in retirement come out tax-free, growth included. The 2026 limit is $7,500, or what you earned that year if it's less.\n\nExample: $2,000 a year at ages 16, 17 and 18, then nothing else. At an assumed 7% a year, that $6,000 grows to about $154,600 by 65. The 7% is an assumption, not a promise, but time is on your side.\n\nData: IRS (Traditional and Roth IRAs; Topic 309); 2026 limit from IRS Notice 2025-67 via CPA Practice Advisor.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice. Returns are not guaranteed.\n\n#financialliteracy #rothira #investing #moneytips #studentfinance",
+      "sources": [
+        {
+          "title": "Traditional and Roth IRAs",
+          "publisher": "IRS (updated Aug. 1, 2026)",
+          "url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+          "date": "2026-08-01"
+        },
+        {
+          "title": "Topic no. 309, Roth IRA contributions",
+          "publisher": "IRS (updated Nov. 9, 2026)",
+          "url": "https://www.irs.gov/node/68026",
+          "date": "2026-11-09"
+        },
+        {
+          "title": "IRS bumps up 401(k), IRA contribution limits for 2026 (Notice 2025-67)",
+          "publisher": "CPA Practice Advisor",
+          "url": "https://www.cpapracticeadvisor.com/2025/11/13/irs-bumps-up-401k-ira-contribution-limits-for-2026/173130/",
+          "date": "2025-11-13"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}

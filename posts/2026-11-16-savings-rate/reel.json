@@ -1,0 +1,185 @@
+{
+  "id": "savings-rate",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "National Rate: Savings (SNDR), October 2026",
+      "publisher": "FDIC via FRED",
+      "url": "https://fred.stlouisfed.org/series/SNDR",
+      "date": "2026-10"
+    },
+    {
+      "title": "Average bank interest rates for savings accounts, CDs and more",
+      "publisher": "NerdWallet",
+      "url": "https://www.nerdwallet.com/banking/learn/average-rates-for-deposit-accounts",
+      "date": "2026-11"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "FDIC national rate, Oct. 2026",
+      "kicker": "Your savings account",
+      "title": "Your bank pays 0.38%",
+      "highlight": "0.38%",
+      "sub": "That's the national average savings rate.",
+      "sub_html": "That's the <b>national average</b> savings rate.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "The average savings account pays zero point three eight percent.",
+          "show": "The average savings account pays 0.38%."
+        },
+        {
+          "voice": "michael",
+          "say": "Some accounts pay about ten times that. Here's what it means in real dollars.",
+          "show": "Some accounts pay about 10 times that. Here's what it means in real dollars."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "National average",
+      "value": 0.38,
+      "suffix": "%",
+      "decimals": 2,
+      "label": "a year on savings",
+      "note": "FDIC, October 2026",
+      "cues": {
+        "value": "zero"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Per the FDIC, the national average is zero point three eight percent a year.",
+          "show": "Per the FDIC, the national average is 0.38% a year."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "High-yield savings",
+      "value": 3.8,
+      "suffix": "%",
+      "decimals": 1,
+      "label": "or more at some banks",
+      "note": "About 10x the average, per NerdWallet",
+      "cues": {
+        "value": "three"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Some high-yield savings accounts pay around three point eight percent or more.",
+          "show": "Some high-yield savings accounts pay around 3.8% or more."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "$1,000 for one year",
+      "items": [
+        [
+          "Average rate",
+          3.8,
+          "$3.80"
+        ],
+        [
+          "High-yield (3.8%)",
+          38,
+          "$38"
+        ]
+      ],
+      "max": 40,
+      "source": "Interest earned, simple example",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "On a thousand dollars for a year, that's three dollars eighty versus thirty eight dollars.",
+          "show": "On $1,000 for a year, that's $3.80 versus $38."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "On $5,000",
+      "value": 190,
+      "prefix": "$",
+      "label": "a year at 3.8%",
+      "note": "vs $19 at the average rate",
+      "cues": {
+        "value": "one hundred"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "On five thousand, it's one hundred ninety dollars versus nineteen.",
+          "show": "On $5,000, it's $190 versus $19."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "Before you switch",
+      "numbered": true,
+      "items": [
+        "FDIC or NCUA insured",
+        "No monthly fees",
+        "Rates can change"
+      ],
+      "cues": {
+        "items": [
+          "insured",
+          "fees",
+          "change"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Before you switch, check that it's FDIC or NCUA insured, with no monthly fees.",
+          "show": "Before you switch, check that it's FDIC or NCUA insured, with no monthly fees."
+        },
+        {
+          "voice": "michael",
+          "say": "And remember, savings rates can change at any time.",
+          "show": "And remember, savings rates can change at any time."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Same money, more interest. Check your savings rate today.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More money facts like this",
+      "source": "Data: FDIC via FRED (Oct. 2026); NerdWallet (Nov. 2026)",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more money facts like this.",
+          "show": "Follow HFLIC for more money facts like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to a friend with money just sitting in savings.",
+          "show": "And send this to a friend with money just sitting in savings."
+        }
+      ]
+    }
+  ]
+}
