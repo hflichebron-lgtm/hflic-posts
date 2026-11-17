@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-17",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "holiday-jobs",
+      "date": "2026-11-17",
+      "day": "Tuesday",
+      "slot": "7:00 AM",
+      "type": "Top list",
+      "topic": "First jobs and paychecks",
+      "format": "Ranked list",
+      "folder": "posts/2026-11-17-holiday-jobs",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "Ranked by Claude",
+          "kicker": "Need holiday cash?",
+          "title": "3 holiday jobs and what they pay",
+          "sub": "Ranked by median hourly pay (BLS, May 2025). None of them needs a degree."
+        },
+        {
+          "type": "text",
+          "heading": "#1 Stocker",
+          "big": "About $17.95 an hour",
+          "body": [
+            "Stockers move products from the stockroom to the shelves, or pick and pack customer orders in a warehouse.",
+            "You learn on the job, usually in a month or less. Expect to be on your feet and lifting boxes."
+          ],
+          "source": "BLS: $37,330 a year median, May 2025"
+        },
+        {
+          "type": "text",
+          "heading": "#2 Retail salesperson",
+          "big": "$17.03 an hour",
+          "body": [
+            "You help customers find what they need, answer questions and often run the register.",
+            "Training happens on the job and usually lasts a few days to a few months. No diploma is required."
+          ],
+          "source": "BLS Occupational Outlook Handbook, May 2025"
+        },
+        {
+          "type": "text",
+          "heading": "#3 Cashier",
+          "big": "$15.81 an hour",
+          "body": [
+            "Cashiers ring up purchases and handle payments. There's no formal education requirement.",
+            "Training may take a few weeks. Ask about employee discounts and holiday shift pay before you accept."
+          ],
+          "source": "BLS Occupational Outlook Handbook, May 2025"
+        },
+        {
+          "type": "chart",
+          "heading": "Median hourly pay",
+          "items": [
+            [
+              "Stocker",
+              17.95,
+              "$17.95"
+            ],
+            [
+              "Retail salesperson",
+              17.03,
+              "$17.03"
+            ],
+            [
+              "Cashier",
+              15.81,
+              "$15.81"
+            ],
+            [
+              "Federal minimum",
+              7.25,
+              "$7.25"
+            ]
+          ],
+          "note": "Stocker pay is the yearly median divided by 2,080 hours",
+          "source": "BLS (May 2025); U.S. Department of Labor"
+        },
+        {
+          "type": "end",
+          "takeaway": "Before you say yes, check the pay, the schedule and whether the job ends in January."
+        }
+      ],
+      "caption": "Need holiday cash? These 3 jobs hire a lot of seasonal workers and don't need a degree. Pay is the national median hourly wage from the Bureau of Labor Statistics (May 2025), so half of workers earn more and half earn less.\n\n1. Stocker and order filler: about $17.95 an hour ($37,330 a year median). You move products to shelves or pack orders, and training usually takes a month or less.\n2. Retail salesperson: $17.03 an hour. You help customers and run the register, with training that lasts a few days to a few months.\n3. Cashier: $15.81 an hour. You ring up purchases and handle payments, with training that may take a few weeks.\n\nAll three pay more than double the $7.25 federal minimum wage. Pay varies a lot by state and store, so compare offers.\n\nPay data: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook (May 2025 wages). Ranked by Claude by median pay.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #firstjob #holidayjobs #teenjobs #studentfinance",
+      "sources": [
+        {
+          "title": "Retail Sales Workers, Occupational Outlook Handbook (May 2025 wages)",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/ooh/sales/retail-sales-workers.htm",
+          "date": "2026-10-29"
+        },
+        {
+          "title": "Cashiers, Occupational Outlook Handbook (May 2025 wages)",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/ooh/sales/cashiers.htm",
+          "date": "2026-08-27"
+        },
+        {
+          "title": "Hand Laborers and Material Movers, Occupational Outlook Handbook (May 2025 wages)",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/ooh/Transportation-and-Material-Moving/Hand-laborers-and-material-movers.htm",
+          "date": "2026-08-27"
+        },
+        {
+          "title": "Minimum Wage",
+          "publisher": "U.S. Department of Labor",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage",
+          "date": "federal minimum unchanged since 2009"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}

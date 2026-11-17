@@ -1,0 +1,174 @@
+{
+  "id": "netflix-margin",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Netflix Q3 2026 earnings report",
+      "publisher": "TheDesk",
+      "url": "https://thedesk.net/2026/10/netflix-q3-2026-earnings-report/",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Netflix Q3 revenue up 12%; non-English viewing grows",
+      "publisher": "Advanced Television",
+      "url": "https://www.advanced-television.com/?p=294358",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Netflix Inc. Form 8-K (Letter to Shareholders dated Oct. 20, 2026)",
+      "publisher": "Netflix via SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001065280/000106528026000290/nflx-20261020.htm",
+      "date": "2026-10-20"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Netflix Q3 2026 results",
+      "kicker": "Business breakdown",
+      "title": "Netflix keeps 35¢ per $1",
+      "highlight": "35¢",
+      "sub": "Here's how a streaming app got that profitable.",
+      "sub_html": "Here's how a streaming app got <b>that profitable</b>.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Netflix keeps about thirty five cents of every dollar it brings in, as operating profit.",
+          "show": "Netflix keeps about 35¢ of every dollar it brings in, as operating profit."
+        },
+        {
+          "voice": "michael",
+          "say": "That's huge for a company that spends heavily on shows. Here's how.",
+          "show": "That's huge for a company that spends heavily on shows. Here's how."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Revenue",
+      "value": 12.87,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 2,
+      "label": "in 3 months",
+      "note": "Up about 12% from a year earlier",
+      "cues": {
+        "value": "twelve"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Last quarter, Netflix brought in twelve point eight seven billion dollars, up about twelve percent.",
+          "show": "Last quarter, Netflix brought in $12.87 billion, up about 12%."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Operating margin",
+      "value": 34.6,
+      "suffix": "%",
+      "decimals": 1,
+      "label": "kept after costs",
+      "note": "Before interest and taxes",
+      "cues": {
+        "value": "thirty"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "After paying for shows, marketing and tech, it kept thirty four point six percent. That's its operating margin.",
+          "show": "After paying for shows, marketing and tech, it kept 34.6%. That's its operating margin."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Ads",
+      "value": 2.7,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "label": "expected in 2026",
+      "note": "Cut from about $3B. Roughly 5% of sales.",
+      "cues": {
+        "value": "two"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Ads are growing, but small. Netflix now expects about two point seven billion this year.",
+          "show": "Ads are growing, but small. Netflix now expects about $2.7 billion this year."
+        },
+        {
+          "voice": "michael",
+          "say": "That's roughly five percent of the fifty one billion in sales it expects.",
+          "show": "That's roughly 5% of the $51 billion in sales it expects."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "Why it works",
+      "numbered": true,
+      "items": [
+        "Members pay every month",
+        "One show, millions of viewers",
+        "More viewers, same cost"
+      ],
+      "cues": {
+        "items": [
+          "month",
+          "show",
+          "cost"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Members pay every month, and a show costs the same to make whether ten million or a hundred million people watch.",
+          "show": "Members pay every month, and a show costs the same to make whether 10 million or 100 million people watch."
+        },
+        {
+          "voice": "michael",
+          "say": "So more viewers spread that cost thinner.",
+          "show": "So more viewers spread that cost thinner."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Make it once. Sell it to millions.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More business breakdowns like this",
+      "source": "Data: Netflix Q3 2026 results, via TheDesk and Advanced Television",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more business breakdowns like this.",
+          "show": "Follow HFLIC for more business breakdowns like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to the friend who uses someone else's Netflix.",
+          "show": "And send this to the friend who uses someone else's Netflix."
+        }
+      ]
+    }
+  ]
+}
