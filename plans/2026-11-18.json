@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-18",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "rent-alone",
+      "date": "2026-11-18",
+      "day": "Wednesday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "Turning 18 and financial independence",
+      "format": "Money math lesson",
+      "folder": "posts/2026-11-18-rent-alone",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "Apartment List, Oct. 2026",
+          "kicker": "Moving out after graduation?",
+          "title": "What you need to earn to rent alone",
+          "sub": "Median one-bedroom rent in the U.S.: $1,215 a month."
+        },
+        {
+          "type": "text",
+          "heading": "The 30% rule",
+          "big": "Rent: 30% of income or less",
+          "body": [
+            "Housing is generally considered affordable if it costs no more than 30% of your income. Pay more and you're \"cost-burdened.\"",
+            "Flip it around: your yearly income should be about 40 times your monthly rent."
+          ],
+          "source": "Congressional Research Service, Aug. 2026"
+        },
+        {
+          "type": "text",
+          "heading": "The math at $1,215",
+          "big": "About $48,600 a year",
+          "body": [
+            "$1,215 a month is $14,580 a year in rent. At 30%, you'd need about $48,600 a year before taxes.",
+            "Working full time (2,080 hours), that's about $23.37 an hour."
+          ],
+          "source": "Apartment List, Oct. 2026; HFLIC calculation"
+        },
+        {
+          "type": "text",
+          "heading": "On a first-job paycheck",
+          "big": "About $822 a month",
+          "body": [
+            "A full-time cashier at the $15.81 median earns about $32,900 a year. 30% of that is about $822 a month for rent.",
+            "Splitting a place with a roommate is one way to get your share under that."
+          ],
+          "source": "BLS cashier pay, May 2025; HFLIC calculation"
+        },
+        {
+          "type": "end",
+          "takeaway": "Before you sign a lease, run the 30% math on the real rent near you."
+        }
+      ],
+      "caption": "Moving out after graduation? The median one-bedroom rent in the U.S. was $1,215 a month in October 2026 (Apartment List).\n\nThe usual rule: housing is considered affordable if it costs no more than 30% of your income. That means earning about 40 times your monthly rent each year. For $1,215, that's about $48,600 a year before taxes, or about $23.37 an hour working full time.\n\nCompare that with a first job: a full-time cashier at the $15.81 median earns about $32,900 a year, so 30% is about $822 a month. A roommate is one way to close the gap. Rents vary a lot by city, so run the math on real listings near you.\n\nData: Apartment List national rent report (October 2026, via CRE Daily); Congressional Research Service (Aug. 2026); BLS cashier pay (May 2025).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #movingout #rent #budgeting #studentfinance",
+      "sources": [
+        {
+          "title": "U.S. rent growth turns positive for first time since 2023 (Apartment List October 2026 report)",
+          "publisher": "CRE Daily",
+          "url": "https://www.credaily.com/?p=224802",
+          "date": "2026-10-30"
+        },
+        {
+          "title": "Federal Rental Assistance and Affordability (IF12824)",
+          "publisher": "Congressional Research Service",
+          "url": "https://www.everycrsreport.com/files/2026-08-13_IF12824_19650078a27b74917957b9c1ffe41e8013058665.pdf",
+          "date": "2026-08-13"
+        },
+        {
+          "title": "Cashiers, Occupational Outlook Handbook (May 2025 wages)",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/ooh/sales/cashiers.htm",
+          "date": "2026-08-27"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}

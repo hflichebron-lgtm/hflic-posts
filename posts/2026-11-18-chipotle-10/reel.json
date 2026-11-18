@@ -1,0 +1,169 @@
+{
+  "id": "chipotle-10",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Chipotle announces third quarter 2026 results (Form 8-K, Exhibit 99.1)",
+      "publisher": "Chipotle via SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001058090/000105809026000103/cmg-20261028xex991.htm",
+      "date": "2026-10-28"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Chipotle Q3 2026, SEC filing",
+      "kicker": "Business breakdown",
+      "title": "Your $10 at Chipotle",
+      "highlight": "$10",
+      "sub": "Where every dollar goes, using Chipotle's own costs",
+      "sub_html": "Where every dollar goes, using Chipotle's <b>own costs</b>",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "You spend ten dollars at Chipotle. Here's where it goes.",
+          "show": "You spend $10 at Chipotle. Here's where it goes."
+        },
+        {
+          "voice": "michael",
+          "say": "These are Chipotle's real costs from its latest earnings report.",
+          "show": "These are Chipotle's real costs from its latest earnings report."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Food and packaging",
+      "value": 2.95,
+      "prefix": "$",
+      "decimals": 2,
+      "label": "of every $10",
+      "note": "29.5% of revenue",
+      "cues": {
+        "value": "two"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "About two ninety five goes to food and packaging. The chicken, the rice, the bowl.",
+          "show": "About $2.95 goes to food and packaging. The chicken, the rice, the bowl."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Workers",
+      "value": 2.57,
+      "prefix": "$",
+      "decimals": 2,
+      "label": "of every $10",
+      "note": "25.7% of revenue",
+      "cues": {
+        "value": "two"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "About two fifty seven pays the people making your order.",
+          "show": "About $2.57 pays the people making your order."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Rent and store costs",
+      "value": 2.14,
+      "prefix": "$",
+      "decimals": 2,
+      "label": "of every $10",
+      "note": "Occupancy and other operating costs",
+      "cues": {
+        "value": "two"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "About two fourteen covers restaurant rent and other store costs.",
+          "show": "About $2.14 covers restaurant rent and other store costs."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Left at the restaurant",
+      "value": 2.33,
+      "prefix": "$",
+      "decimals": 2,
+      "label": "of every $10",
+      "note": "23.3% restaurant-level margin",
+      "cues": {
+        "value": "two"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "That leaves about two thirty three at the restaurant level.",
+          "show": "That leaves about $2.33 at the restaurant level."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Operating profit",
+      "value": 1.37,
+      "prefix": "$",
+      "decimals": 2,
+      "label": "of every $10",
+      "note": "After corporate costs and new stores",
+      "cues": {
+        "value": "one"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "After corporate costs and opening new stores, Chipotle keeps about one thirty seven.",
+          "show": "After corporate costs and opening new stores, Chipotle keeps about $1.37."
+        },
+        {
+          "voice": "michael",
+          "say": "Small slices, but on three point three billion dollars in sales in three months.",
+          "show": "Small slices, but on $3.3 billion in sales in three months."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Small margins times huge volume equals big profit.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More business breakdowns like this",
+      "source": "Data: Chipotle Q3 2026 results, SEC filing",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more business breakdowns like this.",
+          "show": "Follow HFLIC for more business breakdowns like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to your Chipotle order buddy.",
+          "show": "And send this to your Chipotle order buddy."
+        }
+      ]
+    }
+  ]
+}
