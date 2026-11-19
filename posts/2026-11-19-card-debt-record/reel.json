@@ -1,0 +1,203 @@
+{
+  "id": "card-debt-record",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Household Debt and Credit Report, Q3 2026 (press release)",
+      "publisher": "Federal Reserve Bank of New York",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Consumer Credit G.19 (credit card rates, Q3 2026)",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/releases/g19/20261106/g19.pdf",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "What is a grace period for a credit card?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-en-47/",
+      "date": "accessed 2026-11-12"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "New York Fed, Nov. 10, 2026",
+      "kicker": "Debt check",
+      "title": "$1.29 trillion in card debt",
+      "highlight": "$1.29 trillion",
+      "sub": "A new record for U.S. credit card balances",
+      "sub_html": "A <b>new record</b> for U.S. credit card balances",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Americans now owe one point two nine trillion dollars on credit cards. That's a record.",
+          "show": "Americans now owe $1.29 trillion on credit cards. That's a record."
+        },
+        {
+          "voice": "michael",
+          "say": "Here's the full debt picture, and what it means for you.",
+          "show": "Here's the full debt picture, and what it means for you."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "All household debt",
+      "value": 19.1,
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 1,
+      "label": "owed by U.S. households",
+      "note": "Up $334B in 3 months",
+      "cues": {
+        "value": "nineteen"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Total household debt hit nineteen point one trillion, up three hundred thirty four billion in three months.",
+          "show": "Total household debt hit $19.1 trillion, up $334 billion in three months."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Where the $19.1T is",
+      "items": [
+        [
+          "Mortgages",
+          13.4,
+          "$13.4T"
+        ],
+        [
+          "Auto loans",
+          1.73,
+          "$1.73T"
+        ],
+        [
+          "Student loans",
+          1.66,
+          "$1.66T"
+        ],
+        [
+          "Credit cards",
+          1.29,
+          "$1.29T"
+        ]
+      ],
+      "max": 14,
+      "source": "New York Fed, Q3 2026",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Most of it is mortgages. Then auto loans, student loans and credit cards.",
+          "show": "Most of it is mortgages. Then auto loans, student loans and credit cards."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Behind on payments",
+      "value": 5.0,
+      "suffix": "%",
+      "decimals": 1,
+      "label": "of all household debt",
+      "note": "Up 0.3 points in 3 months",
+      "cues": {
+        "value": "five"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Five percent of all that debt is now behind on payments.",
+          "show": "5% of all that debt is now behind on payments."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Why cards hurt",
+      "value": 22.36,
+      "suffix": "%",
+      "decimals": 2,
+      "label": "average card APR",
+      "note": "Accounts charged interest, Q3 2026",
+      "cues": {
+        "value": "twenty"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "And card debt is the expensive kind. The average card charging interest was at twenty two point three six percent.",
+          "show": "And card debt is the expensive kind. The average card charging interest was at 22.36%."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "Stay out of it",
+      "numbered": true,
+      "items": [
+        "Pay the full balance",
+        "Use the grace period",
+        "Beat the minimum"
+      ],
+      "cues": {
+        "items": [
+          "full",
+          "interest",
+          "minimum"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "The fix: pay your full statement balance each month, and you generally pay no interest on purchases.",
+          "show": "The fix: pay your full statement balance each month, and you generally pay no interest on purchases."
+        },
+        {
+          "voice": "michael",
+          "say": "Can't? Pay as far above the minimum as you can.",
+          "show": "Can't? Pay as far above the minimum as you can."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "The cheapest debt is the debt you never carry.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More money facts like this",
+      "source": "Data: New York Fed (Nov. 10, 2026); Federal Reserve G.19",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more money facts like this.",
+          "show": "Follow HFLIC for more money facts like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to a friend who just got their first card.",
+          "show": "And send this to a friend who just got their first card."
+        }
+      ]
+    }
+  ]
+}

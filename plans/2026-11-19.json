@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-19",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "credit-freeze",
+      "date": "2026-11-19",
+      "day": "Thursday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "Financial protection and relationships",
+      "format": "Step-by-step guide",
+      "folder": "posts/2026-11-19-credit-freeze",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "FTC guidance",
+          "kicker": "Turning 18 soon?",
+          "title": "Freeze your credit. It's free.",
+          "sub": "It stops anyone, even you, from opening new credit in your name."
+        },
+        {
+          "type": "text",
+          "heading": "What a freeze does",
+          "big": "Blocks new accounts",
+          "body": [
+            "While a credit freeze is on, nobody can open a new credit account in your name, including you. It's free to place and lift, and it doesn't hurt your credit score.",
+            "Why bother? Americans reported losing a record $15.9 billion to fraud in 2025."
+          ],
+          "source": "FTC Consumer Advice; FTC testimony, March 2026"
+        },
+        {
+          "type": "text",
+          "heading": "How to do it",
+          "big": "3 bureaus, all free",
+          "body": [
+            "Contact all three credit bureaus: Equifax, Experian and TransUnion. Each one handles its own freeze.",
+            "Keep track of the account you set up with each bureau. You'll need it to lift the freeze later."
+          ],
+          "source": "FTC, Credit freezes and fraud alerts"
+        },
+        {
+          "type": "text",
+          "heading": "Need credit? Lift it",
+          "big": "Thaw, then refreeze",
+          "body": [
+            "Applying for a card, loan or apartment? Lift the freeze only at the bureau that lender uses, then put it back.",
+            "Under 16? A parent can request a free freeze for you too."
+          ],
+          "source": "FTC Consumer Advice, Sept. 2025"
+        },
+        {
+          "type": "end",
+          "takeaway": "Freeze at all three bureaus. Lift it when you need credit."
+        }
+      ],
+      "caption": "Americans reported losing a record $15.9 billion to fraud in 2025, across 3 million reports (FTC). One free move stops someone from opening credit in your name: a credit freeze.\n\nWhile a freeze is on, nobody can open a new credit account in your name, including you. It's free to place and lift, and it doesn't affect your credit score. To set it up, contact all three bureaus: Equifax, Experian and TransUnion.\n\nNeed a card, loan or apartment later? Lift the freeze at the bureau that lender uses, then put it back. Parents can request a free freeze for kids under 16 too.\n\nData: FTC testimony to Congress (March 25, 2026); FTC Consumer Advice on credit freezes.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #identitytheft #creditfreeze #credit #studentfinance",
+      "sources": [
+        {
+          "title": "Credit freezes and fraud alerts",
+          "publisher": "FTC Consumer Advice",
+          "url": "https://consumer.ftc.gov/articles/credit-freezes-and-fraud-alerts",
+          "date": "2025-08"
+        },
+        {
+          "title": "Get a credit freeze to stop identity thieves",
+          "publisher": "FTC Consumer Advice",
+          "url": "https://consumer.ftc.gov/consumer-alerts/2025/09/get-credit-freeze-stop-identity-thieves",
+          "date": "2025-09-10"
+        },
+        {
+          "title": "FTC testimony, Joint Economic Committee hearing on the rising scam economy",
+          "publisher": "Federal Trade Commission",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-testimony-jec-hearing-on-the-rising-scam-economy.pdf",
+          "date": "2026-03-25"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}
