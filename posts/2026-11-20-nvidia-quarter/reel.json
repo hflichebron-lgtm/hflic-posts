@@ -1,0 +1,170 @@
+{
+  "id": "nvidia-quarter",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "publisher": "NVIDIA",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+      "date": "2026-11-17"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Nvidia results, Nov. 17, 2026",
+      "kicker": "Business breakdown",
+      "title": "Nvidia's $115.8B quarter",
+      "highlight": "$115.8B",
+      "sub": "Revenue more than doubled in a year.",
+      "sub_html": "Revenue <b>more than doubled</b> in a year.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Nvidia just brought in one hundred fifteen point eight billion dollars in three months.",
+          "show": "Nvidia just brought in $115.8 billion in three months."
+        },
+        {
+          "voice": "michael",
+          "say": "That's more than double a year ago. Here's where it comes from.",
+          "show": "That's more than double a year ago. Here's where it comes from."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Growth",
+      "value": 103,
+      "suffix": "%",
+      "label": "more than a year ago",
+      "note": "Up 20% from the quarter before",
+      "cues": {
+        "value": "one hundred"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Revenue grew one hundred three percent in a year.",
+          "show": "Revenue grew 103% in a year."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Where it comes from",
+      "items": [
+        [
+          "Data Center",
+          107.6,
+          "$107.6B"
+        ],
+        [
+          "Edge Computing",
+          8.2,
+          "$8.2B"
+        ]
+      ],
+      "max": 115.8,
+      "source": "Nvidia, Q3 fiscal 2027",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "About ninety three percent came from data centers. That's the chips and systems that run AI.",
+          "show": "About 93% came from data centers. That's the chips and systems that run AI."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Gross margin",
+      "value": 74.8,
+      "suffix": "%",
+      "decimals": 1,
+      "label": "kept after costs",
+      "note": "After the direct cost of making chips, Q3 fiscal 2027",
+      "cues": {
+        "value": "seventy"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "After the cost of making them, Nvidia keeps about seventy five cents of every dollar.",
+          "show": "After the cost of making them, Nvidia keeps about 75¢ of every dollar."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Net income",
+      "value": 65.3,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "label": "profit in 3 months",
+      "note": "About 56¢ of every dollar of sales",
+      "cues": {
+        "value": "sixty"
+      },
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Its profit was sixty five point three billion dollars. About fifty six cents of every dollar.",
+          "show": "Its profit was $65.3 billion. About 56¢ of every dollar."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Next quarter",
+      "value": 130,
+      "prefix": "$",
+      "suffix": "B",
+      "label": "expected revenue",
+      "note": "Company outlook, plus or minus 3%",
+      "cues": {
+        "value": "one hundred"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "And Nvidia expects about one hundred thirty billion next quarter. That's a forecast, not a promise.",
+          "show": "And Nvidia expects about $130 billion next quarter. That's a forecast, not a promise."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "In a gold rush, sell the shovels.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More business breakdowns like this",
+      "source": "Data: Nvidia Q3 fiscal 2027 results (Nov. 17, 2026)",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Follow H Flick for more business breakdowns like this.",
+          "show": "Follow HFLIC for more business breakdowns like this."
+        },
+        {
+          "voice": "michael",
+          "say": "And send this to a friend who's into AI.",
+          "show": "And send this to a friend who's into AI."
+        }
+      ]
+    }
+  ]
+}

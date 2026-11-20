@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-20",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "debit-vs-credit",
+      "date": "2026-11-20",
+      "day": "Friday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "Banking and credit",
+      "format": "A versus B comparison",
+      "folder": "posts/2026-11-20-debit-vs-credit",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "CFPB and Federal Reserve",
+          "kicker": "Black Friday shopping?",
+          "title": "Which card protects you?",
+          "sub": "Debit vs. credit: federal law caps your fraud losses differently on each."
+        },
+        {
+          "type": "text",
+          "heading": "Credit cards: $50 max",
+          "big": "$0 if only the number leaks",
+          "body": [
+            "By law, the most you'll owe for unauthorized charges on a credit card is $50. If thieves got only your card number, not the card, you generally owe nothing.",
+            "Report a lost card before it's used and you can't be held responsible for any charges."
+          ],
+          "source": "CFPB"
+        },
+        {
+          "type": "text",
+          "heading": "Debit cards: it depends",
+          "big": "$50, $500 or unlimited",
+          "body": [
+            "Report within 2 business days of learning your card is lost or stolen and you owe at most $50. Miss that, but report within 60 days of your statement: up to $500.",
+            "Wait longer and you could be on the hook for everything taken after that."
+          ],
+          "source": "Regulation E, via Federal Reserve, Oct. 2025"
+        },
+        {
+          "type": "text",
+          "heading": "The real difference",
+          "big": "Your cash vs. the bank's",
+          "body": [
+            "Debit fraud pulls your own money out of your account while it gets sorted out. Credit card fraud uses the bank's money.",
+            "Many card networks also promise $0 liability on debit fraud, but that's a network policy on top of the law."
+          ],
+          "source": "Federal Reserve Consumer Compliance Outlook"
+        },
+        {
+          "type": "end",
+          "takeaway": "Shopping online? Use a credit card you pay in full, and check your accounts often."
+        }
+      ],
+      "caption": "Shopping online for Black Friday? The card you pay with changes how much fraud can cost you.\n\nCredit cards: by law, the most you'll owe for unauthorized charges is $50, and if only your card number was stolen (not the card), you generally owe nothing (CFPB).\n\nDebit cards: it depends on how fast you report. Within 2 business days of learning your card was lost or stolen, you're liable for at most $50. Within 60 days of your statement, up to $500. After that, you could be liable for everything taken. Many card networks add their own $0-liability policies, but debit fraud still takes your own cash out of your account while it's sorted out.\n\nData: CFPB; Federal Reserve Consumer Compliance Outlook (Oct. 2025) on Regulation E.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #creditcards #debitcard #blackfriday #studentfinance",
+      "sources": [
+        {
+          "title": "Am I responsible for charges on a lost or stolen credit card?",
+          "publisher": "Consumer Financial Protection Bureau",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/am-i-responsible-for-charges-on-a-lost-or-stolen-credit-card-en-29/",
+          "date": "reviewed 2024-04-15"
+        },
+        {
+          "title": "Consumer Liability for Unauthorized Transactions Under the EFTA and Regulation E",
+          "publisher": "Consumer Compliance Outlook (Federal Reserve)",
+          "url": "https://www.consumercomplianceoutlook.org/articles/2025/third-issue-2025/consumer-liability-for-unauthorized-transactions-under-the-electronic-fund-transfer-act",
+          "date": "2025-10-28"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}
