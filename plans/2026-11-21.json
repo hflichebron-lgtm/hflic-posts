@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-21",
+  "handle": "@hflic.hebron",
+  "posts": [
+    {
+      "id": "college-real-cost",
+      "date": "2026-11-21",
+      "day": "Saturday",
+      "slot": "7:00 AM",
+      "type": "Lesson",
+      "topic": "College and career economics",
+      "format": "Sticker vs net price",
+      "folder": "posts/2026-11-21-college-real-cost",
+      "slides": [
+        {
+          "type": "cover",
+          "badge": "College Board, 2026",
+          "kicker": "Seniors: don't panic at the price",
+          "title": "What college costs in 2026",
+          "sub": "The sticker price and what families actually pay are very different numbers."
+        },
+        {
+          "type": "chart",
+          "heading": "The sticker prices",
+          "intro": "Average published tuition and fees, 2026-27",
+          "items": [
+            [
+              "Public 2-year",
+              4210,
+              "$4,210"
+            ],
+            [
+              "Public 4-year, in-state",
+              12290,
+              "$12,290"
+            ],
+            [
+              "Public 4-year, out-of-state",
+              32730,
+              "$32,730"
+            ],
+            [
+              "Private nonprofit",
+              46350,
+              "$46,350"
+            ]
+          ],
+          "note": "Housing, food and books are extra",
+          "source": "College Board, Trends in College Pricing 2026"
+        },
+        {
+          "type": "text",
+          "heading": "What families pay",
+          "big": "In-state: about $1,920",
+          "body": [
+            "After grants, average net tuition and fees for first-time, full-time students is estimated at about $1,920 at in-state public four-year schools, and $17,280 at private nonprofits.",
+            "At community colleges, grant aid has covered the average student's tuition and fees since 2009."
+          ],
+          "source": "College Board 2026, via Inside Higher Ed"
+        },
+        {
+          "type": "text",
+          "heading": "Find your price",
+          "big": "Use the net price calculator",
+          "body": [
+            "Grants are free money, so file the FAFSA first. Then enter your family's info in each college's net price calculator to see an estimate for you.",
+            "Compare net prices, not sticker prices, when you decide where to apply."
+          ],
+          "source": "HFLIC"
+        },
+        {
+          "type": "end",
+          "takeaway": "Don't rule out a college by its sticker price. Check the net price first."
+        }
+      ],
+      "caption": "Seniors: don't let sticker prices scare you off. Average published tuition and fees for 2026-27 (College Board): $4,210 at public two-year colleges, $12,290 at public four-year schools in-state, $32,730 out-of-state and $46,350 at private nonprofits. Housing, food and books are extra.\n\nWhat families actually pay is often much lower. After grant aid, average net tuition and fees for first-time, full-time students is estimated at about $1,920 at in-state public four-year schools and $17,280 at private nonprofits. At community colleges, grants have covered the average student's tuition and fees since 2009.\n\nYour move: file the FAFSA, then use each college's net price calculator to get an estimate for your family.\n\nData: College Board, Trends in College Pricing and Student Aid 2026 (via Inside Higher Ed, Nov. 6, 2026).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #college #financialaid #collegeprep #studentfinance",
+      "sources": [
+        {
+          "title": "Trends in College Pricing 2026: highlights",
+          "publisher": "College Board",
+          "url": "https://research.collegeboard.org/trends/college-pricing/highlights",
+          "date": "2026"
+        },
+        {
+          "title": "College Board: tuition and net price, 2026-27",
+          "publisher": "Inside Higher Ed",
+          "url": "https://www.insidehighered.com/node/223046",
+          "date": "2026-11-06"
+        }
+      ],
+      "recheck": ""
+    }
+  ]
+}

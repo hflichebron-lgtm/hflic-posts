@@ -1,0 +1,171 @@
+{
+  "id": "walmart-beyond-shelf",
+  "handle": "@hflic.hebron",
+  "theme": {
+    "NAVY": "#07090F",
+    "NAVY_2": "#101B30",
+    "CREAM": "#F4F6F9",
+    "INK": "#07090F",
+    "MINT": "#74AA80",
+    "GREEN_DARK": "#2F6A85",
+    "MUTED_DARK": "#8FA3B8",
+    "MUTED_LIGHT": "#5B6575",
+    "RULE_LIGHT": "#D8DEE6",
+    "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+    "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+  },
+  "speed": 1.15,
+  "sources": [
+    {
+      "title": "Walmart Q3 fiscal 2027 earnings release (Form 8-K)",
+      "publisher": "Walmart via SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000104169/000010416926000168/earningsreleasefy27q3.htm",
+      "date": "2026-11-19"
+    }
+  ],
+  "recheck": "",
+  "scenes": [
+    {
+      "layout": "hook",
+      "badge": "Walmart Q3 FY27, SEC filing",
+      "kicker": "Business breakdown",
+      "title": "Walmart isn't just a store",
+      "highlight": "store",
+      "sub": "Its fastest growth isn't on the shelves.",
+      "sub_html": "Its fastest growth <b>isn't on the shelves</b>.",
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Walmart brought in one hundred eighty eight point eight billion dollars in three months.",
+          "show": "Walmart brought in $188.8 billion in three months."
+        },
+        {
+          "voice": "michael",
+          "say": "But its fastest-growing businesses aren't on the shelves.",
+          "show": "But its fastest-growing businesses aren't on the shelves."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Revenue",
+      "value": 188.8,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "label": "in 3 months",
+      "note": "Up 5.2% from a year earlier",
+      "cues": {
+        "value": "one hundred"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Total revenue grew about five percent.",
+          "show": "Total revenue grew about 5%."
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "heading": "Growth by business",
+      "items": [
+        [
+          "Total revenue",
+          5.2,
+          "5.2%"
+        ],
+        [
+          "Online sales",
+          17,
+          "17%"
+        ],
+        [
+          "Membership fees",
+          17,
+          "17%"
+        ],
+        [
+          "Advertising",
+          25,
+          "25%"
+        ]
+      ],
+      "max": 25,
+      "source": "Walmart, Q3 fiscal 2027, vs a year earlier",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Online sales and membership fees grew seventeen percent. Advertising grew twenty five.",
+          "show": "Online sales and membership fees grew 17%. Advertising grew 25%."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "heading": "Three ways to earn",
+      "numbered": true,
+      "items": [
+        "Low-price stores",
+        "Paid memberships",
+        "Ads on its app"
+      ],
+      "cues": {
+        "items": [
+          "stores",
+          "members",
+          "Brands"
+        ]
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "Walmart still runs low-price stores. But members also pay a yearly fee for perks like delivery.",
+          "show": "Walmart still runs low-price stores. But members also pay a yearly fee for perks like delivery."
+        },
+        {
+          "voice": "michael",
+          "say": "Brands pay Walmart to show ads to shoppers on its app and website.",
+          "show": "Brands pay Walmart to show ads to shoppers on its app and website."
+        }
+      ]
+    },
+    {
+      "layout": "stat",
+      "kicker": "Operating income",
+      "value": 16,
+      "suffix": "%",
+      "label": "growth in 3 months",
+      "note": "About 3x as fast as revenue",
+      "cues": {
+        "value": "sixteen"
+      },
+      "lines": [
+        {
+          "voice": "heart",
+          "say": "And operating income grew sixteen percent. That's about three times as fast as revenue.",
+          "show": "And operating income grew 16%. That's about 3x as fast as revenue."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "takeaway": "Big stores now earn money beyond the shelf.",
+      "follow": "Follow @hflic.hebron",
+      "sub": "More business breakdowns like this",
+      "source": "Data: Walmart Q3 fiscal 2027 results, SEC filing",
+      "lines": [
+        {
+          "voice": "michael",
+          "say": "Follow H Flick for more business breakdowns like this.",
+          "show": "Follow HFLIC for more business breakdowns like this."
+        },
+        {
+          "voice": "heart",
+          "say": "And send this to the friend who basically lives at Walmart.",
+          "show": "And send this to the friend who basically lives at Walmart."
+        }
+      ]
+    }
+  ]
+}
