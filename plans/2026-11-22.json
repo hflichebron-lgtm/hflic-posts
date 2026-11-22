@@ -1,0 +1,113 @@
+{
+ "date": "2026-11-22",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "deal-days",
+   "date": "2026-11-22",
+   "day": "Sunday",
+   "slot": "7:00 AM",
+   "type": "Top list",
+   "topic": "Consumer behavior",
+   "format": "Ranked list",
+   "folder": "posts/2026-11-22-deal-days",
+   "slides": [
+    {
+     "type": "cover",
+     "badge": "Adobe forecast, 2026",
+     "kicker": "Black Friday is Nov. 27",
+     "title": "Where holiday deals go deepest",
+     "sub": "Ranked by Adobe's forecast peak online discount for 2026, off listed price."
+    },
+    {
+     "type": "text",
+     "heading": "#1 Electronics",
+     "big": "Up to 30% off",
+     "body": [
+      "Adobe expects electronics discounts to peak at 30% off listed price, about the same as last year (30.1%).",
+      "The deepest electronics deals are expected on Cyber Monday, Nov. 30."
+     ],
+     "source": "Adobe Digital Insights forecast, Sept. 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#2 Toys",
+     "big": "Up to 29% off",
+     "body": [
+      "Toy discounts are expected to peak at 29%, up from 28% in 2025.",
+      "The best toy deals are expected on Black Friday, Nov. 27."
+     ],
+     "source": "Adobe Digital Insights forecast, Sept. 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#3 A three-way tie",
+     "big": "Up to 23% off",
+     "body": [
+      "TVs, computers and apparel are all expected to peak at about 23% off.",
+      "TVs and apparel: best on Black Friday. Computers: best on Cyber Monday."
+     ],
+     "source": "Adobe Digital Insights forecast, Sept. 2026"
+    },
+    {
+     "type": "chart",
+     "heading": "Forecast peak discount",
+     "items": [
+      [
+       "Electronics",
+       30,
+       "30%"
+      ],
+      [
+       "Toys",
+       29,
+       "29%"
+      ],
+      [
+       "TVs",
+       23,
+       "23%"
+      ],
+      [
+       "Computers",
+       23,
+       "23%"
+      ],
+      [
+       "Apparel",
+       23,
+       "23%"
+      ],
+      [
+       "Sporting goods",
+       19,
+       "19%"
+      ]
+     ],
+     "note": "Off listed price, U.S. online sales, 2026 forecast",
+     "source": "Adobe Digital Insights, Sept. 2026"
+    },
+    {
+     "type": "end",
+     "takeaway": "Make a list now. Buy on your category's best day, and stick to your budget."
+    }
+   ],
+   "caption": "Black Friday is Nov. 27 and Cyber Monday is Nov. 30. Adobe's 2026 forecast says the deepest online discounts depend on what you're buying.\n\nElectronics are expected to peak at 30% off listed price, with the best deals on Cyber Monday. Toys: 29%, best on Black Friday. TVs, computers and apparel: about 23%. In December, Adobe expects deals of only up to 10% to 15%.\n\nThese are forecasts, not promises. Make a list, set a budget and compare prices before you buy. Buy now, pay later is still borrowing, and Adobe expects $21.3 billion of it this season.\n\nData: Adobe Digital Insights 2026 holiday forecast (Sept. 28, 2026).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #blackfriday #budgeting #moneytips #smartshopping",
+   "sources": [
+    {
+     "title": "Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY",
+     "publisher": "Adobe",
+     "url": "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record",
+     "date": "2026-09-28"
+    },
+    {
+     "title": "Adobe Digital Insights holiday forecast release (PDF)",
+     "publisher": "Adobe",
+     "url": "https://news.adobe.com/news/downloads/pdfs/2026/09/adi-holiday-forecast-release-9-26.pdf",
+     "date": "2026-09-28"
+    }
+   ],
+   "recheck": "Adobe figures are a Sept. 28, 2026 forecast; check for a newer Adobe update before posting."
+  }
+ ]
+}

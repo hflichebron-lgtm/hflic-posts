@@ -1,0 +1,231 @@
+{
+ "id": "small-biz-odds",
+ "handle": "@hflic.hebron",
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ },
+ "speed": 1.15,
+ "sources": [
+  {
+   "title": "Frequently Asked Questions About Small Business 2026",
+   "publisher": "U.S. Small Business Administration, Office of Advocacy",
+   "url": "https://advocacy.sba.gov/wp-content/uploads/2026/02/FINAL_FAQsAboutSmallBusiness_2026_012826.pdf",
+   "date": "2026-02-03"
+  },
+  {
+   "title": "Frequently Asked Questions About Small Business 2026 (web page)",
+   "publisher": "U.S. Small Business Administration, Office of Advocacy",
+   "url": "https://advocacy.sba.gov/2026/02/03/frequently-asked-questions-about-small-business-2026/",
+   "date": "2026-02-03"
+  },
+  {
+   "title": "SCORE Business Mentoring",
+   "publisher": "U.S. Small Business Administration",
+   "url": "https://sba.gov/local-assistance/resource-partners/score-business-mentoring",
+   "date": "2026-11-17"
+  }
+ ],
+ "recheck": "",
+ "scenes": [
+  {
+   "layout": "hook",
+   "badge": "SBA Office of Advocacy, 2026",
+   "kicker": "Business facts",
+   "title": "Half don't make it",
+   "highlight": "Half",
+   "sub": "Only about half of new businesses last five years.",
+   "sub_html": "Only about half of new businesses <b>last five years</b>.",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "There are over thirty six million small businesses in America.",
+     "show": "There are over 36 million small businesses in America."
+    },
+    {
+     "voice": "michael",
+     "say": "So how many new ones actually last?",
+     "show": "So how many new ones actually last?"
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Small businesses",
+   "value": 99.9,
+   "suffix": "%",
+   "decimals": 1,
+   "label": "of all U.S. businesses",
+   "note": "Fewer than 500 employees",
+   "cues": {
+    "value": "ninety"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Small businesses are ninety nine point nine percent of all U.S. businesses.",
+     "show": "Small businesses are 99.9% of all U.S. businesses."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Owner only",
+   "value": 82.3,
+   "suffix": "%",
+   "decimals": 1,
+   "label": "have no paid employees",
+   "note": "29.8 million businesses, 2022 data",
+   "cues": {
+    "value": "Eighty"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Eighty two percent have no paid employees. The owners run it themselves.",
+     "show": "82% have no paid employees. The owners run it themselves."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "Still open after",
+   "items": [
+    [
+     "2 years",
+     67.7,
+     "67.7%"
+    ],
+    [
+     "5 years",
+     49.2,
+     "49.2%"
+    ],
+    [
+     "10 years",
+     33.9,
+     "33.9%"
+    ]
+   ],
+   "max": 100,
+   "source": "New employer establishments, BLS data 1994 to 2022, via SBA",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "For new businesses with employees, about two in three last two years.",
+     "show": "For new businesses with employees, about 2 in 3 last two years."
+    },
+    {
+     "voice": "michael",
+     "say": "About half make it five years. About one in three make it ten.",
+     "show": "About half make it five years. About 1 in 3 make it ten."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "In 2023",
+   "items": [
+    [
+     "Opened",
+     1.3,
+     "1.3M"
+    ],
+    [
+     "Closed for good",
+     1.2,
+     "1.2M"
+    ]
+   ],
+   "max": 1.5,
+   "source": "Business locations. BLS Business Employment Dynamics, via SBA",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "In twenty twenty three, one point three million business locations opened.",
+     "show": "In 2023, 1.3 million business locations opened."
+    },
+    {
+     "voice": "michael",
+     "say": "About one point two million closed for good.",
+     "show": "About 1.2 million closed for good."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Jobs",
+   "value": 61,
+   "suffix": "%",
+   "label": "of net new jobs",
+   "note": "Small businesses, 1995 to 2024",
+   "cues": {
+    "value": "sixty"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Still, small businesses created sixty one percent of America's net new jobs since nineteen ninety five.",
+     "show": "Still, small businesses created 61% of America's net new jobs since 1995."
+    }
+   ]
+  },
+  {
+   "layout": "text",
+   "heading": "Before you start",
+   "numbered": true,
+   "items": [
+    "Write a plan",
+    "Track your money",
+    "Get a free mentor"
+   ],
+   "cues": {
+    "items": [
+     "plan",
+     "money",
+     "mentor"
+    ]
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Before you start, write a plan and track your money.",
+     "show": "Before you start, write a plan and track your money."
+    },
+    {
+     "voice": "heart",
+     "say": "The S B A's SCORE program connects you with a business mentor at no cost.",
+     "show": "The SBA's SCORE program connects you with a business mentor at no cost."
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "takeaway": "About half last five years. Go in with a plan.",
+   "follow": "Follow @hflic.hebron",
+   "sub": "More business facts like this",
+   "source": "Data: SBA Office of Advocacy FAQ 2026 (BLS, Census)",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Follow H Flick for more business facts like this.",
+     "show": "Follow HFLIC for more business facts like this."
+    },
+    {
+     "voice": "heart",
+     "say": "And send this to the friend who keeps talking about starting a business.",
+     "show": "And send this to the friend who keeps talking about starting a business."
+    }
+   ]
+  }
+ ]
+}
