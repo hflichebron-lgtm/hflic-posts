@@ -1,0 +1,229 @@
+{
+ "id": "thanksgiving-cost",
+ "handle": "@hflic.hebron",
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ },
+ "speed": 1.15,
+ "sources": [
+  {
+   "title": "Thanksgiving Dinner Cost Ticks Upward in 2026",
+   "publisher": "American Farm Bureau Federation (Market Intel)",
+   "url": "https://www.fb.org/intel/markets/thanksgiving-dinner-cost-ticks-upward-in-2026",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Farm Bureau survey shows Thanksgiving cost higher in 2026",
+   "publisher": "American Farm Bureau Federation (Newsline)",
+   "url": "https://www.fb.org/newsline/farm-bureau-survey-shows-thanksgiving-cost-higher-in-2026",
+   "date": "2026-11-18"
+  }
+ ],
+ "recheck": "",
+ "scenes": [
+  {
+   "layout": "hook",
+   "badge": "American Farm Bureau, Nov. 2026",
+   "kicker": "Thanksgiving math",
+   "title": "Dinner for 10: $58.63",
+   "highlight": "$58.63",
+   "sub": "About $5.86 a person this year.",
+   "sub_html": "About <b>$5.86 a person</b> this year.",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "A classic Thanksgiving dinner for ten costs fifty eight dollars and sixty three cents this year.",
+     "show": "A classic Thanksgiving dinner for ten costs $58.63 this year."
+    },
+    {
+     "voice": "michael",
+     "say": "That's about five eighty six a person.",
+     "show": "That's about $5.86 a person."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Vs. 2025",
+   "value": 6,
+   "suffix": "%",
+   "label": "more than last year",
+   "note": "Still over 8% below the 2022 record",
+   "cues": {
+    "value": "six"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "That's up six percent from last year, but still more than eight percent below the twenty twenty two record.",
+     "show": "That's up 6% from last year, but still more than 8% below the 2022 record."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "The turkey",
+   "value": 23.68,
+   "prefix": "$",
+   "decimals": 2,
+   "label": "for a 16-pound bird",
+   "note": "Up 10% from 2025",
+   "cues": {
+    "value": "twenty"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "The biggest cost is the turkey. A sixteen pound bird runs twenty three sixty eight, up ten percent.",
+     "show": "The biggest cost is the turkey. A 16-pound bird runs $23.68, up 10%."
+    }
+   ]
+  },
+  {
+   "layout": "text",
+   "heading": "What changed",
+   "numbered": false,
+   "items": [
+    "Cranberries: up nearly 9%",
+    "Veggie tray: down 3.7%",
+    "Pie crusts: down 9¢"
+   ],
+   "cues": {
+    "items": [
+     "Cranberries",
+     "veggie",
+     "crusts"
+    ]
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Cranberries rose nearly nine percent.",
+     "show": "Cranberries rose nearly 9%."
+    },
+    {
+     "voice": "michael",
+     "say": "But the veggie tray fell three point seven percent, and pie crusts dropped nine cents.",
+     "show": "But the veggie tray fell 3.7%, and pie crusts dropped 9 cents."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "Cost by region",
+   "items": [
+    [
+     "Northeast",
+     61.57,
+     "$61.57"
+    ],
+    [
+     "West",
+     58.74,
+     "$58.74"
+    ],
+    [
+     "Midwest",
+     56.89,
+     "$56.89"
+    ],
+    [
+     "South",
+     54.33,
+     "$54.33"
+    ]
+   ],
+   "max": 65,
+   "source": "Dinner for 10. American Farm Bureau Federation, 2026 survey",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Where you live matters. It's sixty one fifty seven in the Northeast.",
+     "show": "Where you live matters. It's $61.57 in the Northeast."
+    },
+    {
+     "voice": "michael",
+     "say": "And fifty four thirty three in the South, the cheapest region.",
+     "show": "And $54.33 in the South, the cheapest region."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Farmers get",
+   "value": 6,
+   "prefix": "<",
+   "suffix": "¢",
+   "label": "of each food dollar",
+   "note": "USDA Food Dollar Series, via AFBF",
+   "cues": {
+    "value": "six"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "And farmers get less than six cents of every food dollar.",
+     "show": "And farmers get less than 6 cents of every food dollar."
+    }
+   ]
+  },
+  {
+   "layout": "text",
+   "heading": "Hosting?",
+   "numbered": true,
+   "items": [
+    "Split the dishes",
+    "Compare stores",
+    "Watch turkey deals"
+   ],
+   "cues": {
+    "items": [
+     "Split",
+     "compare",
+     "sixty"
+    ]
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Hosting? Split the dishes with friends and compare stores.",
+     "show": "Hosting? Split the dishes with friends and compare stores."
+    },
+    {
+     "voice": "michael",
+     "say": "Some shoppers found turkey for sixty nine cents a pound.",
+     "show": "Some shoppers found turkey for 69 cents a pound."
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "takeaway": "Dinner for 10: $58.63. Split ten ways, about $5.86 each.",
+   "follow": "Follow @hflic.hebron",
+   "sub": "More money facts like this",
+   "source": "Data: American Farm Bureau Federation, Nov. 18, 2026",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Follow H Flick for more money facts like this.",
+     "show": "Follow HFLIC for more money facts like this."
+    },
+    {
+     "voice": "heart",
+     "say": "And send this to whoever's hosting this year.",
+     "show": "And send this to whoever's hosting this year."
+    }
+   ]
+  }
+ ]
+}

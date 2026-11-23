@@ -1,0 +1,81 @@
+{
+ "date": "2026-11-23",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "401k-match",
+   "date": "2026-11-23",
+   "day": "Monday",
+   "slot": "7:00 AM",
+   "type": "Lesson",
+   "topic": "Investing and wealth building",
+   "format": "Explainer",
+   "folder": "posts/2026-11-23-401k-match",
+   "slides": [
+    {
+     "type": "cover",
+     "badge": "IRS and Fidelity, 2026",
+     "kicker": "Your first full-time job",
+     "title": "The 401(k) match, explained",
+     "sub": "Some employers add money when you save for retirement. Don't miss it."
+    },
+    {
+     "type": "text",
+     "heading": "What a 401(k) is",
+     "big": "2027 limit: $25,500",
+     "body": [
+      "A retirement account you get through work. Money goes in straight from your paycheck, before you can spend it.",
+      "For 2027, the IRS raised the employee limit to $25,500 a year, up from $24,500 in 2026."
+     ],
+     "source": "IRS, IR-2026-136, Nov. 12, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "How a match works",
+     "big": "$1,200 extra a year",
+     "body": [
+      "Example (hypothetical): you earn $40,000, and your employer matches 50% of what you put in, up to 6% of pay.",
+      "Put in 6% ($2,400) and your employer adds $1,200. In mid-2026, employers in plans Fidelity tracks put in 4.8% of pay on average."
+     ],
+     "source": "Hypothetical example; Fidelity Q2 2026 Retirement Analysis"
+    },
+    {
+     "type": "text",
+     "heading": "Watch the vesting",
+     "big": "Up to 6 years",
+     "body": [
+      "Money you put in is always 100% yours. Your employer's match may take time to become yours. That's called vesting.",
+      "Some plans make you wait up to 3 years, then give you all of it. Others phase it in, from 20% after 2 years to 100% after 6."
+     ],
+     "source": "IRS, Retirement topics: Vesting"
+    },
+    {
+     "type": "end",
+     "takeaway": "At your first full-time job, ask: is there a match, and when does it vest?"
+    }
+   ],
+   "caption": "A 401(k) is a retirement account you get through work. For 2027, the IRS raised the employee limit to $25,500, up from $24,500 in 2026.\n\nSome employers add a match. Example (hypothetical): you earn $40,000 and your employer matches 50% of what you put in, up to 6% of pay. Put in $2,400 and they add $1,200. In mid-2026, employers in plans Fidelity tracks contributed 4.8% of pay on average.\n\nCheck the vesting schedule. Your own contributions are always 100% yours, but the employer's money can take up to 6 years to fully vest.\n\nData: IRS IR-2026-136 (Nov. 12, 2026); IRS Retirement topics: Vesting; Fidelity Q2 2026 Retirement Analysis.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice. Returns are not guaranteed.\n\n#financialliteracy #401k #retirement #firstjob #investing",
+   "sources": [
+    {
+     "title": "401(k) limit increases to $25,500 for 2027, IRA limit remains $7,500 (IR-2026-136)",
+     "publisher": "Internal Revenue Service",
+     "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-25500-for-2027-ira-limit-remains-7500",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Retirement topics: Vesting",
+     "publisher": "Internal Revenue Service",
+     "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-vesting",
+     "date": "2026-04-08"
+    },
+    {
+     "title": "Q2 2026 Retirement Analysis",
+     "publisher": "Fidelity Investments",
+     "url": "https://about.fidelity.com/data-and-insights/q2-2026-retirement-analysis",
+     "date": "2026-06-30 data"
+    }
+   ],
+   "recheck": ""
+  }
+ ]
+}
