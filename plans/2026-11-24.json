@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-24",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "top-minimum-wages",
+   "date": "2026-11-24",
+   "day": "Tuesday",
+   "slot": "7:00 AM",
+   "type": "Top list",
+   "topic": "First jobs and paychecks",
+   "format": "Ranked list",
+   "folder": "posts/2026-11-24-top-minimum-wages",
+   "slides": [
+    {
+     "type": "cover",
+     "badge": "State labor offices, 2026",
+     "kicker": "Raises start Jan. 1, 2027",
+     "title": "The 4 highest state minimum wages in 2027",
+     "sub": "Ranked by statewide hourly minimum wage on Jan. 1, 2027."
+    },
+    {
+     "type": "text",
+     "heading": "#1 Washington",
+     "big": "$17.73 an hour",
+     "body": [
+      "Up 3.5% from $17.13. Washington raises it every year with inflation.",
+      "Workers aged 14 and 15 can be paid 85% of it: $15.07 an hour in 2027."
+     ],
+     "source": "Washington L&I, Sept. 30, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#2 Connecticut",
+     "big": "$17.48 an hour",
+     "body": [
+      "Up 54 cents from $16.94. A 2019 state law ties the raise to a federal wage index, which rose 3.2%.",
+      "At 40 hours: $699.20 before taxes."
+     ],
+     "source": "Office of Gov. Lamont, Aug. 5, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#3 California",
+     "big": "$17.40 an hour",
+     "body": [
+      "California law adjusts the statewide minimum wage every year for inflation.",
+      "At 40 hours a week: $696 before taxes."
+     ],
+     "source": "California DIR, Aug. 13, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#4 Rhode Island",
+     "big": "$17.00 an hour",
+     "body": [
+      "A 2025 state law raised it to $16 in 2026 and $17 in 2027.",
+      "At 40 hours a week: $680 before taxes."
+     ],
+     "source": "Office of Gov. McKee, Aug. 4, 2025"
+    },
+    {
+     "type": "chart",
+     "heading": "Minimum wage in 2027",
+     "items": [
+      [
+       "Washington",
+       17.73,
+       "$17.73"
+      ],
+      [
+       "Connecticut",
+       17.48,
+       "$17.48"
+      ],
+      [
+       "California",
+       17.4,
+       "$17.40"
+      ],
+      [
+       "Rhode Island",
+       17.0,
+       "$17.00"
+      ],
+      [
+       "Texas",
+       7.25,
+       "$7.25"
+      ]
+     ],
+     "note": "Statewide hourly rate on Jan. 1, 2027. Texas uses the federal minimum wage.",
+     "source": "State labor offices; Texas Workforce Commission"
+    },
+    {
+     "type": "end",
+     "takeaway": "Before your first job, look up your state's minimum wage. Then check your pay stub."
+    }
+   ],
+   "caption": "Minimum wages go up in many states on Jan. 1, 2027. These are the four highest statewide rates:\n\n1. Washington: $17.73 an hour (up 3.5%)\n2. Connecticut: $17.48\n3. California: $17.40\n4. Rhode Island: $17.00\n\nAt 40 hours a week, Washington's rate works out to $709.20 before taxes. Texas still uses the federal minimum of $7.25, or $290 for 40 hours. Statewide rates only; some cities and regions set their own.\n\nData: Washington L&I (Sept. 30, 2026); Office of Gov. Lamont (Aug. 5, 2026); California DIR (Aug. 13, 2026); Office of Gov. McKee (Aug. 4, 2025); Texas Workforce Commission.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #minimumwage #firstjob #teenjobs #moneytips",
+   "sources": [
+    {
+     "title": "Washington's minimum wage rises to $17.73 an hour in 2027",
+     "publisher": "Washington State Department of Labor & Industries",
+     "url": "https://www.lni.wa.gov/news-events/article/26-17",
+     "date": "2026-09-30"
+    },
+    {
+     "title": "Governor Lamont announces minimum wage will increase",
+     "publisher": "Office of Connecticut Gov. Ned Lamont",
+     "url": "https://portal.ct.gov/governor/news/press-releases/2026/08-2026/governor-lamont-announces-minimum-wage-will-increase",
+     "date": "2026-08-05"
+    },
+    {
+     "title": "California's minimum wage to increase to $17.40 per hour (Release 2026-66)",
+     "publisher": "California Department of Industrial Relations",
+     "url": "https://dir.ca.gov/DIRNews/2026/2026-66.html",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "Governor McKee signs legislation raising Rhode Island minimum wage",
+     "publisher": "Office of Rhode Island Gov. Dan McKee",
+     "url": "https://governor.ri.gov/press-releases/governor-mckee-signs-legislation-raising-rhode-island-minimum-wage",
+     "date": "2025-08-04"
+    },
+    {
+     "title": "Texas Minimum Wage Law",
+     "publisher": "Texas Workforce Commission",
+     "url": "https://www.twc.texas.gov/programs/wage-and-hour/texas-minimum-wage-law",
+     "date": "accessed 2026-11-23"
+    }
+   ],
+   "recheck": ""
+  }
+ ]
+}

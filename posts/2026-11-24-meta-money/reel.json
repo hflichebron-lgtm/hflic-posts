@@ -1,0 +1,196 @@
+{
+ "id": "meta-money",
+ "handle": "@hflic.hebron",
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ },
+ "speed": 1.15,
+ "sources": [
+  {
+   "title": "Meta Reports Third Quarter 2026 Results",
+   "publisher": "Meta Platforms (investor relations)",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+   "date": "2026-10-21"
+  }
+ ],
+ "recheck": "",
+ "scenes": [
+  {
+   "layout": "hook",
+   "badge": "Meta Q3 2026 earnings",
+   "kicker": "Tech money",
+   "title": "Free apps. $64.6B.",
+   "highlight": "$64.6B",
+   "sub": "What Instagram's owner made in 3 months.",
+   "sub_html": "What <b>Instagram's owner</b> made in 3 months.",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Instagram is free. So how did Meta bring in sixty four point six billion dollars in three months?",
+     "show": "Instagram is free. So how did Meta bring in $64.6 billion in three months?"
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "From ads",
+   "value": 97.6,
+   "suffix": "%",
+   "decimals": 1,
+   "label": "of Meta's revenue",
+   "note": "$63.1B of $64.6B, July to Sept. 2026",
+   "cues": {
+    "value": "ninety"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Ads. Ninety seven point six percent of it came from ads.",
+     "show": "Ads. 97.6% of it came from ads."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Every day",
+   "value": 3.64,
+   "suffix": "B",
+   "decimals": 2,
+   "label": "people use Meta's apps",
+   "note": "Daily average, Sept. 2026",
+   "cues": {
+    "value": "three"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Three point six four billion people use its apps every day.",
+     "show": "3.64 billion people use its apps every day."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "Vs. a year earlier",
+   "items": [
+    [
+     "Ad revenue",
+     26,
+     "+26%"
+    ],
+    [
+     "Price per ad",
+     14,
+     "+14%"
+    ],
+    [
+     "Ads shown",
+     10,
+     "+10%"
+    ]
+   ],
+   "max": 30,
+   "source": "Meta Q3 2026 earnings release",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Meta showed ten percent more ads, and charged fourteen percent more for each one.",
+     "show": "Meta showed 10% more ads, and charged 14% more for each one."
+    },
+    {
+     "voice": "heart",
+     "say": "Ad revenue jumped twenty six percent.",
+     "show": "Ad revenue jumped 26%."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Rough math",
+   "value": 17.75,
+   "prefix": "$",
+   "decimals": 2,
+   "label": "per daily user",
+   "note": "In one quarter. HFLIC math: $64.6B ÷ 3.64B people",
+   "cues": {
+    "value": "seventeen"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "That's roughly seventeen seventy five in revenue for every daily user, in one quarter.",
+     "show": "That's roughly $17.75 in revenue for every daily user, in one quarter."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Spending big",
+   "value": 34.9,
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 1,
+   "label": "in capital spending",
+   "note": "Buildings and equipment, July to Sept. 2026",
+   "cues": {
+    "value": "thirty"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "And it spent thirty four point nine billion dollars on buildings and equipment in those same three months.",
+     "show": "And it spent $34.9 billion on buildings and equipment in those same three months."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Reality Labs",
+   "value": 4.1,
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 1,
+   "label": "lost in 3 months",
+   "note": "Meta's VR headset and smart glasses unit",
+   "cues": {
+    "value": "four"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Meanwhile, its headset and smart glasses unit lost four point one billion dollars.",
+     "show": "Meanwhile, its headset and smart glasses unit lost $4.1 billion."
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "takeaway": "Free app? Ads pay the bills.",
+   "follow": "Follow @hflic.hebron",
+   "sub": "More money facts like this",
+   "source": "Data: Meta Q3 2026 earnings release, Oct. 21, 2026",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Follow H Flick for more money facts like this.",
+     "show": "Follow HFLIC for more money facts like this."
+    },
+    {
+     "voice": "michael",
+     "say": "And send this to the friend who's on Instagram all day.",
+     "show": "And send this to the friend who's on Instagram all day."
+    }
+   ]
+  }
+ ]
+}
