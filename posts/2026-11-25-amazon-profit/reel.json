@@ -1,0 +1,210 @@
+{
+ "id": "amazon-profit",
+ "handle": "@hflic.hebron",
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ },
+ "speed": 1.15,
+ "sources": [
+  {
+   "title": "Amazon.com announces third quarter results",
+   "publisher": "Amazon (About Amazon)",
+   "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+   "date": "2026-10-29"
+  }
+ ],
+ "recheck": "",
+ "scenes": [
+  {
+   "layout": "hook",
+   "badge": "Amazon Q3 2026 earnings",
+   "kicker": "Business models",
+   "title": "Amazon's cash cow",
+   "highlight": "cash cow",
+   "sub": "Hint: you never see it.",
+   "sub_html": "Hint: you <b>never see it</b>.",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Amazon is the store everyone knows.",
+     "show": "Amazon is the store everyone knows."
+    },
+    {
+     "voice": "michael",
+     "say": "But most of its profit comes from something you never see.",
+     "show": "But most of its profit comes from something you never see."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "July to Sept. 2026",
+   "value": 201.9,
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 1,
+   "label": "in sales in 3 months",
+   "note": "Up 12% from a year earlier",
+   "cues": {
+    "value": "two"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "In three months, Amazon brought in two hundred one point nine billion dollars in sales.",
+     "show": "In three months, Amazon brought in $201.9 billion in sales."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "Sales by business",
+   "items": [
+    [
+     "North America",
+     112.9,
+     "$112.9B"
+    ],
+    [
+     "AWS (cloud)",
+     46.0,
+     "$46.0B"
+    ],
+    [
+     "International",
+     43.1,
+     "$43.1B"
+    ]
+   ],
+   "max": 120,
+   "source": "Amazon Q3 2026 segment net sales",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Most came from its stores. Its cloud business, A W S, brought in forty six billion.",
+     "show": "Most came from its stores. Its cloud business, AWS, brought in $46 billion."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "Profit by business",
+   "items": [
+    [
+     "AWS (cloud)",
+     17.8,
+     "$17.8B"
+    ],
+    [
+     "North America",
+     8.7,
+     "$8.7B"
+    ],
+    [
+     "International",
+     1.6,
+     "$1.6B"
+    ]
+   ],
+   "max": 20,
+   "source": "Amazon Q3 2026 segment operating income",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Now look at profit. A W S made seventeen point eight billion dollars.",
+     "show": "Now look at profit. AWS made $17.8 billion."
+    },
+    {
+     "voice": "michael",
+     "say": "That's about sixty three percent of Amazon's operating profit, from less than a quarter of its sales.",
+     "show": "That's about 63% of Amazon's operating profit, from less than a quarter of its sales."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "AWS growth",
+   "value": 39,
+   "suffix": "%",
+   "label": "cloud sales growth",
+   "note": "Vs. a year earlier. AWS rents computing power and storage to businesses.",
+   "cues": {
+    "value": "thirty"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "A W S rents computing power and storage to businesses, and its sales grew thirty nine percent in a year.",
+     "show": "AWS rents computing power and storage to businesses, and its sales grew 39% in a year."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "A record",
+   "value": 13.9,
+   "suffix": "%",
+   "decimals": 1,
+   "label": "operating margin, its highest ever",
+   "note": "$28.1B operating income on $201.9B sales",
+   "cues": {
+    "value": "thirteen"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Amazon's operating margin hit thirteen point nine percent, the highest in its history.",
+     "show": "Amazon's operating margin hit 13.9%, the highest in its history."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Spending big",
+   "value": 220,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "planned capital spending in 2026",
+   "note": "Amazon's 2026 cash capex outlook",
+   "cues": {
+    "value": "two"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "And it expects to spend about two hundred twenty billion dollars on buildings and equipment this year.",
+     "show": "And it expects to spend about $220 billion on buildings and equipment this year."
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "takeaway": "Most of Amazon's profit comes from the cloud.",
+   "follow": "Follow @hflic.hebron",
+   "sub": "More money facts like this",
+   "source": "Data: Amazon Q3 2026 earnings, Oct. 29, 2026",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Follow H Flick for more money facts like this.",
+     "show": "Follow HFLIC for more money facts like this."
+    },
+    {
+     "voice": "heart",
+     "say": "And send this to the friend with three Amazon boxes at the door.",
+     "show": "And send this to the friend with three Amazon boxes at the door."
+    }
+   ]
+  }
+ ]
+}

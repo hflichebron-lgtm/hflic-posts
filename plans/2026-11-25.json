@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-25",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "health-insurance-26",
+   "date": "2026-11-25",
+   "day": "Wednesday",
+   "slot": "7:00 AM",
+   "type": "Lesson",
+   "topic": "Turning 18 and financial independence",
+   "format": "Explainer",
+   "folder": "posts/2026-11-25-health-insurance-26",
+   "slides": [
+    {
+     "type": "cover",
+     "badge": "HealthCare.gov and Census, 2026",
+     "kicker": "Growing up and money",
+     "title": "Health insurance until 26",
+     "sub": "You can usually stay on a parent's plan for years. Know the rules and the deadline."
+    },
+    {
+     "type": "text",
+     "heading": "The rule",
+     "big": "Until age 26",
+     "body": [
+      "You can usually stay on a parent's job-based plan until you turn 26.",
+      "That holds even if you marry, move out, leave school, have a child or aren't claimed as a tax dependent."
+     ],
+     "source": "HealthCare.gov"
+    },
+    {
+     "type": "text",
+     "heading": "Why it matters",
+     "big": "26.7 million uninsured",
+     "body": [
+      "In 2025, 7.9% of people in the U.S. had no health insurance for the entire year.",
+      "Coverage through a job was the most common kind: 53.5% of people had it for some or all of the year."
+     ],
+     "source": "U.S. Census Bureau, Sept. 15, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "When you turn 26",
+     "big": "A 60-day window",
+     "body": [
+      "You get a Special Enrollment Period. It starts 60 days before you lose coverage and ends 60 days after.",
+      "Open Enrollment for 2027 HealthCare.gov plans runs Nov. 1, 2026 to Jan. 15, 2027."
+     ],
+     "source": "HealthCare.gov; CMS, Oct. 30, 2026"
+    },
+    {
+     "type": "end",
+     "takeaway": "Put your 26th birthday in your calendar now. You get 60 days on each side to find your own plan."
+    }
+   ],
+   "caption": "You can usually stay on a parent's job-based health plan until you turn 26, even if you get married, move out, leave school, have a child or aren't claimed as a tax dependent. On a parent's Marketplace plan, coverage can last through Dec. 31 of the year you turn 26.\n\nWhy it matters: in 2025, 26.7 million people (7.9%) had no health insurance for the entire year.\n\nWhen you lose that coverage, you get a Special Enrollment Period that starts 60 days before and ends 60 days after. Open Enrollment for 2027 HealthCare.gov plans runs Nov. 1, 2026 to Jan. 15, 2027.\n\nData: HealthCare.gov; U.S. Census Bureau (Sept. 15, 2026); CMS (Oct. 30, 2026).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #healthinsurance #adulting #moneytips #personalfinance",
+   "sources": [
+    {
+     "title": "How to get or stay on a parent's plan",
+     "publisher": "HealthCare.gov (CMS)",
+     "url": "https://www.healthcare.gov/young-adults/children-under-26/",
+     "date": "accessed 2026-11-24"
+    },
+    {
+     "title": "Getting your own health coverage when you turn 26",
+     "publisher": "HealthCare.gov (CMS)",
+     "url": "https://www.healthcare.gov/turning-26/",
+     "date": "accessed 2026-11-24"
+    },
+    {
+     "title": "Health Insurance Coverage in the United States: 2025 (P60-291)",
+     "publisher": "U.S. Census Bureau",
+     "url": "https://www.census.gov/library/publications/2026/demo/p60-291.html",
+     "date": "2026-09-15"
+    },
+    {
+     "title": "Plan Year 2027 Marketplace Plans and Prices Fact Sheet",
+     "publisher": "Centers for Medicare & Medicaid Services",
+     "url": "https://www.cms.gov/newsroom/fact-sheets/plan-year-2027-marketplace-plans-prices-fact-sheet-0",
+     "date": "2026-10-30"
+    }
+   ],
+   "recheck": ""
+  }
+ ]
+}
