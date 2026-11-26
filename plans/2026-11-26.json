@@ -1,0 +1,117 @@
+{
+ "date": "2026-11-26",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "trade-gaps",
+   "date": "2026-11-26",
+   "day": "Thursday",
+   "slot": "7:00 AM",
+   "type": "Top list",
+   "topic": "Economic policy and global events",
+   "format": "Ranked list",
+   "folder": "posts/2026-11-26-trade-gaps",
+   "slides": [
+    {
+     "type": "cover",
+     "badge": "BEA and Census, Nov. 2026",
+     "kicker": "Global trade",
+     "title": "The 4 biggest U.S. trade gaps",
+     "sub": "Ranked by the U.S. goods trade deficit with each country in September 2026."
+    },
+    {
+     "type": "text",
+     "heading": "#1 Mexico",
+     "big": "$28.7B gap",
+     "body": [
+      "In September, the U.S. imported $28.7 billion more in goods from Mexico than it exported there.",
+      "That was the biggest gap with any single country that month."
+     ],
+     "source": "BEA and Census, Nov. 4, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#2 Vietnam",
+     "big": "$25.3B gap",
+     "body": [
+      "The U.S. bought $25.3 billion more from Vietnam than it sold there in September.",
+      "That gap was bigger than the one with China ($17.9 billion)."
+     ],
+     "source": "BEA and Census, Nov. 4, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#3 Taiwan",
+     "big": "$21.9B gap",
+     "body": [
+      "Imports from Taiwan jumped $4.2 billion in September to $27.3 billion.",
+      "The U.S. sold Taiwan $5.3 billion in goods that month."
+     ],
+     "source": "BEA and Census, Nov. 4, 2026"
+    },
+    {
+     "type": "text",
+     "heading": "#4 China",
+     "big": "$17.9B gap",
+     "body": [
+      "China ranked fourth in September, behind Mexico, Vietnam and Taiwan.",
+      "The total U.S. trade deficit that month was $105.0 billion."
+     ],
+     "source": "BEA and Census, Nov. 4, 2026"
+    },
+    {
+     "type": "chart",
+     "heading": "Trade gap, Sept. 2026",
+     "items": [
+      [
+       "Mexico",
+       28.7,
+       "$28.7B"
+      ],
+      [
+       "Vietnam",
+       25.3,
+       "$25.3B"
+      ],
+      [
+       "Taiwan",
+       21.9,
+       "$21.9B"
+      ],
+      [
+       "China",
+       17.9,
+       "$17.9B"
+      ],
+      [
+       "South Korea",
+       12.2,
+       "$12.2B"
+      ],
+      [
+       "Germany",
+       7.9,
+       "$7.9B"
+      ]
+     ],
+     "note": "U.S. goods imports minus exports, by country",
+     "source": "BEA and Census, Nov. 4, 2026"
+    },
+    {
+     "type": "end",
+     "takeaway": "A trade deficit means buying more than you sell. Check your labels: where was your stuff made?"
+    }
+   ],
+   "caption": "A trade deficit with a country means the U.S. imports more goods from it than it exports there. In September 2026, the four biggest gaps were:\n\n1. Mexico: $28.7 billion\n2. Vietnam: $25.3 billion\n3. Taiwan: $21.9 billion\n4. China: $17.9 billion\n\nImports from Taiwan jumped $4.2 billion in September to $27.3 billion. Counting goods and services together, the overall U.S. trade deficit was $105.0 billion for the month.\n\nData: U.S. Bureau of Economic Analysis and U.S. Census Bureau, September 2026 trade release (Nov. 4, 2026). Goods only for country figures.\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #economics #trade #globaleconomy #business",
+   "sources": [
+    {
+     "title": "U.S. International Trade in Goods and Services, September 2026",
+     "publisher": "U.S. Bureau of Economic Analysis and U.S. Census Bureau",
+     "url": "https://bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
+     "date": "2026-11-04"
+    }
+   ],
+   "recheck": "October 2026 trade data is due Dec. 8, 2026."
+  }
+ ]
+}

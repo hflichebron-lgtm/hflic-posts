@@ -1,0 +1,201 @@
+{
+ "id": "thanksgiving-travel",
+ "handle": "@hflic.hebron",
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ },
+ "speed": 1.15,
+ "sources": [
+  {
+   "title": "Thanksgiving Travel Expected to Dip Slightly Compared to Last Year",
+   "publisher": "AAA Newsroom",
+   "url": "https://newsroom.aaa.com/2026/11/aaa-thanksgiving-holiday-travel-forecast/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "AAA forecasts first drop in Thanksgiving travelers since 2023 as high costs cool demand",
+   "publisher": "Travel Market Report",
+   "url": "https://www.travelmarketreport.com/air/articles/aaa-forecasts-first-drop-in-thanksgiving-travelers-since-2023-as-high-costs-cool-demand",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Gasoline and Diesel Fuel Update (week of Nov. 23, 2026)",
+   "publisher": "U.S. Energy Information Administration",
+   "url": "https://www.eia.gov/PETROLEUM/GASDIESEL/",
+   "date": "2026-11-23"
+  }
+ ],
+ "recheck": "",
+ "scenes": [
+  {
+   "layout": "hook",
+   "badge": "AAA forecast, Nov. 2026",
+   "kicker": "Thanksgiving travel",
+   "title": "81.5M travel this week",
+   "highlight": "81.5M",
+   "sub": "Slightly fewer than last year, the first dip since 2023.",
+   "sub_html": "Slightly fewer than last year, the <b>first dip since 2023</b>.",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Eighty one point five million Americans are traveling for Thanksgiving this week.",
+     "show": "81.5 million Americans are traveling for Thanksgiving this week."
+    },
+    {
+     "voice": "michael",
+     "say": "That's slightly fewer than last year, the first dip since twenty twenty three.",
+     "show": "That's slightly fewer than last year, the first dip since 2023."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "How they're traveling",
+   "items": [
+    [
+     "Car",
+     72.9,
+     "72.9M"
+    ],
+    [
+     "Plane",
+     5.96,
+     "5.96M"
+    ],
+    [
+     "Bus, train, cruise",
+     2.6,
+     "2.6M"
+    ]
+   ],
+   "max": 80,
+   "source": "AAA Thanksgiving forecast, Nov. 24 to 30, 2026",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Almost ninety percent are driving. That's seventy two point nine million people.",
+     "show": "Almost 90% are driving. That's 72.9 million people."
+    },
+    {
+     "voice": "michael",
+     "say": "Five point nine six million are flying.",
+     "show": "5.96 million are flying."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Airfare",
+   "value": 800,
+   "prefix": "$",
+   "label": "average roundtrip ticket",
+   "note": "Domestic flights, up 17% from last year",
+   "cues": {
+    "value": "eight"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Flying costs more. The average domestic roundtrip is about eight hundred dollars, up seventeen percent.",
+     "show": "Flying costs more. The average domestic roundtrip is about $800, up 17%."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Gas, U.S. average",
+   "value": 3.64,
+   "prefix": "$",
+   "decimals": 2,
+   "label": "a gallon",
+   "note": "Up 58¢ from a year ago (EIA, Nov. 23)",
+   "cues": {
+    "value": "three"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Gas averages three sixty four a gallon, fifty eight cents more than a year ago.",
+     "show": "Gas averages $3.64 a gallon, 58 cents more than a year ago."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Gas in Texas",
+   "value": 3.03,
+   "prefix": "$",
+   "decimals": 2,
+   "label": "a gallon",
+   "note": "EIA, week of Nov. 23, 2026",
+   "cues": {
+    "value": "three"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "In Texas, it's cheaper: about three oh three a gallon.",
+     "show": "In Texas, it's cheaper: about $3.03 a gallon."
+    }
+   ]
+  },
+  {
+   "layout": "text",
+   "heading": "Driving back?",
+   "numbered": false,
+   "items": [
+    "Saturday: before 11 AM",
+    "Sunday: before 11 AM",
+    "Sunday worst: noon to 8 PM"
+   ],
+   "cues": {
+    "items": [
+     "Saturday",
+     "Sunday",
+     "noon"
+    ]
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Heading back this weekend? On Saturday and Sunday, leave before eleven in the morning.",
+     "show": "Heading back this weekend? On Saturday and Sunday, leave before 11 in the morning."
+    },
+    {
+     "voice": "heart",
+     "say": "Sunday traffic is worst from noon to eight.",
+     "show": "Sunday traffic is worst from noon to 8."
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "takeaway": "Trips cost more this year. Budget the ride before you book it.",
+   "follow": "Follow @hflic.hebron",
+   "sub": "More money facts like this",
+   "source": "Data: AAA, Nov. 16, 2026 (INRIX traffic); EIA",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Follow H Flick for more money facts like this.",
+     "show": "Follow HFLIC for more money facts like this."
+    },
+    {
+     "voice": "heart",
+     "say": "And send this to whoever's driving you home.",
+     "show": "And send this to whoever's driving you home."
+    }
+   ]
+  }
+ ]
+}
