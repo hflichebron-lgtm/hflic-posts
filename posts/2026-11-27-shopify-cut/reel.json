@@ -1,0 +1,174 @@
+{
+ "id": "shopify-cut",
+ "handle": "@hflic.hebron",
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ },
+ "speed": 1.15,
+ "sources": [
+  {
+   "title": "Shopify Inc. Form 10-Q for the quarter ended September 30, 2026",
+   "publisher": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001594805/000159480526000068/shop-20260930.htm",
+   "date": "2026-11"
+  }
+ ],
+ "recheck": "",
+ "scenes": [
+  {
+   "layout": "hook",
+   "badge": "Shopify Q3 2026 filing",
+   "kicker": "Black Friday business",
+   "title": "$119.1B sold on Shopify",
+   "highlight": "$119.1B",
+   "sub": "In just 3 months. So how does Shopify get paid?",
+   "sub_html": "In just 3 months. So how does <b>Shopify</b> get paid?",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "In three months, shoppers spent one hundred nineteen point one billion dollars at stores built on Shopify.",
+     "show": "In three months, shoppers spent $119.1 billion at stores built on Shopify."
+    },
+    {
+     "voice": "michael",
+     "say": "So how does Shopify get paid?",
+     "show": "So how does Shopify get paid?"
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Its cut",
+   "value": 3.1,
+   "suffix": "%",
+   "decimals": 1,
+   "label": "of sales became Shopify revenue",
+   "note": "HFLIC math: $3.74B revenue ÷ $119.1B sales",
+   "cues": {
+    "value": "three"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Shopify's revenue was three point seven four billion dollars. That's about three cents of every dollar sold.",
+     "show": "Shopify's revenue was $3.74 billion. That's about 3 cents of every dollar sold."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "Revenue, July to Sept.",
+   "items": [
+    [
+     "Merchant solutions",
+     2.906,
+     "$2.91B"
+    ],
+    [
+     "Subscriptions",
+     0.836,
+     "$836M"
+    ]
+   ],
+   "max": 3.2,
+   "source": "Shopify Q3 2026 Form 10-Q",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Seventy eight percent came from merchant solutions, mostly payment processing fees.",
+     "show": "78% came from merchant solutions, mostly payment processing fees."
+    },
+    {
+     "voice": "heart",
+     "say": "The rest came from subscriptions, like the plans, apps and themes stores pay for.",
+     "show": "The rest came from subscriptions, like the plans, apps and themes stores pay for."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Growth",
+   "value": 32,
+   "suffix": "%",
+   "label": "more revenue than a year ago",
+   "note": "$3.74B vs. $2.84B",
+   "cues": {
+    "value": "thirty"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Revenue grew thirty two percent in a year.",
+     "show": "Revenue grew 32% in a year."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Subscriptions",
+   "value": 230,
+   "prefix": "$",
+   "suffix": "M",
+   "label": "recurring, every month",
+   "note": "Monthly recurring revenue, up 19% in a year",
+   "cues": {
+    "value": "two"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Its monthly subscription revenue hit two hundred thirty million dollars, up nineteen percent.",
+     "show": "Its monthly subscription revenue hit $230 million, up 19%."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Profit",
+   "value": 568,
+   "prefix": "$",
+   "suffix": "M",
+   "label": "operating income",
+   "note": "July to Sept. 2026. A year earlier: $343M",
+   "cues": {
+    "value": "five"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "And operating income rose to five hundred sixty eight million dollars.",
+     "show": "And operating income rose to $568 million."
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "takeaway": "Every sale on a Shopify store sends Shopify a small cut.",
+   "follow": "Follow @hflic.hebron",
+   "sub": "More money facts like this",
+   "source": "Data: Shopify Q3 2026 Form 10-Q (SEC)",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Follow H Flick for more money facts like this.",
+     "show": "Follow HFLIC for more money facts like this."
+    },
+    {
+     "voice": "michael",
+     "say": "And send this to a friend who's shopping online right now.",
+     "show": "And send this to a friend who's shopping online right now."
+    }
+   ]
+  }
+ ]
+}

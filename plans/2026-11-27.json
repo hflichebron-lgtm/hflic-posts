@@ -1,0 +1,81 @@
+{
+ "date": "2026-11-27",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "bnpl-catch",
+   "date": "2026-11-27",
+   "day": "Friday",
+   "slot": "7:00 AM",
+   "type": "Lesson",
+   "topic": "Banking and credit",
+   "format": "Explainer",
+   "folder": "posts/2026-11-27-bnpl-catch",
+   "slides": [
+    {
+     "type": "cover",
+     "badge": "Federal Reserve, 2026",
+     "kicker": "It's Black Friday",
+     "title": "Buy now, pay later: the catch",
+     "sub": "It splits a purchase into smaller payments. Know the risks before you tap."
+    },
+    {
+     "type": "text",
+     "heading": "How it works",
+     "big": "4 payments, 6 weeks",
+     "body": [
+      "Pay-in-four splits a purchase into four equal payments over six weeks. Example: $100 becomes $25 today and $25 every two weeks.",
+      "No extra interest or fees if you pay on time. Adobe expects $21.3 billion in BNPL spending online this holiday season."
+     ],
+     "source": "Federal Reserve, Aug. 2026; Adobe forecast, Sept. 2026"
+    },
+    {
+     "type": "text",
+     "heading": "Who uses it",
+     "big": "22% of young adults",
+     "body": [
+      "In 2025, 16% of U.S. adults used BNPL. Among adults 18 to 29, it was 22%.",
+      "29% of users said it was the only way they could afford the purchase."
+     ],
+     "source": "Federal Reserve, May 2026"
+    },
+    {
+     "type": "text",
+     "heading": "The catch",
+     "big": "1 in 4 paid late",
+     "body": [
+      "26% of BNPL users paid late at least once in 2025. For users 18 to 29, it was 32%.",
+      "17% of all users were charged extra for paying late."
+     ],
+     "source": "Federal Reserve, May 2026"
+    },
+    {
+     "type": "end",
+     "takeaway": "If you can't afford it in one payment, think twice before splitting it into four."
+    }
+   ],
+   "caption": "Buy now, pay later (BNPL) splits a purchase into smaller payments. The most common version is pay-in-four: four equal payments over six weeks, with no extra interest or fees if you pay on time. Adobe expects $21.3 billion in BNPL spending online this holiday season.\n\nIn 2025, 16% of U.S. adults used it, including 22% of adults 18 to 29. And 29% of users said it was the only way they could afford the purchase.\n\nThe catch: 26% of BNPL users paid late at least once, and 32% of users 18 to 29 did. 17% of all users were charged extra for paying late.\n\nData: Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 2026) and Consumer & Community Context (Aug. 2026); Adobe holiday forecast (Sept. 28, 2026).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #buynowpaylater #blackfriday #credit #moneytips",
+   "sources": [
+    {
+     "title": "Economic Well-Being of U.S. Households in 2025: Credit",
+     "publisher": "Federal Reserve Board",
+     "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+     "date": "2026-05-26"
+    },
+    {
+     "title": "Consumer & Community Context, August 2026: What is Buy Now, Pay Later?",
+     "publisher": "Federal Reserve Board",
+     "url": "https://federalreserve.gov/publications/2026-august-consumer-community-context.htm",
+     "date": "2026-09-03"
+    },
+    {
+     "title": "Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY",
+     "publisher": "Adobe",
+     "url": "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record",
+     "date": "2026-09-28"
+    }
+   ],
+   "recheck": ""
+  }
+ ]
+}
