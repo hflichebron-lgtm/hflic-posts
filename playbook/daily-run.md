@@ -19,7 +19,7 @@ Set up 2026-11-09. This file is the instruction set for the nightly run that mak
 ## Step 2: what's queued and what's working
 1. Read 'Posts'!A:N of the Google Sheet "HFLIC Post Queue" (id 10liXCmnyPIbGicgA8i76kcRpEIpV3AcPzm9GaLJZAw8). Columns: A Date | B Day | C Type | D Topic (topic range) | E Post title | F Folder | G Status | H Posted at | I Instagram post ID | J Caption | K Slot ("7:00 AM" or "9:00 AM") | L (unused) | M Sources | N Recheck.
 2. Tomorrow's rows: make only the slots that have no row yet (or whose row is "Failed" because files weren't uploaded; redo those in place).
-3. Also check today's rows: if one is "Failed" or missing and its time hasn't passed by much, tell Tommy in the final message.
+3. Also check today's rows: if one is "Failed" or missing and its time hasn't passed by much, tell Tommy in the final message. If today's rows are missing but today's post folders are already in the repo (a run stopped after uploading, as on 2026-11-27), check Instagram for duplicates, post them right away with the posting steps from the cloud task prompts, write the rows as "Posted" with time and ID, and tell Tommy.
 4. Read playbook/research-guide.md (Tommy's standing brief: 13 topic ranges, sources, per-post checks, formats) and playbook/social-playbook.md (monthly playbook and topic calendar; ignore TikTok).
 5. Instagram results: get_data, connector "instagram", fields ["media_id", "media_permalink", "media_type", "media_reach", "media_like_count", "media_saved", "media_shares", "media_comments_count", "timestamp"], date_preset "last_30d" (no force_refresh). Lean toward what gets reach, saves and shares.
 
