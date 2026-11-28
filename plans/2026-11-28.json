@@ -1,0 +1,117 @@
+{
+ "date": "2026-11-28",
+ "handle": "@hflic.hebron",
+ "posts": [
+  {
+   "id": "diploma-pay",
+   "date": "2026-11-28",
+   "day": "Saturday",
+   "slot": "7:00 AM",
+   "type": "Top list",
+   "topic": "College and career economics",
+   "format": "Ranked list",
+   "folder": "posts/2026-11-28-diploma-pay",
+   "slides": [
+    {
+     "type": "cover",
+     "badge": "BLS, Sept. 2026",
+     "kicker": "College and career",
+     "title": "What your diploma pays",
+     "sub": "4 paths after high school, ranked by median weekly pay in 2025 (full-time workers 25 and older)."
+    },
+    {
+     "type": "text",
+     "heading": "#1 Bachelor's degree",
+     "big": "$1,578 a week",
+     "body": [
+      "About $82,000 a year (HFLIC math: weekly pay x 52).",
+      "Unemployment rate: 2.8%. A master's pays $1,876 a week."
+     ],
+     "source": "BLS, Education pays, 2025"
+    },
+    {
+     "type": "text",
+     "heading": "#2 Associate's degree",
+     "big": "$1,135 a week",
+     "body": [
+      "About $59,000 a year. Unemployment rate: 3.0%.",
+      "That's $169 a week more than a high school diploma."
+     ],
+     "source": "BLS, Education pays, 2025"
+    },
+    {
+     "type": "text",
+     "heading": "#3 College, no degree",
+     "big": "$1,062 a week",
+     "body": [
+      "About $55,000 a year. Unemployment rate: 3.8%.",
+      "Starting college without finishing adds only $96 a week over a diploma."
+     ],
+     "source": "BLS, Education pays, 2025"
+    },
+    {
+     "type": "text",
+     "heading": "#4 High school diploma",
+     "big": "$966 a week",
+     "body": [
+      "About $50,000 a year. Unemployment rate: 4.3%.",
+      "Without a diploma, it's $770 a week and 6.1% unemployment."
+     ],
+     "source": "BLS, Education pays, 2025"
+    },
+    {
+     "type": "chart",
+     "heading": "Weekly pay, 2025",
+     "items": [
+      [
+       "Master's",
+       1876,
+       "$1,876"
+      ],
+      [
+       "Bachelor's",
+       1578,
+       "$1,578"
+      ],
+      [
+       "Associate's",
+       1135,
+       "$1,135"
+      ],
+      [
+       "Some college",
+       1062,
+       "$1,062"
+      ],
+      [
+       "HS diploma",
+       966,
+       "$966"
+      ],
+      [
+       "No diploma",
+       770,
+       "$770"
+      ]
+     ],
+     "note": "Full-time workers age 25 and older",
+     "source": "BLS, Sept. 2026"
+    },
+    {
+     "type": "end",
+     "takeaway": "Whatever path you pick, finish it. The pay jump comes with the credential."
+    }
+   ],
+   "caption": "What does each path after high school pay? BLS median weekly earnings for full-time workers 25 and older in 2025:\n\n1. Bachelor's degree: $1,578 a week (unemployment 2.8%)\n2. Associate's degree: $1,135 (3.0%)\n3. Some college, no degree: $1,062 (3.8%)\n4. High school diploma: $966 (4.3%)\n\nRough HFLIC math (weekly pay x 52): a bachelor's works out to about $82,000 a year, and a diploma to about $50,000. Starting college without finishing adds only $96 a week over a diploma. These are medians, not guarantees, and BLS notes the 2025 averages leave out October 2025.\n\nData: U.S. Bureau of Labor Statistics, Education pays, 2025 (Sept. 2026).\n\nFollow @hflic.hebron for a new money lesson every day.\n\nEducation only, not financial advice.\n\n#financialliteracy #college #careers #collegeadvice #moneytips",
+   "sources": [
+    {
+     "title": "Education pays, 2025 (Career Outlook, Data on display)",
+     "publisher": "U.S. Bureau of Labor Statistics",
+     "url": "https://www.bls.gov/careeroutlook/2026/data-on-display/education-pays.htm",
+     "date": "2026-09"
+    }
+   ],
+   "recheck": ""
+  }
+ ]
+}

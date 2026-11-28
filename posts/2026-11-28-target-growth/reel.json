@@ -1,0 +1,188 @@
+{
+ "id": "target-growth",
+ "handle": "@hflic.hebron",
+ "theme": {
+  "NAVY": "#07090F",
+  "NAVY_2": "#101B30",
+  "CREAM": "#F4F6F9",
+  "INK": "#07090F",
+  "MINT": "#74AA80",
+  "GREEN_DARK": "#2F6A85",
+  "MUTED_DARK": "#8FA3B8",
+  "MUTED_LIGHT": "#5B6575",
+  "RULE_LIGHT": "#D8DEE6",
+  "FILL_DARK": "linear-gradient(90deg, #74AA80, #558CA7)",
+  "FILL_LIGHT": "linear-gradient(90deg, #74AA80, #558CA7)"
+ },
+ "speed": 1.15,
+ "sources": [
+  {
+   "title": "Target Corporation Reports Third Quarter 2026 Earnings",
+   "publisher": "Target Corporation",
+   "url": "https://corporate.target.com/news-features/article/2026/11/q3-2026-earnings",
+   "date": "2026-11-18"
+  }
+ ],
+ "recheck": "",
+ "scenes": [
+  {
+   "layout": "hook",
+   "badge": "Target Q3 2026 earnings",
+   "kicker": "Business models",
+   "title": "Target sells ads too",
+   "highlight": "ads",
+   "sub": "And that side is growing fast.",
+   "sub_html": "And that side is <b>growing fast</b>.",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Target sells clothes, snacks and toys. It also sells ads.",
+     "show": "Target sells clothes, snacks and toys. It also sells ads."
+    },
+    {
+     "voice": "michael",
+     "say": "And that side of the business is growing fast.",
+     "show": "And that side of the business is growing fast."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Q3 2026",
+   "value": 7.1,
+   "suffix": "%",
+   "decimals": 1,
+   "label": "sales growth",
+   "note": "Comparable sales: up 5.6%",
+   "cues": {
+    "value": "seven"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "In its latest quarter, Target's sales grew seven point one percent.",
+     "show": "In its latest quarter, Target's sales grew 7.1%."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Shoppers",
+   "value": 5.0,
+   "suffix": "%",
+   "decimals": 1,
+   "label": "more traffic",
+   "note": "Vs. a year earlier",
+   "cues": {
+    "value": "five"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Traffic rose five percent. More people are showing up.",
+     "show": "Traffic rose 5%. More people are showing up."
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "heading": "What grew fastest",
+   "items": [
+    [
+     "Toys and fun",
+     27,
+     "~27%"
+    ],
+    [
+     "Ads, cards, memberships",
+     20,
+     "~20%"
+    ],
+    [
+     "Beauty",
+     9,
+     "9%+"
+    ],
+    [
+     "Food and drinks",
+     7,
+     "~7%"
+    ]
+   ],
+   "max": 30,
+   "source": "Growth vs. a year earlier, as Target reported, Q3 2026",
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "Its toys and fun category jumped nearly twenty seven percent, with record Pokémon sales.",
+     "show": "Its toys and fun category jumped nearly 27%, with record Pokémon sales."
+    },
+    {
+     "voice": "michael",
+     "say": "Ads, credit cards and memberships grew nearly twenty percent.",
+     "show": "Ads, credit cards and memberships grew nearly 20%."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "Same-day delivery",
+   "value": 80,
+   "suffix": "%",
+   "label": "of the U.S. can get it",
+   "note": "Same-day services drive 2/3 of Target's digital business",
+   "cues": {
+    "value": "eighty"
+   },
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Same-day delivery now reaches eighty percent of the U.S. population.",
+     "show": "Same-day delivery now reaches 80% of the U.S. population."
+    },
+    {
+     "voice": "heart",
+     "say": "And same-day services drive two thirds of Target's online business.",
+     "show": "And same-day services drive two-thirds of Target's online business."
+    }
+   ]
+  },
+  {
+   "layout": "stat",
+   "kicker": "For the holidays",
+   "value": 8000,
+   "suffix": "+",
+   "label": "new gifts",
+   "note": "Over half are Target exclusives",
+   "cues": {
+    "value": "eight"
+   },
+   "lines": [
+    {
+     "voice": "heart",
+     "say": "For the holidays, it added more than eight thousand new gifts, and most cost twenty dollars or less.",
+     "show": "For the holidays, it added more than 8,000 new gifts, and most cost $20 or less."
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "takeaway": "Stores bring you in. Ads and memberships add more.",
+   "follow": "Follow @hflic.hebron",
+   "sub": "More money facts like this",
+   "source": "Data: Target Q3 2026 earnings, Nov. 18, 2026",
+   "lines": [
+    {
+     "voice": "michael",
+     "say": "Follow H Flick for more money facts like this.",
+     "show": "Follow HFLIC for more money facts like this."
+    },
+    {
+     "voice": "heart",
+     "say": "And send this to the friend who never leaves Target with just one thing.",
+     "show": "And send this to the friend who never leaves Target with just one thing."
+    }
+   ]
+  }
+ ]
+}
